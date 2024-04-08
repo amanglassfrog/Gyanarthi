@@ -27,6 +27,15 @@ body {
   }
 }
 
+
+.coursebutton {
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  display: flex;
+  background-color: #D48F23 !important;
+}
+
 .logo {
   height: 62px;
   width: 198px;
@@ -154,4 +163,93 @@ body {
 
 .form {
   background-color: #F5F8FE;
+}
+
+.text2010 {
+  width: 382px;
+  height: 105px;
+}
+
+.text2010border {
+  border-left: 0.5px solid #9F9F9F;
+}
+
+.tpip {
+  padding: 1rem;
+  background: #F5F8FE;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.76px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #0D254D;
+}
+
+
+
+.vision {
+  background-color: #F5F8FE;
+  width: 943px;
+  height: 495px;
+  top: 1276px;
+  left: 373px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.vis {
+  max-width: 47rem;
+  padding: 3rem;
+}
+
+.etablist {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  background: #F5F8FE;
+}
+
+.etab {
+  width: max-content;
+  cursor: pointer;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  width: 424px;
+}
+
+.chancelorheading {
+  /* font-family: Plus Jakarta Sans; */
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: left;
+}
+
+.chancelorparagraph {
+  /* font-family: Plus Jakarta Sans; */
+  font-size: 18px;
+  /* font-weight: 500; */
+  line-height: 26px;
+  text-align: justified;
+  color: #9F9F9F;
+}
+
+.chancelorname {
+  /* font-family: Plus Jakarta Sans; */
+  font-size: 36px;
+  /* font-weight: 500; */
+  line-height: 54px;
+  text-align: left;
+
+}
+
+.chancelorfounder {
+  /* font-family: Plus Jakarta Sans; */
+  font-size: 24px;
+  /* font-weight: 500; */
+  line-height: 54px;
+  text-align: left;
+  color: #9F9F9F;
 }
