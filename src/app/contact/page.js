@@ -69,7 +69,7 @@ const page = () => {
 
                             <span>Opp. Old Galla Mandi, Ahead of Spectrum Mall, Kashipur, Uttarakhnad 244713</span>
                         </div>
-                        <div className="flex flex-wrap gap-20 pt-5 items-start sm:items-center pt-24">
+                        <div className="flex flex-wrap gap-20  items-start sm:items-center pt-24">
                             {/* Social media icons */}
                             <div className="mb-4">
                                 <a href='https://www.facebook.com/gyanarthimedia1' target='_blank'><Image className='icon1' src={icon4} alt="amazon" /></a>
