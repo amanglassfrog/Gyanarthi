@@ -21,7 +21,7 @@ const Footer = () => {
             <footer className="footerbackground text-white py-8">
                 <div className="container mx-auto flex flex-wrap pt-8">
                     {/* First column */}
-                    <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8 items-start sm:items-center">
+                    <div className=" sm:w-1/2 md:w-1/4 px-4 mb-8 items-start sm:items-center">
                         <h4 className="text-lg mb-4">Explore.  Discover.  Connect.</h4>
                         <div className="flex flex-wrap gap-20 pt-5">
                             {/* Social media icons */}
@@ -53,7 +53,7 @@ const Footer = () => {
                     </div>
 
                     {/* Second column */}
-                    <div className='flex flex-col w-full sm:w-1/2 md:w-1/4 items-start sm:items-center'>
+                    <div className='flex flex-col  sm:w-1/2 md:w-1/4 items-start sm:items-center'>
                         <div className=" px-4 mb-8">
 
                             <h4 className="text-lg mb-4 footerheading">About Us</h4>
@@ -80,7 +80,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col w-full sm:w-1/2 md:w-1/4 items-start sm:items-center'>
+                    <div className='flex flex-col  sm:w-1/2 md:w-1/4 items-start sm:items-center'>
                         <div className=" px-4 mb-8">
 
                             <h4 className="text-lg mb-4 footerheading">About Us</h4>
@@ -108,7 +108,7 @@ const Footer = () => {
                     </div>
 
                     {/* Fourth column */}
-                    <div className='flex flex-col w-full sm:w-1/2 md:w-1/4 items-start sm:items-center'>
+                    <div className='flex flex-col  sm:w-1/2 md:w-1/4 items-start sm:items-center'>
                         <div className=" px-4 mb-8">
 
                             <h4 className="text-lg mb-4 footerheading">Programs</h4>
@@ -132,7 +132,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="container mx-auto flex flex-wrap pt-8 mt-8 pvpolicy">
-                    <ul className='flex w-full justify-center gap-6'>
+                    <ul className='flex  justify-center gap-6'>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="/terms-condition"> Terms & Conditions</a></li>
                         {/* <li><a href="#">Accomplishments </a></li>
