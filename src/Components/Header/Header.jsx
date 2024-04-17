@@ -47,7 +47,7 @@ const Header = () => {
                                 <a href="https://kuntl.net/kumaunLinks/Result/2021?page=1" className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Results</a>
                             </li>
                             <li>
-                                <a href="/contact" class="block py-2 px-3 applybutton text-white bg-yellow-600 border-b border-gray-100 hover:bg-yellow-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Apply Now</a>
+                                <a href="/contact" className="block py-2 px-3 applybutton text-white bg-yellow-600 border-b border-gray-100 hover:bg-yellow-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Apply Now</a>
                             </li>
 
 
