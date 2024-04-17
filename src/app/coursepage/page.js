@@ -240,193 +240,195 @@ const Page = () => {
 
     return (
         <>
-            <Header />
-            <div className='flex justify-center'>
-                <div className="flex flex-wrap py-8  container">
-                    <div className="w-full md:w-1/2  p-4">
-                        <h2 className="text-xl font-bold chancelorheading">{selectedCourse.name}</h2>
-                        <p className="mt-2 chancelorparagraph">
-                            Pick the course that suits your desire to build a career in Mass Communication, Animation, Design, Fashion, Fine Arts, Journalism, and Commerce, easily to turn your Passion into Profession!
-                        </p>
-                        <div className='flex pt-8'>
-                            <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
+            <main>
+                <Header />
+                <div className='flex justify-center'>
+                    <div className="flex flex-wrap py-8  container">
+                        <div className="w-full md:w-1/2  p-4">
+                            <h2 className="text-xl font-bold chancelorheading">{selectedCourse.name}</h2>
+                            <p className="mt-2 chancelorparagraph">
+                                Pick the course that suits your desire to build a career in Mass Communication, Animation, Design, Fashion, Fine Arts, Journalism, and Commerce, easily to turn your Passion into Profession!
+                            </p>
+                            <div className='flex pt-8'>
+                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
+                            </div>
                         </div>
-                    </div>
-                    <div className="w-full md:w-1/2 p-4">
+                        <div className="w-full md:w-1/2 p-4">
 
-                        <Image src={admisiions} alt="Image Description"
-                            className="max-w-full h-auto" />
-                        <div className="w-full inset-0 flex items-center justify-center ">
-                            <h1 className="  tpip">
-                                Ace Your Career, Gyanarthi Way!
-                            </h1>
-                        </div>
-
-                    </div>
-
-                </div></div>
-            <div className='flex justify-center'>
-                <div className="flex flex-wrap py-8 px-6 md:px-12 sm:px-24 container">
-                    <div className="w-full md:w-full container  p-0 md:p-2 sm:p-4">
-                        <h2 className="lifetime mb-4">Eligibility Criteria </h2>
-                        <p className="lifetimepara">
-                            At Gyanarthi, the prime eligibility criteria for a course is the intensity of interest in it! We accept students of different educational background and potentials. The basic eligibility condition for Graduate Courses is to have passed Class 12 from a recognized board of education with at least 40% marks. However, the students should have passed their 12th standard from a recognized board of education. There are no further conditions of eligibility that the students must satisfy in order to fnd their place at the Gyanarthi Media College.
-
-                            For the Post Graduate Courses, the students must
-
-                        </p>
-                    </div>
-                </div></div>
-            <div className='flex justify-center'>
-                <div className='container'>
-                    <Tabs className="ctabs">
-                        <div>
-                            <TabList className="courselist">
-                                <Tab className="ctab">Overview</Tab>
-                                <Tab className="ctab">Specializations</Tab>
-                                <Tab className="ctab">Eligibilty</Tab>
-
-                            </TabList>
-                        </div>
-                        <div className='flex flex-col '>
-                            <TabPanel className="tabpanel futurevision ">
-                                <div className="flex flex-wrap">
-                                    {/* First column for text */}
-                                    <div className="w-full md:w-1/2 p-4">
-                                        <p className='selectedcourse'>{selectedCourse.description}</p>
-                                        <div className="pt-5">
-                                            <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
-                                        </div>
-                                    </div>
-                                    {/* Second column for image */}
-                                    <div className="w-full md:w-1/2 p-4">
-                                        {/* Assuming selectedCourse.image contains the image path or URL */}
-                                        <Image src={selectedCourse.image} alt="Image" className="max-w-full h-auto" />
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel className="tabpanel futurevision">
-                                <div className="flex flex-wrap">
-                                    {/* First column for text */}
-                                    <div className="w-full md:w-1/2 p-4">
-                                        <p className='selectedcourse'>{selectedCourse.specialization}</p>
-                                        <div className="pt-5">
-                                            <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
-                                        </div>
-                                    </div>
-                                    {/* Second column for image */}
-                                    <div className="w-full md:w-1/2 p-4">
-                                        {/* Assuming selectedCourse.image contains the image path or URL */}
-                                        <Image src={selectedCourse.image} alt="Image" className="max-w-full h-auto" />
-                                    </div>
-                                </div>
-                            </TabPanel>
-                            <TabPanel className="tabpanel futurevision">
-                                <div className="flex flex-wrap">
-                                    {/* First column for text */}
-                                    <div className="w-full md:w-1/2 p-4">
-                                        <p className='selectedcourse'>{selectedCourse.Eligibility}</p>
-                                        <div className="pt-5">
-                                            <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
-                                        </div>
-                                    </div>
-                                    {/* Second column for image */}
-                                    <div className="w-full md:w-1/2 p-4">
-                                        {/* Assuming selectedCourse.image contains the image path or URL */}
-                                        <Image src={selectedCourse.image} alt="Image" className="max-w-full h-auto" />
-                                    </div>
-                                </div>
-                            </TabPanel>
-
+                            <Image src={admisiions} alt="Image Description"
+                                className="max-w-full h-auto" />
+                            <div className="w-full inset-0 flex items-center justify-center ">
+                                <h1 className="  tpip">
+                                    Ace Your Career, Gyanarthi Way!
+                                </h1>
+                            </div>
 
                         </div>
-                    </Tabs >
-                </div ></div>
-            <div className='flex justify-center'>
-                <div className="flex flex-wrap py-8  container">
-                    <div className='py-8 px-6 md:px-12 sm:px-24 '>
-                        <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
-                        <p className="text-gray-700">
-                            The prime objective of the faculty at the Gyanarthi Media College, Kashipur is to enhance the professional profiles of the students. We seek to create professionals who are equipped with thorough knowledge in the domains of Taxation, International Business, Banking and Finance, and Financial Accounting. The courses at the Gyanarthi Media College are affiliated with the Kumaun University and the curriculum is curated with a vision to make it one of the prime options for best course after 12 Commerce. The students can check the BCom Course Details subsequently to get comprehension of the specifications of each specialization domain. </p>
-                        <Tabs className="cctabs pt-16">
-                            <TabList className="etablist">
-                                <Tab className=" etab ">{selectedCourse.tab1}</Tab>
-                                <Tab className="etab ">{selectedCourse.tab2}</Tab>
-                                <Tab className="etab ">{selectedCourse.tab3}</Tab>
-                                <Tab className="etab ">{selectedCourse.tab4}</Tab>
 
+                    </div></div>
+                <div className='flex justify-center'>
+                    <div className="flex flex-wrap py-8 px-6 md:px-12 sm:px-24 container">
+                        <div className="w-full md:w-full container  p-0 md:p-2 sm:p-4">
+                            <h2 className="lifetime mb-4">Eligibility Criteria </h2>
+                            <p className="lifetimepara">
+                                At Gyanarthi, the prime eligibility criteria for a course is the intensity of interest in it! We accept students of different educational background and potentials. The basic eligibility condition for Graduate Courses is to have passed Class 12 from a recognized board of education with at least 40% marks. However, the students should have passed their 12th standard from a recognized board of education. There are no further conditions of eligibility that the students must satisfy in order to fnd their place at the Gyanarthi Media College.
 
+                                For the Post Graduate Courses, the students must
 
-                            </TabList>
+                            </p>
+                        </div>
+                    </div></div>
+                <div className='flex justify-center'>
+                    <div className='container'>
+                        <Tabs className="ctabs">
                             <div>
+                                <TabList className="courselist">
+                                    <Tab className="ctab">Overview</Tab>
+                                    <Tab className="ctab">Specializations</Tab>
+                                    <Tab className="ctab">Eligibilty</Tab>
 
-                                <TabPanel className="tabpanel">
-                                    <Image src={edge} alt="amazon" />
-
-                                    <p>{selectedCourse.tabpanel1} </p>
+                                </TabList>
+                            </div>
+                            <div className='flex flex-col '>
+                                <TabPanel className="tabpanel futurevision ">
+                                    <div className="flex flex-wrap">
+                                        {/* First column for text */}
+                                        <div className="w-full md:w-1/2 p-4">
+                                            <p className='selectedcourse'>{selectedCourse.description}</p>
+                                            <div className="pt-5">
+                                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
+                                            </div>
+                                        </div>
+                                        {/* Second column for image */}
+                                        <div className="w-full md:w-1/2 p-4">
+                                            {/* Assuming selectedCourse.image contains the image path or URL */}
+                                            <Image src={selectedCourse.image} alt="Image" className="max-w-full h-auto" />
+                                        </div>
+                                    </div>
                                 </TabPanel>
-                                <TabPanel className="tabpanel">
-                                    <Image src={edge} alt="amazon" />
 
-                                    <p>{selectedCourse.tabpanel2} </p>
-
-
+                                <TabPanel className="tabpanel futurevision">
+                                    <div className="flex flex-wrap">
+                                        {/* First column for text */}
+                                        <div className="w-full md:w-1/2 p-4">
+                                            <p className='selectedcourse'>{selectedCourse.specialization}</p>
+                                            <div className="pt-5">
+                                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
+                                            </div>
+                                        </div>
+                                        {/* Second column for image */}
+                                        <div className="w-full md:w-1/2 p-4">
+                                            {/* Assuming selectedCourse.image contains the image path or URL */}
+                                            <Image src={selectedCourse.image} alt="Image" className="max-w-full h-auto" />
+                                        </div>
+                                    </div>
                                 </TabPanel>
-                                <TabPanel className="tabpanel">
-                                    <Image src={edge} alt="amazon" />
-
-                                    <p>{selectedCourse.tabpanel3} </p>
-
-
-                                </TabPanel>
-                                <TabPanel className="tabpanel">
-                                    <Image src={edge} alt="amazon" />
-
-                                    <p>{selectedCourse.tabpanel4} </p>
-
-
+                                <TabPanel className="tabpanel futurevision">
+                                    <div className="flex flex-wrap">
+                                        {/* First column for text */}
+                                        <div className="w-full md:w-1/2 p-4">
+                                            <p className='selectedcourse'>{selectedCourse.Eligibility}</p>
+                                            <div className="pt-5">
+                                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
+                                            </div>
+                                        </div>
+                                        {/* Second column for image */}
+                                        <div className="w-full md:w-1/2 p-4">
+                                            {/* Assuming selectedCourse.image contains the image path or URL */}
+                                            <Image src={selectedCourse.image} alt="Image" className="max-w-full h-auto" />
+                                        </div>
+                                    </div>
                                 </TabPanel>
 
 
                             </div>
-                        </Tabs>
+                        </Tabs >
+                    </div ></div>
+                <div className='flex justify-center'>
+                    <div className="flex flex-wrap py-8  container">
+                        <div className='py-8 px-6 md:px-12 sm:px-24 '>
+                            <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
+                            <p className="text-gray-700">
+                                The prime objective of the faculty at the Gyanarthi Media College, Kashipur is to enhance the professional profiles of the students. We seek to create professionals who are equipped with thorough knowledge in the domains of Taxation, International Business, Banking and Finance, and Financial Accounting. The courses at the Gyanarthi Media College are affiliated with the Kumaun University and the curriculum is curated with a vision to make it one of the prime options for best course after 12 Commerce. The students can check the BCom Course Details subsequently to get comprehension of the specifications of each specialization domain. </p>
+                            <Tabs className="cctabs pt-16">
+                                <TabList className="etablist">
+                                    <Tab className=" etab ">{selectedCourse.tab1}</Tab>
+                                    <Tab className="etab ">{selectedCourse.tab2}</Tab>
+                                    <Tab className="etab ">{selectedCourse.tab3}</Tab>
+                                    <Tab className="etab ">{selectedCourse.tab4}</Tab>
+
+
+
+                                </TabList>
+                                <div>
+
+                                    <TabPanel className="tabpanel">
+                                        <Image src={edge} alt="amazon" />
+
+                                        <p>{selectedCourse.tabpanel1} </p>
+                                    </TabPanel>
+                                    <TabPanel className="tabpanel">
+                                        <Image src={edge} alt="amazon" />
+
+                                        <p>{selectedCourse.tabpanel2} </p>
+
+
+                                    </TabPanel>
+                                    <TabPanel className="tabpanel">
+                                        <Image src={edge} alt="amazon" />
+
+                                        <p>{selectedCourse.tabpanel3} </p>
+
+
+                                    </TabPanel>
+                                    <TabPanel className="tabpanel">
+                                        <Image src={edge} alt="amazon" />
+
+                                        <p>{selectedCourse.tabpanel4} </p>
+
+
+                                    </TabPanel>
+
+
+                                </div>
+                            </Tabs>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <Homegallery />
-            <section className=" py-12">
-                <div className="container mx-auto px-2 md:px-2 sm:px-4">
-                    <div className="flex flex-col md:flex-row items-center justify-between mb-8">
-                        <h2 className="text-3xl font-bold md:text-left text-center mb-4 md:mb-0">Start Your Gyanarthi Journey</h2>
+                <Homegallery />
+                <section className=" py-12">
+                    <div className="container mx-auto px-2 md:px-2 sm:px-4">
+                        <div className="flex flex-col md:flex-row items-center justify-between mb-8">
+                            <h2 className="text-3xl font-bold md:text-left text-center mb-4 md:mb-0">Start Your Gyanarthi Journey</h2>
+                        </div>
+                        <div className="flex flex-col md:flex-row items-stretch justify-between gap-8">
+                            <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
+                                <div className="p-8">
+                                    <h3 className=" text-center mb-4 text-white journeyheading">Apply</h3>
+                                    <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2024!</p>
+                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='/contact'>Apply Now</a></button>
+                                </div>
+                            </div>
+                            <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
+                                <div className="p-8">
+                                    <h3 className=" text-center mb-4 text-white journeyheading">Connect</h3>
+                                    <p className="text-center mb-6 text-white journeypara">Reach Out to Gyanarthi’s Admission Team to secure your place at the College for the upcoming session.</p>
+                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">Talk Now</button>
+                                </div>
+                            </div>
+                            <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
+                                <div className="p-8">
+                                    <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
+                                    <p className="text-center mb-6 text-white journeypara">Download the 2024 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
+                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">Download Now</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="flex flex-col md:flex-row items-stretch justify-between gap-8">
-                        <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
-                            <div className="p-8">
-                                <h3 className=" text-center mb-4 text-white journeyheading">Apply</h3>
-                                <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2024!</p>
-                                <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='/contact'>Apply Now</a></button>
-                            </div>
-                        </div>
-                        <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
-                            <div className="p-8">
-                                <h3 className=" text-center mb-4 text-white journeyheading">Connect</h3>
-                                <p className="text-center mb-6 text-white journeypara">Reach Out to Gyanarthi’s Admission Team to secure your place at the College for the upcoming session.</p>
-                                <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">Talk Now</button>
-                            </div>
-                        </div>
-                        <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
-                            <div className="p-8">
-                                <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
-                                <p className="text-center mb-6 text-white journeypara">Download the 2024 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
-                                <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">Download Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                </section>
 
-            <Footer />
+                <Footer />
+            </main>
         </>
     );
 };

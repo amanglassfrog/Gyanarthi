@@ -15,19 +15,19 @@ import Courses from "@/Components/Courses/Courses";
 export default function Home() {
   return (
     <>
+      <main>
+        <Header />
+        <Main />
+        <Placement />
 
-      <Header />
-      <Main />
-      <Placement />
+        <Whygyanarthi />
+        <Courses />
+        <Ourvision />
 
-      <Whygyanarthi />
-      <Courses />
-      <Ourvision />
+        <Homegallery />
+        <Footer />
 
-      <Homegallery />
-      <Footer />
-
-
+      </main>
     </>
   );
 }
