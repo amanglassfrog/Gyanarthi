@@ -134,7 +134,7 @@ const Footer = () => {
                 <div className="container mx-auto flex flex-wrap pt-8 mt-8 pvpolicy">
                     <ul className='flex w-full justify-center gap-6'>
                         <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#"> Terms & Conidtions</a></li>
+                        <li><a href="#"> Terms & Conditions</a></li>
                         {/* <li><a href="#">Accomplishments </a></li>
                     <li><a href="#">Milestones </a></li> */}
 
