@@ -317,7 +317,6 @@ body {
   padding: 15px 25px 15px 25px !important;
   gap: 10px;
   border-radius: 8px !important;
-  opacity: 0px;
 }
 
 .logo {
@@ -486,7 +485,6 @@ body {
 
   padding: 20px 48px 20px 48px;
   border-radius: 8px;
-  opacity: 0px;
   background: #D48F23;
 }
 

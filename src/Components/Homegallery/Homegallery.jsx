@@ -61,6 +61,9 @@ const Homegallery = () => {
                         </div>
                     </div>
                 </div>
+                <div className="pt-5 flex justify-center">
+                    <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/gallery'>View More</a></button>
+                </div>
             </div>
         </main>
     )
