@@ -8,6 +8,14 @@ import 'react-tabs/style/react-tabs.css';
 import Homegallery from '@/Components/Homegallery/Homegallery';
 import edge from '../../../public/edge.png';
 import Footer from '@/Components/Footer/Footer';
+import image1 from "../../../public/international.png"
+import image2 from "../../../public/banking.png"
+import image3 from "../../../public/financial.png"
+import image4 from "../../../public/taxation.png"
+import image5 from "../../../public/finearts.png"
+import image6 from "../../../public/animationdesign.png"
+import image7 from "../../../public/fashiondesign.png"
+import image8 from "../../../public/journalism.png"
 
 
 
@@ -363,26 +371,26 @@ const Page = () => {
                                 <div>
 
                                     <TabPanel className="tabpanel">
-                                        <Image src={edge} alt="amazon" />
+                                        <Image src={image2} alt="amazon" />
 
                                         <p>{selectedCourse.tabpanel1} </p>
                                     </TabPanel>
                                     <TabPanel className="tabpanel">
-                                        <Image src={edge} alt="amazon" />
+                                        <Image src={image3} alt="amazon" />
 
                                         <p>{selectedCourse.tabpanel2} </p>
 
 
                                     </TabPanel>
                                     <TabPanel className="tabpanel">
-                                        <Image src={edge} alt="amazon" />
+                                        <Image src={image4} alt="amazon" />
 
                                         <p>{selectedCourse.tabpanel3} </p>
 
 
                                     </TabPanel>
                                     <TabPanel className="tabpanel">
-                                        <Image src={edge} alt="amazon" />
+                                        <Image src={image5} alt="amazon" />
 
                                         <p>{selectedCourse.tabpanel4} </p>
 

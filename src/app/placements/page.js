@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import college from "../../../public/college.png"
 import Header from '../../Components/Header/Header';
+
 import logo1 from '../../../public/placement1.png';
 import logo2 from '../../../public/placement2.png';
 import logo3 from '../../../public/placement3.png';
@@ -60,7 +61,7 @@ const page = () => {
                         </div>
                         {/* Third row */}
                         <div className="container pt-4 px-4 md:px-8 lg:px-16">
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+                            <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-5 gap-28">
                                 {/* Image 1 */}
                                 <div className="relative ">
                                     <Image
@@ -111,13 +112,6 @@ const page = () => {
                                         className="rounded-lg placementimage"
                                     />
                                 </div>
-                            </div>
-
-
-                        </div>
-                        <div className="container pt-64 px-4 md:px-8 lg:px-16">
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-                                {/* Image 1 */}
                                 <div className="relative ">
                                     <Image
                                         src={logo6} // Replace with your image URL
@@ -167,13 +161,6 @@ const page = () => {
                                         className="rounded-lg placementimage"
                                     />
                                 </div>
-                            </div>
-
-
-                        </div>
-                        <div className="container pt-64 px-4 md:px-8 lg:px-16">
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-                                {/* Image 1 */}
                                 <div className="relative ">
                                     <Image
                                         src={logo11} // Replace with your image URL
@@ -223,13 +210,6 @@ const page = () => {
                                         className="rounded-lg placementimage"
                                     />
                                 </div>
-                            </div>
-
-
-                        </div>
-                        <div className="container pt-64 px-4 md:px-8 lg:px-16">
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-                                {/* Image 1 */}
                                 <div className="relative ">
                                     <Image
                                         src={logo16} // Replace with your image URL
@@ -283,6 +263,9 @@ const page = () => {
 
 
                         </div>
+
+
+
 
                     </div>
                 </section>
