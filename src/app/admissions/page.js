@@ -219,7 +219,7 @@ const Page = () => {
                 <div className="p-8">
                   <h3 className=" text-center mb-4 text-white journeyheading">Connect</h3>
                   <p className="text-center mb-6 text-white journeypara">Reach Out to Gyanarthi’s Admission Team to secure your place at the College for the upcoming session.</p>
-                  <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">Talk Now</button>
+                  <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href="https://wa.me/8755552552" target="_blank" >Connect Now</a></button>
                 </div>
               </div>
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
