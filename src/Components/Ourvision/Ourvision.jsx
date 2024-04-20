@@ -36,12 +36,12 @@ const Ourvision = () => {
                         <div>
                             <div>
                                 <Tabs className="vtabs">
-                                    <TabList className="tablist">
+                                    <TabList className="tablist ">
                                         <Tab className="stab">Who Are We</Tab>
                                         <Tab className="stab">Our Vision</Tab>
                                         <Tab className="stab">Our Mission</Tab>
                                     </TabList>
-                                    <div className='flex flex-col '>
+                                    <div className='flex flex-col tablistpanel'>
                                         <TabPanel className="tabpanel futurevision">
                                             <p>University to build a strong community of professionals equipped with relevant academic insights. We are only college in the town that provides an intensive curriculum in fields such as Taxation, International Business, Banking and Finance, and Financial Accounting.<br></br><br></br>
 

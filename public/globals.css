@@ -178,12 +178,11 @@ body {
 
   .tabpanel {
     background-color: #ffffff;
-    padding: 0.3rem !important;
+    padding: 2rem;
     /* font-family: Plus Jakarta Sans; */
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 20.16px;
-    text-align: justified;
+    line-height: 26.16px;
   }
 
   .futurevision {
@@ -365,12 +364,11 @@ body {
 }
 
 .placementpara {
-  /* font-family: Plus Jakarta Sans; */
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20.16px;
+  font-size: 22px;
+  line-height: 27.16px;
   text-align: center;
-  color: #9F9F9F
+  color: #777777;
+  font-weight: 500;
 }
 
 .whygyan {
@@ -384,10 +382,11 @@ body {
 
 .whygyanpara {
   /* font-family: Plus Jakarta Sans; */
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
-  line-height: 20.16px;
+  line-height: 25.16px;
   text-align: center;
+  color: #777777;
 }
 
 .whygyanoptions {
@@ -395,16 +394,15 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .whygyanoptionspara {
-  font-family: Montserrat;
   font-size: 18px;
-  font-weight: 700;
-  line-height: 23.4px;
-  text-align: center;
-  color: #9F9F9F;
+  font-weight: 400;
+  line-height: 27.4px;
+  /* text-align: center; */
+  color: #777777;
 }
 
 .emx {
@@ -426,10 +424,11 @@ body {
 
 .urbanpara {
   font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 21px;
   text-align: left;
+  color: #777777;
 }
 
 .courses {
@@ -442,8 +441,8 @@ body {
 
 .coursespara {
   font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 24px;
   text-align: center;
 }
@@ -545,12 +544,11 @@ body {
 }
 
 .lifetimepara {
-  /* font-family: Plus Jakarta Sans; */
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 20.16px;
+  line-height: 29.16px;
   text-align: justified;
-  color: #9F9F9F;
+  color: #777777;
 }
 
 .galleryheading {
@@ -562,12 +560,11 @@ body {
 }
 
 .gallerypara {
-  /* font-family: Plus Jakarta Sans; */
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 20.16px;
+  line-height: 26.16px;
   text-align: center;
-  color: #9F9F9F;
+  color: #777777;
 }
 
 .vector2 {
@@ -605,6 +602,11 @@ body {
   flex-direction: column;
   gap: 5rem;
   align-items: end;
+  width: 30%;
+}
+
+.tablistpanel {
+  width: 70%;
 }
 
 .UG {
@@ -668,10 +670,9 @@ body {
   background-color: #ffffff;
   padding: 2rem;
   /* font-family: Plus Jakarta Sans; */
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 20.16px;
-  text-align: justified;
+  line-height: 26.16px;
 }
 
 .imgbc {
@@ -765,9 +766,9 @@ body {
   /* font-family: Plus Jakarta Sans; */
   font-size: 18px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 30px;
   text-align: justified;
-  color: #9F9F9F;
+  color: #777777;
 }
 
 .chancelorname {
@@ -799,18 +800,18 @@ body {
   font-weight: 700;
   line-height: 54px;
   text-align: left;
-  padding: 239px 230px 0px 87px;
+  padding: 57px 215px 0px 82px;
   color: #0D254D;
 }
 
 .ourfutureparagraph {
   /* font-family: Plus Jakarta Sans; */
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
-  line-height: 20.16px;
+  line-height: 30.16px;
   text-align: left;
   padding-left: 87px;
-  color: #9F9F9F;
+  color: #777777;
 }
 
 .facultyimage {

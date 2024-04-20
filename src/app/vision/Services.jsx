@@ -36,7 +36,7 @@ const Services = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Column 1 */}
                     <div >
-                        <div className="mb-4 flex justify-center">
+                        <div className="mb-4 flex ">
                             <Image className='vector1' src={Vector1} alt="amazon" />
                         </div>
                         <h3 className="whygyanoptions mb-2">Expert Faculty</h3>
@@ -44,21 +44,21 @@ const Services = () => {
                     </div>
 
                     <div >
-                        <div className="mb-4 flex justify-center">
+                        <div className="mb-4 flex ">
                             <Image className='vector2' src={Vector2} alt="amazon" />
                         </div>
                         <h3 className="whygyanoptions mb-2">Modern Infrastructure</h3>
                         <p className='whygyanoptionspara'>The College is built widely in the city of Kashipur, equipped with all facilities to compose a state of the art infrastructure that expands beyond the realms of basic education. </p>
                     </div>
                     <div >
-                        <div className="mb-4 flex justify-center">
+                        <div className="mb-4 flex ">
                             <Image className='vector3' src={Vector3} alt="amazon" />
                         </div>
                         <h3 className="whygyanoptions mb-2">Industrial Specifications</h3>
                         <p className='whygyanoptionspara'>Gyanarthi Media College is the first in the city of Kashipur to offer specializations in fields such as Taxation, Banking and Finance, International Business, and Financial Accounting in B Com. </p>
                     </div>
                     <div >
-                        <div className="mb-4 flex justify-center">
+                        <div className="mb-4 flex ">
                             <Image className='vector4' src={Vector4} alt="amazon" />
                         </div>
                         <h3 className="whygyanoptions mb-2">Workshops and Visits</h3>

@@ -1409,7 +1409,7 @@ const Main = () => {
                         <div className="md:w-1/2 md:pl-4">
                             <div className="bgform p-2 md:p-4 sm:p-8 rounded-md shadow-md flex items-center justify-center flex-col">
                                 <h3 className="mb-4 text-white formheading">GYANARTHI APPLICATION FORM 2024</h3>
-                                <p className="mb-4 formsubheading">Apply for Gyanarthi 2024 - ( Phase- 1)</p>
+                                <p className="mb-4 formsubheading">Apply for Gyanarthi 2024 </p>
                                 <div className="bg-red-500 text-white p-4 mb-4 rounded-md">
                                     Registration End Date: Date, 2024
                                 </div>
@@ -1455,7 +1455,7 @@ const Main = () => {
                                         </div>
                                     </div>
                                     <div className='mb-4'>
-                                        <h4 className='text-white chy'>Choose your </h4>
+                                        <h4 className='text-white chy'>Please Enter Student's Date of Birth </h4>
                                         <div className='flex mb-2 mt-2'>
                                             <div className="w-full">
                                                 <input
