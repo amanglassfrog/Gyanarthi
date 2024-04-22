@@ -63,30 +63,30 @@ const page = () => {
                             <form className='w-full' onSubmit={handleSubmit}>
                                 <div className="flex  mb-4">
                                     <div className="w-1/2 mr-2">
-                                        <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">First Name</label>
+                                        <label htmlFor="firstName" className="block text-md font-medium text-gray-700">First Name</label>
                                         <input type="text" id="firstName" name="firstName" value={formData.firstName} onChange={handleChange} className="mt-1 block h-12 w-full rounded-md border-gray-300   border border-solid
 " />
                                     </div>
                                     <div className="w-1/2 ml-2">
-                                        <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">Last Name</label>
+                                        <label htmlFor="lastName" className="block text-md font-medium text-gray-700">Last Name</label>
                                         <input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange} className="mt-1 block h-12 w-full rounded-md border-gray-300 border border-solid
 " />
                                     </div>
                                 </div>
                                 <div className="flex mb-4">
                                     <div className="w-1/2 mr-2">
-                                        <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+                                        <label htmlFor="email" className="block text-md font-medium text-gray-700">Email</label>
                                         <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="mt-1 block w-full h-12 rounded-md border-gray-300 border border-solid
 " />
                                     </div>
                                     <div className="w-1/2 ml-2">
-                                        <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-700">Phone Number</label>
+                                        <label htmlFor="phoneNumber" className="block text-md font-medium text-gray-700">Phone Number</label>
                                         <input type="tel" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} className="mt-1 block w-full h-12 rounded-md border-gray-300 border border-solid
 " />
                                     </div>
                                 </div>
                                 <div className="mb-4">
-                                    <label className="block text-sm font-medium text-gray-700">Select Subject?</label>
+                                    <label className="block text-md font-medium text-gray-700">Select Subject?</label>
                                     <div className="mt-1 flex items-center">
                                         <input id="subject1" name="subject" type="radio" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300" value="Subject 1" onChange={handleChange} />
                                         <label htmlFor="subject1" className="ml-2 text-gray-700">General Inquiry</label>
@@ -101,7 +101,7 @@ const page = () => {
                                     </div>
                                 </div>
                                 <div className="mb-4">
-                                    <label htmlFor="message" className="block text-sm font-medium text-gray-700">Your Message</label>
+                                    <label htmlFor="message" className="block text-md font-medium text-gray-700">Your Message</label>
                                     <textarea id="message" name="message" rows="3" value={formData.message} onChange={handleChange} className="mt-1 block w-full h-12 rounded-md border-gray-300 border border-solid
 "></textarea>
                                 </div>

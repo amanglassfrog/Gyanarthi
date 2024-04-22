@@ -1408,9 +1408,9 @@ const Main = () => {
                         </div>
                         <div className="md:w-2/5 md:pl-4">
                             <div className="bgform p-2 md:p-4 sm:p-8 rounded-md shadow-md flex items-center justify-center flex-col">
-                                <p className="mb-4 formsubheading">Admissions Open Now </p>
+                                <h3 className="mb-4 text-white formheading">GYANARTHI APPLICATION FORM 2024</h3>
                                 <div className="bg-red-500 text-white p-4 mb-4 rounded-md">
-                                    Registration End Date: Date, 2024
+                                    Admissions Open Now
                                 </div>
                                 <form className='w-full' onSubmit={handleSubmit} method="POST">
                                     <div className="mb-4 name" >
@@ -1454,6 +1454,7 @@ const Main = () => {
                                         </div>
                                     </div>
                                     <div className='mb-4'>
+                                        <h4 className='text-white chy'>Please Enter Student's Date of Birth </h4>
                                         <div className='flex mb-2 mt-2'>
                                             <div className="w-full">
                                                 <input
@@ -1540,7 +1541,7 @@ const Main = () => {
 
                                                 required
                                             />
-                                            By submitting this form, I agree to receive notifications from the University in the form of SMS/ E-mail/ Call.
+                                            By submitting this form, I agree to receive notifications from the College in the form of SMS/ E-mail/ Call.
                                         </label>
                                     </div>
 

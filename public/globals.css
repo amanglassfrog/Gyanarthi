@@ -17,6 +17,10 @@ body {
   background: #ffffff;
 }
 
+p {
+  text-align: justify;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -177,7 +181,7 @@ body {
 
   .tabpanel {
     background-color: #ffffff;
-    padding: 2rem;
+    padding: 0rem 2rem 2rem 2rem;
     /* font-family: Plus Jakarta Sans; */
     font-size: 18px;
     font-weight: 500;
@@ -284,6 +288,12 @@ body {
 }
 
 .kalakari {
+  line-height: 2.3rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.edgepara {
   line-height: 2.3rem;
   font-size: 1.2rem;
 }
@@ -689,7 +699,7 @@ body {
 
 .tabpanel {
   background-color: #ffffff;
-  padding: 2rem;
+  padding: 0rem 2rem 2rem 2rem;
   /* font-family: Plus Jakarta Sans; */
   font-size: 18px;
   font-weight: 500;
@@ -901,7 +911,7 @@ body {
 
 .courselist {
   display: flex;
-  gap: 5rem;
+  gap: 10rem;
 }
 
 .ctab {
@@ -914,11 +924,12 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 54px;
+  padding: 20px;
 }
 
 .selectedcourse {
   font-size: 18px;
   font-weight: 500;
-  line-height: 26px;
-  text-align: justified;
+  line-height: 32px;
+  text-align: justify;
 }

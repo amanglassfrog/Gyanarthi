@@ -54,7 +54,7 @@ const Courses = () => {
             <section className="flex flex-col items-center justify-center py-16 homebutton">
                 <h2 className="courses mb-4">Our Courses</h2>
                 <p className="text-center coursespara max-w-3xl ">
-                    Gyanarthi’s academic departments and professional courses are backed by industrial insights and strong academic curriculum. We are affiliated with the Kumaon University, state institution, which adds to the accreditation of our courses.
+                    Gyanarthi’s academic departments and professional courses are backed by industrial insights and strong academic curriculum. We are affiliated with the Kumaun University, state institution, which adds to the accreditation of our courses.
                 </p>
             </section>
             <section className="flex flex-col md:flex-row justify-center ">

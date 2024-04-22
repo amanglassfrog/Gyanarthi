@@ -122,23 +122,25 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='footercontact container px-4'>
+                <div>
+                    <div className='footercontact  px-4'>
 
-                    <div className="flex items-center mb-4 pt-5">
-                        <Image className="h-6 w-6 mr-2" src={phone} alt='phone' />
-                        <span>+91 8755552552, +91 8630274038, +91 8171220333</span>
+                        <div className="flex items-center mb-4 pt-5">
+                            <Image className="h-6 w-6 mr-2" src={phone} alt='phone' />
+                            <span>+91 8755552552, +91 8630274038, +91 8171220333</span>
+                        </div>
+                        <div className="flex items-center mb-4 pt-8">
+                            <Image className="h-6 w-6 mr-2" src={email} alt='phone' />
+
+                            <span>gyanarthimedia@gmail.com</span>
+                        </div>
+                        <div className="flex items-center pt-8">
+                            <Image className="h-6 w-6 mr-2" src={lctn} alt='phone' />
+
+                            <span>Opp. Old Galla Mandi, Ahead of Spectrum Mall, Kashipur, Uttarakhnad 244713</span>
+                        </div>
+
                     </div>
-                    <div className="flex items-center mb-4 pt-8">
-                        <Image className="h-6 w-6 mr-2" src={email} alt='phone' />
-
-                        <span>gyanarthimedia@gmail.com</span>
-                    </div>
-                    <div className="flex items-center pt-8">
-                        <Image className="h-6 w-6 mr-2" src={lctn} alt='phone' />
-
-                        <span>Opp. Old Galla Mandi, Ahead of Spectrum Mall, Kashipur, Uttarakhnad 244713</span>
-                    </div>
-
                 </div>
 
             </footer>

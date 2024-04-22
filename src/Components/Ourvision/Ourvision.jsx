@@ -43,11 +43,7 @@ const Ourvision = () => {
                                     </TabList>
                                     <div className='flex flex-col tablistpanel'>
                                         <TabPanel className="tabpanel futurevision">
-                                            <p>University to build a strong community of professionals equipped with relevant academic insights. We are only college in the town that provides an intensive curriculum in fields such as Taxation, International Business, Banking and Finance, and Financial Accounting.<br></br><br></br>
-
-                                                Our Media, Journalism, Design, Animation, and Mass Communication curriculum are supported by an experienced faculty that is competent in the respective fields.<br></br><br></br>
-
-                                                Fashion Course at Gyanarthi inculcates  comprehensive insights into the Indian Textile Industries for relevant academic proficiency</p>
+                                            <p>Admissions Open Now</p>
 
                                             <div className=' pt-5'>
                                                 <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
@@ -86,7 +82,7 @@ const Ourvision = () => {
                     <div className='py-8 '>
                         <h2 className="lifetime mb-4">Exposure that you can value for a Lifetime</h2>
                         <p className="lifetimepara">
-                            Our student community is not only adept with academic brilliance, but they are also equipped with skills that extend beyond  education. We ensure an exposure that is valuable and create an environment where holistic growth of students are ensured. Our extracurricular clubs, constant workshops, trips, sports events,                     </p>
+                            Our student community is not only adept with academic brilliance, but they are also equipped with skills that extend beyond  education. We ensure an exposure that is valuable and create an environment where holistic growth of students are ensured.    </p>
                         <Tabs className="etabs">
                             <TabList className="etablist">
                                 <Tab className=" etab ">Kalakari: Art Club</Tab>
