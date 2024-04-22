@@ -43,9 +43,13 @@ const Ourvision = () => {
                                     </TabList>
                                     <div className='flex flex-col tablistpanel'>
                                         <TabPanel className="tabpanel futurevision">
-                                            <p>Admissions Open Now</p>
+                                            <p>Gyanarthi Media College, Kashipur is affiliated with the Kumaon University to build a strong community of professionals equipped with relevant academic insights. We are only college in the town that provides an intensive curriculum in fields such as Taxation, International Business, Banking and Finance, and Financial Accounting.<br></br><br></br>
 
+                                                Our Media, Journalism, Design, Animation, and Mass Communication curriculum are supported by an experienced faculty that is competent in the respective fields.<br></br><br></br>
+
+                                                Fashion Course at Gyanarthi inculcates  comprehensive insights into the Indian Textile Industries for relevant academic proficiency.</p>
                                             <div className=' pt-5'>
+
                                                 <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
                                             </div>
                                         </TabPanel>

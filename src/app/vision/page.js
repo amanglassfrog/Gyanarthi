@@ -22,8 +22,7 @@ const page = () => {
             {/* Text overlay */}
             <div className=" inset-0 flex items-center justify-center ">
               <h1 className=" text-2xl md:text-4xl font-bold text-center tpip">
-                We’ve placed 10 k students, get you placement!
-              </h1>
+                Advance You Career with Gyanarthi Approach!               </h1>
             </div>
           </div>
 

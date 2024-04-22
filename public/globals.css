@@ -93,6 +93,14 @@ p {
 
 
 @media only screen and (max-width: 600px) {
+  .tablistpanel {
+    width: 100% !important;
+  }
+
+  .tablist {
+    width: 100% !important;
+  }
+
   .container {
     width: 100%;
     max-width: 1350px;
@@ -750,7 +758,6 @@ p {
   top: 1276px;
   left: 373px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .vis {
