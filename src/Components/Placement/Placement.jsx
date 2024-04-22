@@ -50,31 +50,28 @@ const NewSection = () => {
                     {/* Third row */}
                     <div className="swiper-container pt-8 md:pt-16 sm:pt-32  px-4 md:px-8 lg:px-16">
                         <Swiper
-                            slidesPerView={5}
+
                             spaceBetween={100}
                             breakpoints={{
                                 640: {
-                                    slidesPerView: 3,
+                                    slidesPerView: 1, // Display 1 slide in mobile view
                                     spaceBetween: 20,
                                 },
                                 768: {
-                                    slidesPerView: 3,
+                                    slidesPerView: 1, // Display 1 slide in tablet view
                                     spaceBetween: 30,
                                 },
                                 1024: {
-                                    slidesPerView: 5,
+                                    slidesPerView: 5, // Display 5 slides in laptop screen
                                     spaceBetween: 40,
                                 },
                             }}
-
                             autoplay={{
                                 delay: 2500,
                                 disableOnInteraction: false,
                             }}
-
                             navigation={false}
                             modules={[Autoplay, Navigation]}
-
                             className="mySwiper"
                         >
                             <SwiperSlide><Image src={logo10} alt="amazon" /></SwiperSlide>
