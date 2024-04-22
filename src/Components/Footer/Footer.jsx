@@ -72,7 +72,7 @@ const Footer = () => {
                             <h4 className="text-lg mb-4 footerheading">Important Links</h4>
                             <ul className='flex flex-col gap-6'>
                                 <li><a href="/vision">About Us</a></li>
-                                <li><a href="/admisiions">Admissions </a></li>
+                                <li><a href="/admissions">Admissions </a></li>
                                 <li><a href="/placements">Placement </a></li>
                                 <li><a href="/gallery">Campus Life </a></li>
                                 <li><a href="/contact">Contact Us </a></li>
