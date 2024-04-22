@@ -275,8 +275,11 @@ const Page = () => {
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
                   <p className="text-center mb-6 text-white journeypara">Download the 2024 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
-                  <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex  items-center gap-3' >Download Now <Image src={download} alt="Image Description"
-                    className="add" /></a></button>
+                  <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='https://glassfrogtech.com/broucher.pdf' download target="_blank" className='flex items-center gap-3'>
+                    Download Now
+                    <Image src={download} alt="Image Description" className="add" />
+                  </a>
+                  </button>
                 </div>
               </div>
             </div>
