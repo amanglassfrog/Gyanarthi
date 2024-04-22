@@ -365,7 +365,7 @@ const Page = () => {
                             <p className="edgepara text-justify">
                                 The prime objective of the faculty at the Gyanarthi Media College, Kashipur is to enhance the professional profiles of the students. We seek to create professionals who are equipped with thorough knowledge in the domains of Taxation, International Business, Banking and Finance, and Financial Accounting. The courses at the Gyanarthi Media College are affiliated with the Kumaun University and the curriculum is curated with a vision to make it one of the prime options for best course after 12 Commerce. The students can check the BCom Course Details subsequently to get comprehension of the specifications of each specialization domain. </p>
                             <Tabs className="cctabs pt-16">
-                                <TabList className="etablist">
+                                <TabList className="etablist pb-5">
                                     <Tab className=" etab ">{selectedCourse.tab1}</Tab>
                                     <Tab className="etab ">{selectedCourse.tab2}</Tab>
                                     <Tab className="etab ">{selectedCourse.tab3}</Tab>
