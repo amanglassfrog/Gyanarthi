@@ -41,7 +41,7 @@ const page = () => {
                         {/* Text overlay */}
                         <div className=" inset-0 flex items-center justify-center ">
                             <h1 className=" text-2xl md:text-4xl font-bold text-center tpip">
-                                Placements backed by Potentials!                        </h1>
+                                Placement backed by Potential!                        </h1>
                         </div>
                     </div>
 
@@ -60,7 +60,7 @@ const page = () => {
                         </div>
                         {/* Second row */}
                         <div className="mb-8">
-                            <p className="text-gray-600">Gyanarthi is the only college affiliated with the Kumaon University in Kashipur that<br></br> offers courses in Fine Arts and professional fields of Commerce.</p>
+                            <p className="text-gray-600 text-center">Gyanarthi is the only college affiliated with the Kumaun University in Kashipur that<br></br> offers courses in Fine Arts and professional fields of Commerce.</p>
                         </div>
                         {/* Third row */}
                         <div className="container pt-4 px-4 md:px-8 lg:px-16">
@@ -274,8 +274,8 @@ const page = () => {
                 </section>
                 <section className=" py-12">
                     <div className="container mx-auto px-4">
-                        <h2 className="text-3xl text-center font-bold mb-8">How does Gyanarthi turns Students into Professionals?</h2>
-                        <p className="text-lg text-center mb-8">Gyanarthi Media College promotes holistic development and growth of the students in potentials that go beyond the academics. In order to raise individuals who turn into adept professionals, we open the scope of exposure that can elevate the college experiences for our students. It is important that the realms of workspace that the students choose, they are fully prepared for it. The departments and domains in which education is offered at the Gyanarthi Media College are fully backed by practical understanding and experience. This helps the students bag placement in the companies they aim for. Each field is categorically structured to provide the students with the best curriculum.</p>
+                        <h2 className="text-3xl text-center font-bold mb-8">How does Gyanarthi turn Students into Professionals?</h2>
+                        <p className="text-lg text-center mb-8">Gyanarthi Media College promotes holistic development and growth of the students in potentials that go beyond the academics. In order to raise individuals who turn into adept professionals, we open the scope of exposure that can elevate the college experiences for our students. It is important that the workspace's that the students choose, they are fully prepared for it. The departments and domains in which education is offered at the Gyanarthi Media College are fully backed by practical understanding and experience. This helps the students bag placement in the companies they aim for. Each field is categorically structured to provide the students with the best curriculum.</p>
 
                         <div className="flex flex-wrap -mx-4">
                             <div className="w-full md:w-1/2 px-4 mb-8">

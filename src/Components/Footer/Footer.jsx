@@ -95,7 +95,8 @@ const Footer = () => {
                                 <li><a href="/coursepage?course=Communication,%20and%20Arts&program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
                                 <li><a href="/coursepage?course=Communication,%20and%20Arts&program=Bachelor%20of%20Fine%20Arts%20BFA">Bachelor of Fine Arts BFA</a></li>
                                 <li><a href="/coursepage?course=Communication,%20and%20Arts&program=MA%20Journalism%20and%20Mass%20Communication">MA Journalism and Mass Communication</a></li>
-                                <li><a href="/coursepage?course=Commerce&program=BCom">B.COM</a></li>
+                                <li><a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
+
                                 {/* Add more menu items */}
                             </ul>
                         </div>
@@ -108,12 +109,12 @@ const Footer = () => {
 
                             <h4 className="text-lg mb-4 footerheading"></h4>
                             <ul className='flex flex-col gap-6'>
+                                <li><a href="/coursepage?course=Commerce&program=BCom">B.com</a></li>
 
-                                <li><a href="/coursepage?course=Commerce&program=BCom%20Taxation">B.COM (Taxation) </a></li>
-                                <li><a href="/coursepage?course=Commerce&program=BCom%20Financial%20Accounting">B.COM (Financial Accounting) </a></li>
-                                <li><a href="/coursepage?course=Commerce&program=BCom%20Banking%20and%20Finance">B.COM (Banking & Financial) </a></li>
-                                <li><a href="/coursepage?course=Commerce&program=BCom%20International%20Business">BCom International Business</a></li>
-                                <li><a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
+                                <li><a href="/coursepage?course=Commerce&program=BCom%20Taxation">B.com (Taxation) </a></li>
+                                <li><a href="/coursepage?course=Commerce&program=BCom%20Financial%20Accounting">B.com (Financial Accounting) </a></li>
+                                <li><a href="/coursepage?course=Commerce&program=BCom%20Banking%20and%20Finance">B.com (Banking & Financial) </a></li>
+                                <li><a href="/coursepage?course=Commerce&program=BCom%20International%20Business">B.com International Business</a></li>
 
 
 

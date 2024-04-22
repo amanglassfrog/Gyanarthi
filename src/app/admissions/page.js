@@ -47,9 +47,9 @@ const Page = () => {
           <div className="w-full md:w-full container  p-0 md:p-2 sm:p-4">
             <h2 className="lifetime mb-4">Eligibility Criteria </h2>
             <p className="lifetimepara">
-              At Gyanarthi, the prime eligibility criteria for a course is the intensity of interest in it! We accept students of different educational background and potentials. The basic eligibility condition for Graduate Courses is to have passed Class 12 from a recognized board of education with at least 40% marks. However, the students should have passed their 12th standard from a recognized board of education. There are no further conditions of eligibility that the students must satisfy in order to fnd their place at the Gyanarthi Media College.
+              At Gyanarthi, the main eligibility criteria for a course is the intensity of interest in it! We accept students of different educational backgrounds and potentials. The basic eligibility condition for Graduate Courses is to have passed Class 12 from a recognized board of education with at least 40% marks. However, the students should have passed their 12th standard from a recognized board of education. There are no further conditions of eligibility that the students must satisfy in order to find their place at the Gyanarthi Media College.
 
-              For the Post Graduate Courses, the students must
+              For the Post Graduate Courses, the students must have graduated from a recognized University with at least 40% marks. There are no specific course requirements for educational qualifications as we believe that the students must be able to pursue what they desire, without any hindrances.
 
             </p>
           </div>
@@ -69,7 +69,7 @@ const Page = () => {
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse ">B Com - Taxation</h3>
+                <h3 className="UGcourse ">B.com - Taxation</h3>
                 <a href="/coursepage?course=Commerce&program=BCom%20Taxation"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -77,7 +77,7 @@ const Page = () => {
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse ">B Com - Banking and Finance    </h3>
+                <h3 className="UGcourse ">B.com - Banking and Finance    </h3>
                 <a href="/coursepage?course=Commerce&program=BCom%20Banking%20and%20Finance"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -88,7 +88,7 @@ const Page = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
 
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse ">   B Com - Financial Accounting</h3>
+                <h3 className="UGcourse ">   B.com - Financial Accounting</h3>
                 <a href="/coursepage?course=Commerce&program=BCom%20Financial%20Accounting"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -96,7 +96,7 @@ const Page = () => {
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse ">B Com - International Business </h3>
+                <h3 className="UGcourse ">B.com- International Business </h3>
                 <a href="/coursepage?course=Commerce&program=BCom%20International%20Business"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />

@@ -25,12 +25,6 @@ import download from "../../../public/download.png"
 
 
 const Page = () => {
-    const [showPopup, setShowPopup] = useState(false);
-    const [formData, setFormData] = useState({
-        email: '',
-        name: '',
-        phone: '',
-    });
 
     const courses = [
 
@@ -251,47 +245,6 @@ const Page = () => {
         return <div>Loading...</div>;
     }
 
-    const handleInputChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prevData) => ({
-            ...prevData,
-            [name]: value,
-        }));
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Validate form data
-        const isValid = validateFormData(formData);
-        if (isValid) {
-            triggerPdfDownload();
-        } else {
-            // Display error messages
-            alert("Please enter valid information.");
-        }
-    };
-
-    const validateFormData = (data) => {
-        // Check if email is valid
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(data.email)) {
-            return false;
-        }
-
-        // Check if name is not empty
-        if (data.name.trim() === '') {
-            return false;
-        }
-
-        // Check if phone is a valid phone number (for simplicity, assume a 10-digit number)
-        const phoneRegex = /^\d{10}$/;
-        if (!phoneRegex.test(data.phone)) {
-            return false;
-        }
-
-        return true;
-    };
-
 
 
 
@@ -479,41 +432,11 @@ const Page = () => {
                                 <div className="p-8">
                                     <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
                                     <p className="text-center mb-6 text-white journeypara">Download the 2024 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
-                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex items-center gap-3' onClick={() => setShowPopup(true)}>
+                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='https://glassfrogtech.com/broucher.pdf' download target="_blank" className='flex items-center gap-3'>
                                         Download Now
-                                        <Image src={download} alt="Download Icon" className="add" />
+                                        <Image src={download} alt="Image Description" className="add" />
                                     </a>
-                                        {showPopup && (
-                                            <div className=" popup-container">
-                                                <form onSubmit={handleSubmit}>
-                                                    <input
-                                                        type="email"
-                                                        name="email"
-                                                        value={formData.email}
-                                                        onChange={handleInputChange}
-                                                        placeholder="Enter your email"
-                                                        required
-                                                    />
-                                                    <input
-                                                        type="text"
-                                                        name="name"
-                                                        value={formData.name}
-                                                        onChange={handleInputChange}
-                                                        placeholder="Enter your name"
-                                                        required
-                                                    />
-                                                    <input
-                                                        type="tel"
-                                                        name="phone"
-                                                        value={formData.phone}
-                                                        onChange={handleInputChange}
-                                                        placeholder="Enter your phone"
-                                                        required
-                                                    />
-                                                    <button type="submit">Submit</button>
-                                                </form>
-                                            </div>
-                                        )}</button>
+                                    </button>
                                 </div>
                             </div>
                         </div>

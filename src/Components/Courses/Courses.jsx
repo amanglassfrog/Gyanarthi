@@ -129,7 +129,7 @@ const Courses = () => {
                                 <h3 className="fc">Find Your Course:</h3>
                             </div>
                             <div className="mb-4">
-                                <p className='fcpara'>Pursue the Futuristic course of your choice. Select your Discipline and Program from the list below:</p>
+                                <p className='fcpara'>Pursue the Futuristic course of your choice. Select your Discipline and Program from the list below</p>
                             </div>
                             <div className="mb-4">
                                 <div className="flex flex-col gap-8 mb-2">

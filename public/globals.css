@@ -768,7 +768,7 @@ p {
 .etablist {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1rem;
   align-items: center;
   background: #F5F8FE;
 }
