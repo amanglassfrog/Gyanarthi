@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="container mx-auto flex flex-wrap pt-8">
                     {/* First column */}
                     <div className=" sm:w-1/2 md:w-1/4 px-4 mb-8 items-start sm:items-center">
-                        <h4 className="text-lg mb-4">Explore.  Discover.  Connect.</h4>
+                        <h4 className="text-lg mb-4">Explore,  Discover,  Connect.</h4>
                         <div className="flex flex-wrap gap-20 pt-5">
                             {/* Social media icons */}
                             <div className="mb-4">
@@ -52,10 +52,10 @@ const Footer = () => {
                             </div>
                             {/* Add more social media icons */}
                         </div>
-                        <h4 className="copyright mb-4 pt-12">@Copyright {currentYear} - Gyanarthi College</h4>
+                        <h4 className="copyright mb-4 pt-12">@ Copyright {currentYear} - Gyanarthi College</h4>
                         <div className=" flex flex-wrap pt-8 mt-8 pvpolicy">
                             <ul className='flex w-full justify-center gap-6'>
-                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="/privacy-policy">Privacy Policy</a></li>
                                 <li><a href="/terms-condition"> Terms & Conditions</a></li>
                                 {/* <li><a href="#">Accomplishments </a></li>
                     <li><a href="#">Milestones </a></li> */}
@@ -107,7 +107,7 @@ const Footer = () => {
                     <div className='flex flex-col  sm:w-1/2 md:w-1/4 items-start sm:items-center'>
                         <div className=" px-4 mb-8">
 
-                            <h4 className="text-lg mb-4 footerheading"></h4>
+                            <h4 className="text-lg mb-4 footerheading opacity-0">Programs</h4>
                             <ul className='flex flex-col gap-6'>
                                 <li><a href="/coursepage?course=Commerce&program=BCom">B.com</a></li>
 

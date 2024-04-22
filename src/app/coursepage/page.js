@@ -257,9 +257,12 @@ const Page = () => {
                     <div className="flex flex-wrap py-8  container">
                         <div className="w-full md:w-1/2  p-4">
                             <h2 className="text-xl font-bold chancelorheading">{selectedCourse.name}</h2>
-                            <p className="mt-2 chancelorparagraph">
-                                Pick the course that suits your desire to build a career in Mass Communication, Animation, Design, Fashion, Fine Arts, Journalism, and Commerce, easily to turn your Passion into Profession!
-                            </p>
+                            <p className="mt-2 chancelorparagraph pt-3">
+                                Session Starts – August 2024<br></br><br></br>
+                                Duration – 3 Years(For UG Program),<br></br>
+                                2 Years (For PG Program)<br></br><br></br>
+                                Residential Degree Program<br></br><br></br>
+                                Applications Deadline: July 2024                            </p>
                             <div className='flex pt-8'>
                                 <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
                             </div>
