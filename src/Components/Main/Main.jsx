@@ -1465,6 +1465,8 @@ const Main = () => {
                                                     value={dob}
                                                     onChange={handleDobChange}
                                                     required
+                                                    min="1995-01-01"
+                                                    max="2008-12-31"
                                                 />
                                             </div>
                                         </div>
@@ -1539,7 +1541,7 @@ const Main = () => {
                                                 type="checkbox"
                                                 className="mr-2 text-white"
 
-                                                required
+
                                             />
                                             By submitting this form, I agree to receive notifications from the College in the form of SMS/ E-mail/ Call.
                                         </label>
