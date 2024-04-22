@@ -10,6 +10,9 @@ import five from "../../../public/five.png"
 
 import admisiions from "../../../public/admissions.png"
 import Footer from '@/Components/Footer/Footer';
+import wp from "../../../public/wp.png"
+import apply from "../../../public/apply.png"
+import download from "../../../public/download.png"
 
 const Page = () => {
   return (
@@ -58,24 +61,24 @@ const Page = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
               <div className='flex items-center gap-3' >
-                <h3 className="UGcourse mb-4">Bachelor of Commerce</h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse ">Bachelor of Commerce</h3>
+                <a href="/coursepage?course=Commerce&program=BCom"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4">B Com - Taxation</h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse ">B Com - Taxation</h3>
+                <a href="/coursepage?course=Commerce&program=BCom%20Taxation"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4">B Com - Banking and Finance    </h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse ">B Com - Banking and Finance    </h3>
+                <a href="/coursepage?course=Commerce&program=BCom%20Banking%20and%20Finance"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
@@ -85,24 +88,24 @@ const Page = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
 
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4">   B Com - Financial Accounting</h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse ">   B Com - Financial Accounting</h3>
+                <a href="/coursepage?course=Commerce&program=BCom%20Financial%20Accounting"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4">B Com - International Business </h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse ">B Com - International Business </h3>
+                <a href="/coursepage?course=Commerce&program=BCom%20International%20Business"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4"> BSc Fashion Designingn</h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse "> BSc Fashion Designingn</h3>
+                <a href="/coursepage?course=Design&program=BSc%20Fashion%20Designing"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
@@ -112,24 +115,24 @@ const Page = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4">BA Animation and Design</h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse ">BA Animation and Design</h3>
+                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4"> BA Journalism and Mass Communication</h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse "> BA Journalism and Mass Communication</h3>
+                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4">Bachelor of Fine Arts</h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse ">Bachelor of Fine Arts</h3>
+                <a href="/coursepage?course=Communication,%20and%20Arts&program=Bachelor%20of%20Fine%20Arts%20BFA"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
@@ -148,24 +151,24 @@ const Page = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4">MA Animation and Design</h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse ">MA Animation and Design</h3>
+                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className=" px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4">  MA Journalism and Mass Communication</h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse ">  MA Journalism and Mass Communication</h3>
+                <a href="/coursepage?course=Communication,%20and%20Arts&program=MA%20Journalism%20and%20Mass%20Communication"><button className=" px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </button></a>
               </div>
               <div className='flex items-center gap-3'>
-                <h3 className="UGcourse mb-4">MSc Fashion Designing  </h3>
-                <a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                <h3 className="UGcourse">MSc Fashion Designing  </h3>
+                <a href="/coursepage?course=Design&program=MSc%20Fashion%20Designing"><button className=" px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
@@ -247,7 +250,7 @@ const Page = () => {
           </div>
         </div>
         <section className=" py-12">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-2 md:px-2 sm:px-4">
             <div className="flex flex-col md:flex-row items-center justify-between mb-8">
               <h2 className="text-3xl font-bold md:text-left text-center mb-4 md:mb-0">Start Your Gyanarthi Journey</h2>
             </div>
@@ -256,21 +259,24 @@ const Page = () => {
                 <div className="p-8">
                   <h3 className=" text-center mb-4 text-white journeyheading">Apply</h3>
                   <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2024!</p>
-                  <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='/contact'>Apply Now</a></button>
+                  <button className="bg-transparent  hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex  items-center gap-3' href='/contact'>Apply Now <Image src={apply} alt="Image Description"
+                    className="add" /></a></button>
                 </div>
               </div>
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className=" text-center mb-4 text-white journeyheading">Connect</h3>
                   <p className="text-center mb-6 text-white journeypara">Reach Out to Gyanarthi’s Admission Team to secure your place at the College for the upcoming session.</p>
-                  <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href="https://wa.me/8755552552" target="_blank" >Connect Now</a></button>
+                  <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex  items-center gap-3' href="https://wa.me/8755552552" target="_blank" >Connect Now <Image src={wp} alt="Image Description"
+                    className="add" /></a></button>
                 </div>
               </div>
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
                   <p className="text-center mb-6 text-white journeypara">Download the 2024 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
-                  <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">Download Now</button>
+                  <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex  items-center gap-3' >Download Now <Image src={download} alt="Image Description"
+                    className="add" /></a></button>
                 </div>
               </div>
             </div>

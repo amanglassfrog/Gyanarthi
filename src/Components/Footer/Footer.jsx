@@ -9,6 +9,9 @@ import icon3 from '../../../public/lik.png';
 import icon4 from '../../../public/fbsocial.png';
 import icon5 from '../../../public/twitter.png';
 import icon6 from '../../../public/insta.png';
+import phone from "../../../public/phone.png"
+import email from "../../../public/email.png"
+import lctn from "../../../public/lctn.png"
 
 
 // Footer.js
@@ -50,80 +53,68 @@ const Footer = () => {
                             {/* Add more social media icons */}
                         </div>
                         <h4 className="copyright mb-4 pt-12">@Copyright {currentYear} - Gyanarthi College</h4>
+                        <div className=" flex flex-wrap pt-8 mt-8 pvpolicy">
+                            <ul className='flex w-full justify-center gap-6'>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="/terms-condition"> Terms & Conditions</a></li>
+                                {/* <li><a href="#">Accomplishments </a></li>
+                    <li><a href="#">Milestones </a></li> */}
+
+                                {/* Add more menu items */}
+                            </ul>
+                        </div>
                     </div>
 
                     {/* Second column */}
                     <div className='flex flex-col  sm:w-1/2 md:w-1/4 items-start sm:items-center'>
                         <div className=" px-4 mb-8">
 
-                            <h4 className="text-lg mb-4 footerheading">About Us</h4>
+                            <h4 className="text-lg mb-4 footerheading">Important Links</h4>
                             <ul className='flex flex-col gap-6'>
-                                <li><a href="#">Vision & Mission</a></li>
-                                <li><a href="#">Milestone </a></li>
-                                <li><a href="#">Accomplishments </a></li>
-                                <li><a href="#">Milestones </a></li>
+                                <li><a href="/vision">About Us</a></li>
+                                <li><a href="/admisiions">Admissions </a></li>
+                                <li><a href="/placements">Placement </a></li>
+                                <li><a href="/gallery">Campus Life </a></li>
+                                <li><a href="/contact">Contact Us </a></li>
+                                <li><a href="https://kuntl.net/kumaunLinks/Result/2021?page=1">Results </a></li>
+
 
                                 {/* Add more menu items */}
                             </ul>
                         </div>
-                        <div className=" px-4 mb-8">
 
-                            <h4 className="text-lg mb-4 footerheading">About Us</h4>
-                            <ul className='flex flex-col gap-6'>
-                                <li><a href="#">Vision & Mission</a></li>
-                                <li><a href="#">Milestone </a></li>
-                                <li><a href="#">Accomplishments </a></li>
-                                <li><a href="#">Milestones </a></li>
-
-                                {/* Add more menu items */}
-                            </ul>
-                        </div>
                     </div>
 
                     <div className='flex flex-col  sm:w-1/2 md:w-1/4 items-start sm:items-center'>
                         <div className=" px-4 mb-8">
 
-                            <h4 className="text-lg mb-4 footerheading">About Us</h4>
+                            <h4 className="text-lg mb-4 footerheading">Programs</h4>
                             <ul className='flex flex-col gap-6'>
-                                <li><a href="#">Vision & Mission</a></li>
-                                <li><a href="#">Milestone </a></li>
-                                <li><a href="#">Accomplishments </a></li>
-                                <li><a href="#">Milestones </a></li>
-
+                                <li><a href="/coursepage?course=Design&program=BSc%20Fashion%20Designing">BSc Fashion Designing</a></li>
+                                <li><a href="/coursepage?course=Design&program=MSc%20Fashion%20Designing">MSc Fashion Designing</a></li>
+                                <li><a href="/coursepage?course=Communication,%20and%20Arts&program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
+                                <li><a href="/coursepage?course=Communication,%20and%20Arts&program=Bachelor%20of%20Fine%20Arts%20BFA">Bachelor of Fine Arts BFA</a></li>
+                                <li><a href="/coursepage?course=Communication,%20and%20Arts&program=MA%20Journalism%20and%20Mass%20Communication">MA Journalism and Mass Communication</a></li>
+                                <li><a href="/coursepage?course=Commerce&program=BCom">B.COM</a></li>
                                 {/* Add more menu items */}
                             </ul>
                         </div>
-                        <div className=" px-4 mb-8">
 
-                            <h4 className="text-lg mb-4 footerheading">About Us</h4>
-                            <ul className='flex flex-col gap-6'>
-                                <li><a href="#">Vision & Mission</a></li>
-                                <li><a href="#">Milestone </a></li>
-                                <li><a href="#">Accomplishments </a></li>
-                                <li><a href="#">Milestones </a></li>
-
-                                {/* Add more menu items */}
-                            </ul>
-                        </div>
                     </div>
 
                     {/* Fourth column */}
                     <div className='flex flex-col  sm:w-1/2 md:w-1/4 items-start sm:items-center'>
                         <div className=" px-4 mb-8">
 
-                            <h4 className="text-lg mb-4 footerheading">Programs</h4>
+                            <h4 className="text-lg mb-4 footerheading"></h4>
                             <ul className='flex flex-col gap-6'>
-                                <li><a href="/coursepage?course=Commerce&program=BCom">B.COM</a></li>
+
                                 <li><a href="/coursepage?course=Commerce&program=BCom%20Taxation">B.COM (Taxation) </a></li>
                                 <li><a href="/coursepage?course=Commerce&program=BCom%20Financial%20Accounting">B.COM (Financial Accounting) </a></li>
                                 <li><a href="/coursepage?course=Commerce&program=BCom%20Banking%20and%20Finance">B.COM (Banking & Financial) </a></li>
                                 <li><a href="/coursepage?course=Commerce&program=BCom%20International%20Business">BCom International Business</a></li>
                                 <li><a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
-                                <li><a href="/coursepage?course=Design&program=BSc%20Fashion%20Designing">BSc Fashion Designing</a></li>
-                                <li><a href="/coursepage?course=Design&program=MSc%20Fashion%20Designing">MSc Fashion Designing</a></li>
-                                <li><a href="/coursepage?course=Communication,%20and%20Arts&program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
-                                <li><a href="/coursepage?course=Communication,%20and%20Arts&program=Bachelor%20of%20Fine%20Arts%20BFA">Bachelor of Fine Arts BFA</a></li>
-                                <li><a href="/coursepage?course=Communication,%20and%20Arts&program=MA%20Journalism%20and%20Mass%20Communication">MA Journalism and Mass Communication</a></li>
+
 
 
                                 {/* Add more menu items */}
@@ -131,16 +122,25 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container mx-auto flex flex-wrap pt-8 mt-8 pvpolicy">
-                    <ul className='flex w-full justify-center gap-6'>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="/terms-condition"> Terms & Conditions</a></li>
-                        {/* <li><a href="#">Accomplishments </a></li>
-                    <li><a href="#">Milestones </a></li> */}
+                <div className='footercontact container px-4'>
 
-                        {/* Add more menu items */}
-                    </ul>
+                    <div className="flex items-center mb-4 pt-5">
+                        <Image className="h-6 w-6 mr-2" src={phone} alt='phone' />
+                        <span>+91 8755552552, +91 8630274038, +91 8171220333</span>
+                    </div>
+                    <div className="flex items-center mb-4 pt-8">
+                        <Image className="h-6 w-6 mr-2" src={email} alt='phone' />
+
+                        <span>gyanarthimedia@gmail.com</span>
+                    </div>
+                    <div className="flex items-center pt-8">
+                        <Image className="h-6 w-6 mr-2" src={lctn} alt='phone' />
+
+                        <span>Opp. Old Galla Mandi, Ahead of Spectrum Mall, Kashipur, Uttarakhnad 244713</span>
+                    </div>
+
                 </div>
+
             </footer>
         </main>
     );

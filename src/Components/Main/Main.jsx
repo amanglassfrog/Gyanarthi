@@ -1402,11 +1402,11 @@ const Main = () => {
             <section className="bg-cover bg-center  flex items-center imgbc " >
                 <div className="container mx-auto px-4 py-8">
                     <div className="flex flex-col md:flex-row">
-                        <div className="md:w-1/2 md:pr-4 flex flex-col justify-center">
+                        <div className="md:w-3/5 md:pr-4 flex flex-col justify-center">
                             <h2 className="heading mb-4 text-white">Empowering Minds to Shape a Better Tomorrow</h2>
                             <p className="paragraph mb-4 text-white">Gyanarthi Media College, Kashipur, affiliated with the Kumaun University, is one of the best colleges in town with diversified faculty and industry specific courses in media, fashion, and commerce.</p>
                         </div>
-                        <div className="md:w-1/2 md:pl-4">
+                        <div className="md:w-2/5 md:pl-4">
                             <div className="bgform p-2 md:p-4 sm:p-8 rounded-md shadow-md flex items-center justify-center flex-col">
                                 <h3 className="mb-4 text-white formheading">GYANARTHI APPLICATION FORM 2024</h3>
                                 <p className="mb-4 formsubheading">Apply for Gyanarthi 2024 </p>

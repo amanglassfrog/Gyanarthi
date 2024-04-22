@@ -84,7 +84,6 @@ body {
 
 .pvpolicy {
   border-top: 1px solid #D48F23;
-  width: 45rem;
 }
 
 
@@ -278,8 +277,16 @@ body {
     text-align: center;
     padding: 18px !important;
   }
+
+  .footercontact {
+    display: block !important;
+  }
 }
 
+.kalakari {
+  line-height: 2.3rem;
+  font-size: 1.2rem;
+}
 
 .coursebutton {
 
@@ -288,8 +295,16 @@ body {
 }
 
 .contact {
-  background-color: #1D3B66;
+  background-color: #0d254d;
   color: #fff;
+}
+
+.footercontact {
+  color: #fff;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 20px;
 }
 
 .contactheading {
@@ -551,6 +566,12 @@ body {
   color: #777777;
 }
 
+.admisiionbutton {
+  display: flex;
+  color: #D48F23;
+  background-color: #fff !important;
+}
+
 .galleryheading {
   /* font-family: Plus Jakarta Sans; */
   font-size: 36px;
@@ -789,9 +810,14 @@ body {
   color: #9F9F9F;
 }
 
+/* 
 .futurevision {
   height: 572px;
 
+} */
+.add {
+  height: 2.2rem;
+  width: 2.2rem;
 }
 
 .ourfutureheading {

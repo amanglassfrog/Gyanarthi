@@ -16,6 +16,9 @@ import image5 from "../../../public/finearts.png"
 import image6 from "../../../public/animationdesign.png"
 import image7 from "../../../public/fashiondesign.png"
 import image8 from "../../../public/journalism.png"
+import wp from "../../../public/wp.png"
+import apply from "../../../public/apply.png"
+import download from "../../../public/download.png"
 
 
 
@@ -414,21 +417,24 @@ const Page = () => {
                                 <div className="p-8">
                                     <h3 className=" text-center mb-4 text-white journeyheading">Apply</h3>
                                     <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2024!</p>
-                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='/contact'>Apply Now</a></button>
+                                    <button className="bg-transparent  hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex  items-center gap-3' href='/contact'>Apply Now <Image src={apply} alt="Image Description"
+                                        className="add" /></a></button>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
                                 <div className="p-8">
                                     <h3 className=" text-center mb-4 text-white journeyheading">Connect</h3>
                                     <p className="text-center mb-6 text-white journeypara">Reach Out to Gyanarthi’s Admission Team to secure your place at the College for the upcoming session.</p>
-                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href="https://wa.me/8755552552" target="_blank" >Connect Now</a></button>
+                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex  items-center gap-3' href="https://wa.me/8755552552" target="_blank" >Connect Now <Image src={wp} alt="Image Description"
+                                        className="add" /></a></button>
                                 </div>
                             </div>
                             <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
                                 <div className="p-8">
                                     <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
                                     <p className="text-center mb-6 text-white journeypara">Download the 2024 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
-                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">Download Now</button>
+                                    <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex  items-center gap-3' >Download Now <Image src={download} alt="Image Description"
+                                        className="add" /></a></button>
                                 </div>
                             </div>
                         </div>
