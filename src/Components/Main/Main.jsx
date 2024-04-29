@@ -1399,7 +1399,7 @@ const Main = () => {
 
     return (
         <main>
-            <section className="bg-cover bg-center  flex items-center imgbc " >
+            <section className="  flex items-center imgbc " >
                 <div className="container mx-auto px-4 py-8">
                     <div className="flex flex-col md:flex-row">
                         <div className="md:w-3/5 md:pr-4 flex flex-col justify-center">
