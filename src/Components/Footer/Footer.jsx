@@ -29,7 +29,7 @@ const Footer = () => {
                         <div className="flex flex-wrap gap-20 pt-5">
                             {/* Social media icons */}
                             <div className="mb-4">
-                                <a href="https://wa.me/8755552552" target="_blank" rel="noopener noreferrer"><Image className='icon1' src={icon1} alt="amazon" /></a>
+                                <a href="//api.whatsapp.com/send?phone=+918755552552&text=Hello" target="_blank" rel="noopener noreferrer"><Image className='icon1' src={icon1} alt="amazon" /></a>
                             </div>
                             <div className="mb-4">
                                 <a href='https://www.youtube.com/@Gyanarthimediacollege' target='_blank'><Image className='icon1' src={icon2} alt="amazon" /></a>
@@ -57,10 +57,7 @@ const Footer = () => {
                             <ul className='flex w-full justify-center gap-6'>
                                 <li><a href="/privacy-policy">Privacy Policy</a></li>
                                 <li><a href="/terms-condition"> Terms & Conditions</a></li>
-                                {/* <li><a href="#">Accomplishments </a></li>
-                    <li><a href="#">Milestones </a></li> */}
 
-                                {/* Add more menu items */}
                             </ul>
                         </div>
                     </div>
@@ -145,7 +142,7 @@ const Footer = () => {
                 </div>
 
             </footer>
-        </main>
+        </main >
     );
 };
 
