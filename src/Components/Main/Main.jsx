@@ -14,7 +14,6 @@ const Main = () => {
         setDob(e.target.value);
     };
 
-    // Define your states and corresponding cities here
     const stateCityMap = {
         "Andaman and Nicobar Islands": [
             "Port Blair"
@@ -1307,13 +1306,11 @@ const Main = () => {
 
     const handleStateChange = (e) => {
         setSelectedState(e.target.value);
-        // Reset selected city when state changes
         setSelectedCity('');
     };
     const [selectedCourse, setSelectedCourse] = useState('');
     const [selectedProgram, setSelectedProgram] = useState('');
 
-    // Define your courses and corresponding programs here
     const courseProgramMap = {
         "Commerce": ["BCom",
             "BCom Taxation",
@@ -1332,7 +1329,6 @@ const Main = () => {
 
     const handleCourseChange = (e) => {
         setSelectedCourse(e.target.value);
-        // Reset selected program when course changes
         setSelectedProgram('');
     };
 
@@ -1354,8 +1350,7 @@ const Main = () => {
                 program: selectedProgram
             });
             console.log("Form submission successful");
-            setSubmitted(true); // Set submitted state to true
-            // Reset the form fields
+            setSubmitted(true);
             setName('');
             setEmail('');
             setPhone('');
@@ -1364,10 +1359,9 @@ const Main = () => {
             setSelectedCity('');
             setSelectedCourse('');
             setSelectedProgram('');
-            // Display a success message for a few seconds
             setTimeout(() => {
-                setSubmitted(false); // Reset the submitted state
-            }, 3000); // 3000 milliseconds = 3 seconds
+                setSubmitted(false);
+            }, 3000);
         } catch (error) {
             console.error("Form submission failed:", error);
         }
@@ -1376,7 +1370,6 @@ const Main = () => {
 
     const handleNameChange = (e) => {
         const input = e.target.value;
-        // Only allow alphabets in the name field
         if (/^[A-Za-z ]+$/.test(input)) {
             setName(input);
         }
@@ -1384,13 +1377,11 @@ const Main = () => {
 
     const handleEmailChange = (e) => {
         const input = e.target.value;
-        // Validate email pattern
         setEmail(input);
     };
 
     const handlePhoneChange = (e) => {
         const input = e.target.value;
-        // Only allow 10-digit numbers in the phone field
         if (/^[0-9]{0,10}$/.test(input)) {
             setPhone(input);
         }
@@ -1409,9 +1400,7 @@ const Main = () => {
                         <div className="md:w-2/5 md:pl-4">
                             <div className="bgform p-2 md:p-4 sm:p-8 rounded-md shadow-md flex items-center justify-center flex-col">
                                 <h3 className="mb-4 text-white formheading">GYANARTHI APPLICATION FORM 2024</h3>
-                                <div className="bg-red-500 text-white p-4 mb-4 rounded-md">
-                                    Admissions Open Now
-                                </div>
+
                                 <form className='w-full' onSubmit={handleSubmit} method="POST">
                                     <div className="mb-4 name" >
                                         <div className="flex mb-2">
@@ -1524,7 +1513,7 @@ const Main = () => {
                                                     onChange={(e) => setSelectedProgram(e.target.value)}
                                                     value={selectedProgram}
                                                     name='program'
-                                                    disabled={!selectedCourse} // Disable program select until course is selected
+                                                    disabled={!selectedCourse}
                                                 >
                                                     <option value="">Select Program</option>
                                                     {courseProgramMap[selectedCourse] && courseProgramMap[selectedCourse].map((program, index) => (

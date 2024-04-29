@@ -3,14 +3,7 @@ import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-import Image from 'next/image';
-import kalakari from "../../../public/kalakari.png"
-import kreeda from "../../../public/kreeda.png"
-import literature from "../../../public/literature.png"
-import photography from "../../../public/photography.png"
-import social from "../../../public/social.png"
-import culture from "../../../public/culture.png"
-import edge from '../../../public/edge.png';
+
 
 const Ourvision = () => {
     return (
