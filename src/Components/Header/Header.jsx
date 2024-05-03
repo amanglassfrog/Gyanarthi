@@ -7,7 +7,6 @@ import Image from 'next/image';
 
 const Header = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-    const [isCoursesDropdownOpen, setIsCoursesDropdownOpen] = useState(false);
 
 
 
@@ -15,9 +14,7 @@ const Header = () => {
     const toggleDropdown = () => {
         setIsDropdownOpen(!isDropdownOpen);
     };
-    const toggleCoursesDropdown = () => {
-        setIsCoursesDropdownOpen(!isCoursesDropdownOpen);
-    };
+
 
 
     return (
@@ -45,13 +42,7 @@ const Header = () => {
                             <li>
                                 <a href="/admissions" className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Admissions</a>
                             </li>
-                            <li>
-                                <a onMouseEnter={toggleCoursesDropdown} className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Courses</a>
-                                <ul className={`absolute mt-2 w-48 bg-white rounded-md shadow-lg ${isCoursesDropdownOpen ? 'block' : 'hidden'}`}>
-                                    <li><a className="block px-4 py-2 text-gray-700 hover:bg-gray-100">UG Courses</a></li>
-                                    <li><a className="block px-4 py-2 text-gray-700 hover:bg-gray-100">PG Courses</a></li>
-                                </ul>
-                            </li>
+
                             <li>
                                 <a href="/placements" className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Placement</a>
                             </li>
