@@ -43,7 +43,7 @@ const Ourvision = () => {
                                                 Fashion Course at Gyanarthi inculcates  comprehensive insights into the Indian Textile Industries for relevant academic proficiency.</p>
                                             <div className=' pt-5'>
 
-                                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
+                                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/about-us'>Read More</a></button>
                                             </div>
                                         </TabPanel>
                                         <TabPanel className="tabpanel futurevision">
@@ -54,7 +54,7 @@ const Ourvision = () => {
                                                 Our faculty is highly affirmative at delivering quality education in  the town of Kashipur to promote academia in most understandable and feasible manner.
                                             </p>
                                             <div className=' pt-5'>
-                                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
+                                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/about-us'>Read More</a></button>
                                             </div>
                                         </TabPanel>
                                         <TabPanel className="tabpanel futurevision">
@@ -64,7 +64,7 @@ const Ourvision = () => {
 
                                                 We train young professionals by inculcating sensitivity, encouraging intersectional approaches to media and management and diversifying entrepreneurial visions with the help of industry experts.</p>
                                             <div className=' pt-5'>
-                                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/vision'>Read More</a></button>
+                                                <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/about-us'>Read More</a></button>
                                             </div>
                                         </TabPanel>
                                     </div>

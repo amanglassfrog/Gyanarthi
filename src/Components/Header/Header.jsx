@@ -7,10 +7,18 @@ import Image from 'next/image';
 
 const Header = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [isCoursesDropdownOpen, setIsCoursesDropdownOpen] = useState(false);
+
+
+
 
     const toggleDropdown = () => {
         setIsDropdownOpen(!isDropdownOpen);
     };
+    const toggleCoursesDropdown = () => {
+        setIsCoursesDropdownOpen(!isCoursesDropdownOpen);
+    };
+
 
     return (
         <main>
@@ -30,12 +38,19 @@ const Header = () => {
 
                         <ul className="flex flex-col mt-4 headcolor font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse items-center">
                             <li>
-                                <a href="/vision" className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0   " aria-current="page">About Us</a>
+                                <a href="/about-us" className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0   " aria-current="page">About Us</a>
                             </li>
 
 
                             <li>
                                 <a href="/admissions" className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Admissions</a>
+                            </li>
+                            <li>
+                                <a onMouseEnter={toggleCoursesDropdown} className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Courses</a>
+                                <ul className={`absolute mt-2 w-48 bg-white rounded-md shadow-lg ${isCoursesDropdownOpen ? 'block' : 'hidden'}`}>
+                                    <li><a className="block px-4 py-2 text-gray-700 hover:bg-gray-100">UG Courses</a></li>
+                                    <li><a className="block px-4 py-2 text-gray-700 hover:bg-gray-100">PG Courses</a></li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="/placements" className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Placement</a>
