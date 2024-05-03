@@ -89,10 +89,11 @@ const Footer = () => {
                             <ul className='flex flex-col gap-6'>
                                 <li><a href="/coursepage?course=Design&program=BSc%20Fashion%20Designing">BSc Fashion Designing</a></li>
                                 <li><a href="/coursepage?course=Design&program=MSc%20Fashion%20Designing">MSc Fashion Designing</a></li>
-                                <li><a href="/coursepage?course=Communication,%20and%20Arts&program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
+                                <li><a href="/coursepage?course=Design&program=BA%20Animation%20and%20Design">BA Animation & Design</a></li>
+                                <li><a href="/coursepage?course=Design&program=MA%20Animation%20and%20Design">MA Animation & Design</a></li>
+
                                 <li><a href="/coursepage?course=Communication,%20and%20Arts&program=Bachelor%20of%20Fine%20Arts%20BFA">Bachelor of Fine Arts BFA</a></li>
                                 <li><a href="/coursepage?course=Communication,%20and%20Arts&program=MA%20Journalism%20and%20Mass%20Communication">MA Journalism and Mass Communication</a></li>
-                                <li><a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
 
                                 {/* Add more menu items */}
                             </ul>
@@ -112,6 +113,7 @@ const Footer = () => {
                                 <li><a href="/coursepage?course=Commerce&program=BCom%20Financial%20Accounting">B.com (Financial Accounting) </a></li>
                                 <li><a href="/coursepage?course=Commerce&program=BCom%20Banking%20and%20Finance">B.com (Banking & Financial) </a></li>
                                 <li><a href="/coursepage?course=Commerce&program=BCom%20International%20Business">B.com International Business</a></li>
+                                <li><a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
 
 
 

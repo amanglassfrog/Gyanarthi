@@ -60,7 +60,7 @@ const page = () => {
                         </div>
                         {/* Second row */}
                         <div className="mb-8">
-                            <p className="text-gray-600 text-center">Gyanarthi is the only college affiliated with the Kumaun University in Kashipur that<br></br> offers courses in Fine Arts and professional fields of Commerce.</p>
+                            <p className="text-gray-600 text-center">Gyanarthi ensures that students can pursue professions in the <br></br>courses of their choice and relative industries of specializations they take up.</p>
                         </div>
                         {/* Third row */}
                         <div className="container pt-4 px-4 md:px-8 lg:px-16">
