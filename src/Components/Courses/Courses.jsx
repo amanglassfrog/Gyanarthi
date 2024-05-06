@@ -165,7 +165,7 @@ const Courses = () => {
                                 {isButtonDisabled ? (
                                     <button className="text-white px-4 py-2 vp focus:outline-none disabled:bg-slate-400" disabled>View Program</button>
                                 ) : (
-                                    <Link href={`/coursepage?course=${selectedCourse}&program=${selectedProgram}`} >
+                                    <Link href={`/coursepage?program=${selectedProgram}`} >
                                         <button className="text-white px-4 py-2 vp focus:outline-none" >View Program</button>
                                     </Link>
                                 )}
