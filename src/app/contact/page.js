@@ -89,15 +89,15 @@ const page = () => {
                                 <div className="mb-4">
                                     <label className="block text-md font-medium text-gray-700" required>Select Subject?</label>
                                     <div className="mt-1 flex items-center">
-                                        <input id="subject1" name="subject" type="radio" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300" value="Subject 1" onChange={handleChange} />
+                                        <input id="subject1" name="subject" type="radio" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300" value="General Inquiry" onChange={handleChange} />
                                         <label htmlFor="subject1" className="ml-2 text-gray-700">General Inquiry</label>
                                     </div>
                                     <div className="mt-1 flex items-center">
-                                        <input id="subject2" name="subject" type="radio" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300" value="Subject 2" onChange={handleChange} />
+                                        <input id="subject2" name="subject" type="radio" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300" value="Admission Related" onChange={handleChange} />
                                         <label htmlFor="subject2" className="ml-2 text-gray-700">Admission Related</label>
                                     </div>
                                     <div className="mt-1 flex items-center">
-                                        <input id="subject3" name="subject" type="radio" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300" value="Subject 3" onChange={handleChange} />
+                                        <input id="subject3" name="subject" type="radio" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300" value="Course" onChange={handleChange} />
                                         <label htmlFor="subject3" className="ml-2 text-gray-700">Course</label>
                                     </div>
                                 </div>
