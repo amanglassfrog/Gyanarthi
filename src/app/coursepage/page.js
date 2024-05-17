@@ -8,18 +8,15 @@ import 'react-tabs/style/react-tabs.css';
 import Homegallery from '@/Components/Homegallery/Homegallery';
 import edge from '../../../public/edge.png';
 import Footer from '@/Components/Footer/Footer';
-import image1 from "../../../public/international.png"
-import image2 from "../../../public/banking.png"
-import image3 from "../../../public/financial.png"
-import image4 from "../../../public/taxation.png"
-import image5 from "../../../public/finearts.png"
-import image6 from "../../../public/animationdesign.png"
-import image7 from "../../../public/fashiondesign.png"
-import image8 from "../../../public/journalism.png"
+
 import wp from "../../../public/wp.png"
 import apply from "../../../public/apply.png"
 import download from "../../../public/download.png"
 import FAQSection from '../FAQ/FAQSection';
+import Head from 'next/head';
+import { NextSeo } from 'next-seo';
+
+
 
 
 
@@ -33,6 +30,8 @@ const Page = () => {
 
 
         {
+            metatitle: "Check BCom Course Details at Gyanarthi Media College, Kashipur",
+            metadescription: "Check BCom Course Details at Gyanarthi Media College, Kashipur for Bachelor in Commerce, best course after 12 commerce in industry-specific specializations. ",
             name: "BCom",
             description: "Gyanarthi Media College, Kashipur, is very inclusive in terms of educational backgrounds. Students of nearly all backgrounds can opt for courses at Gyanarthi. All they need to do is Pass Class 12th from a recognized board of schooling. The students should have scored more than 40% marks as an aggregate. The selection criteria at the Gyanarthi is relaxed to ensure that the students of all backgrounds and potential can chase their passion and turn them into profession.We seek to help students in building the career they desire in the domains of Media, Communication, Commerce, Arts, and Fashion. The students at Gyanarthi Media College are groomed to face all the challenges of their professional as well as personal lives.Thus, as one of the top colleges in the city of Kashipur, we strive to reach out every student who has the compassion and enthusiasm for passionate professions.",
             specialization: "The Gyanarthi College offers eclectic education in the  domain with the Bachelor of Commerce course. Our courses are tailored to equip students for the professional world. Thus, we offer knowledge in domains that are highly relevant to the industrial demands. Gyanarthi Media College is the first and only college in the city of Kashipur to offer such specialization in a Bachelor of Commerce degree. Our Bachelor of Commerce Course can be wither pursued generally or the students can opt for either the Taxation, International Business, Banking and Finance, or Financial Accounting domains. The students simply need to specify if they seek to opt for a curated curriculum course or simply a Bachelor of Commerce degree at the Gyanarthi Media College.Irrespective of subject combination, they can seek admission in the course of their choice easily.",
@@ -441,6 +440,10 @@ const Page = () => {
 
     return (
         <>
+
+            <NextSeo
+                title={selectedCourse.metatitle}
+                description={selectedCourse.metadescription}></NextSeo>
             <main>
                 <Header />
                 <div className='flex justify-center'>

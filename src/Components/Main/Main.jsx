@@ -1436,6 +1436,8 @@ const Main = () => {
                                                     placeholder="Phone"
                                                     value={phone}
                                                     onChange={handlePhoneChange}
+                                                    minLength={10}
+                                                    maxLength={10}
                                                     required
                                                 />
                                             </div>
@@ -1469,6 +1471,7 @@ const Main = () => {
                                                     onChange={handleStateChange}
                                                     value={selectedState}
                                                     name='state'
+                                                    required
                                                 >
                                                     <option value="">Select State</option>
                                                     {Object.keys(stateCityMap).map((state, index) => (
@@ -1482,6 +1485,7 @@ const Main = () => {
                                                     name='city'
                                                     onChange={(e) => setSelectedCity(e.target.value)}
                                                     value={selectedCity}
+                                                    required
                                                     disabled={!selectedState} // Disable city select until state is selected
                                                 >
                                                     <option value="">Select City</option>
@@ -1500,6 +1504,7 @@ const Main = () => {
                                                     onChange={handleCourseChange}
                                                     value={selectedCourse}
                                                     name='course'
+                                                    required
                                                 >
                                                     <option value="">Select Course</option>
                                                     {Object.keys(courseProgramMap).map((course, index) => (
@@ -1513,6 +1518,7 @@ const Main = () => {
                                                     onChange={(e) => setSelectedProgram(e.target.value)}
                                                     value={selectedProgram}
                                                     name='program'
+                                                    required
                                                     disabled={!selectedCourse}
                                                 >
                                                     <option value="">Select Program</option>
