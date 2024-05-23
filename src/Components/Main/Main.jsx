@@ -9,6 +9,8 @@ const Main = () => {
     const [selectedCity, setSelectedCity] = useState('');
     const [dob, setDob] = useState('');
     const [submitted, setSubmitted] = useState(false);
+    const [loading, setLoading] = useState(false); // State for loading status
+
 
     const handleDobChange = (e) => {
         setDob(e.target.value);
@@ -1543,7 +1545,13 @@ const Main = () => {
                                     </div>
 
                                     <div className="flex justify-between gap-4">
-                                        <button type="submit" className="homebutton text-white px-4 py-2 rounded-md w-full">SUBMIT</button>
+                                        <button type="submit" className="homebutton text-white px-4 py-2 rounded-md w-full">{loading ? (
+                                            <>
+                                                <span className="loader"></span> &nbsp; SUBMIT
+                                            </>
+                                        ) : (
+                                            "SUBMIT"
+                                        )}   </button>
                                     </div>
                                 </form>
                                 {submitted && <p className='success'>Message sent successfully!</p>}

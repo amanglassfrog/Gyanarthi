@@ -87,13 +87,13 @@ const Footer = () => {
 
                             <h4 className="text-lg mb-4 footerheading">Programs</h4>
                             <ul className='flex flex-col gap-6'>
-                                <li><a href="/coursepage?program=BSc%20Fashion%20Designing">BSc Fashion Designing</a></li>
-                                <li><a href="/coursepage?program=MSc%20Fashion%20Designing">MSc Fashion Designing</a></li>
-                                <li><a href="/coursepage?program=BA%20Animation%20and%20Design">BA Animation & Design</a></li>
-                                <li><a href="/coursepage?program=MA%20Animation%20and%20Design">MA Animation & Design</a></li>
+                                <li><a href="/coursepage/BSc%20Fashion%20Designing">BSc Fashion Designing</a></li>
+                                <li><a href="/coursepage/MSc%20Fashion%20Designing">MSc Fashion Designing</a></li>
+                                <li><a href="/coursepage/BA%20Animation%20and%20Design">BA Animation & Design</a></li>
+                                <li><a href="/coursepage/MA%20Animation%20and%20Design">MA Animation & Design</a></li>
 
-                                <li><a href="/coursepage?program=Bachelor%20of%20Fine%20Arts%20BFA">Bachelor of Fine Arts BFA</a></li>
-                                <li><a href="/coursepage?program=MA%20Journalism%20and%20Mass%20Communication">MA Journalism and Mass Communication</a></li>
+                                <li><a href="/coursepage/Bachelor%20of%20Fine%20Arts%20BFA">Bachelor of Fine Arts BFA</a></li>
+                                <li><a href="/coursepage/MA%20Journalism%20and%20Mass%20Communication">MA Journalism and Mass Communication</a></li>
 
                                 {/* Add more menu items */}
                             </ul>
@@ -107,13 +107,13 @@ const Footer = () => {
 
                             <h4 className="text-lg mb-4 footerheading opacity-0">Programs</h4>
                             <ul className='flex flex-col gap-6'>
-                                <li><a href="/coursepage?program=BCom">B.com</a></li>
+                                <li><a href="/coursepage/BCom">B.com</a></li>
 
-                                <li><a href="/coursepage?program=BCom%20Taxation">B.com (Taxation) </a></li>
-                                <li><a href="/coursepage?program=BCom%20Financial%20Accounting">B.com (Financial Accounting) </a></li>
-                                <li><a href="/coursepage?program=BCom%20Banking%20and%20Finance">B.com (Banking & Financial) </a></li>
-                                <li><a href="/coursepage?program=BCom%20International%20Business">B.com International Business</a></li>
-                                <li><a href="/coursepage?program=BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
+                                <li><a href="/coursepage/BCom%20Taxation">B.com (Taxation) </a></li>
+                                <li><a href="/coursepage/BCom%20Financial%20Accounting">B.com (Financial Accounting) </a></li>
+                                <li><a href="/coursepage/BCom%20Banking%20and%20Finance">B.com (Banking & Financial) </a></li>
+                                <li><a href="/coursepage/BCom%20International%20Business">B.com International Business</a></li>
+                                <li><a href="/coursepage/BA%20Journalism%20and%20Mass%20Communication">BA Journalism and Mass Communication</a></li>
 
 
 
