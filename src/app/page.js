@@ -15,6 +15,11 @@ import Courses from "@/Components/Courses/Courses";
 export default function Home() {
   return (
     <>
+     <head>
+            <title>Gyanarthi</title>
+            <meta name="description" content="gyanarthi media college" />
+        </head>
+        <body>
       <main>
         <Header />
         <Main />
@@ -28,6 +33,7 @@ export default function Home() {
         <Footer />
 
       </main>
+      </body>
     </>
   );
 }
