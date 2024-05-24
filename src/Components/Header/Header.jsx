@@ -55,40 +55,40 @@ const Header = () => {
                                 </a>
                                 <ul className="absolute bg-white shadow-md py-4 px-4 sm:px-8 lg:px-32 rounded-md opacity-0 invisible transition-all duration-300 transform scale-95 group-hover:opacity-100 group-hover:visible group-hover:scale-100 flex flex-wrap justify-center w-full max-w-screen-xl mx-auto left-0 top-20">
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/BSc%20Fashion%20Designing" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">BSc Fashion Designing</a>
+                                        <a href="/coursepage/bsc-fashion-designing" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">BSc Fashion Designing</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/MSc%20Fashion%20Designing" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">MSc Fashion Designing</a>
+                                        <a href="/coursepage/msc-fashion-designing" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">MSc Fashion Designing</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/BA%20Animation%20and%20Design" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">BA Animation & Design</a>
+                                        <a href="/coursepage/ba-animation-and-design" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">BA Animation & Design</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/MA%20Animation%20and%20Design" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">MA Animation & Design</a>
+                                        <a href="/coursepage/ma-animation-and-design" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">MA Animation & Design</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/Bachelor%20of%20Fine%20Arts%20BFA" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">Bachelor of Fine Arts BFA</a>
+                                        <a href="/coursepage/bachelor-of-fine-arts-bfa" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">Bachelor of Fine Arts BFA</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/MA%20Journalism%20and%20Mass%20Communication" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">MA Journalism and Mass Communication</a>
+                                        <a href="/coursepage/ma-journalism-and-mass-communication" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">MA Journalism and Mass Communication</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/BCom" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com</a>
+                                        <a href="/coursepage/bcom" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/BCom%20Taxation" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com (Taxation)</a>
+                                        <a href="/coursepage/bcom-taxation" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com (Taxation)</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/BCom%20Financial%20Accounting" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com (Financial Accounting)</a>
+                                        <a href="/coursepage/bcom-financial-accounting" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com (Financial Accounting)</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/BCom%20Banking%20and%20Finance" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com (Banking & Financial)</a>
+                                        <a href="/coursepage/bcom-banking-and-finance" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com (Banking & Financial)</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/BCom%20International%20Business" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com International Business</a>
+                                        <a href="/coursepage/bcom-international-business" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">B.com International Business</a>
                                     </li>
                                     <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                                        <a href="/coursepage/BA%20Journalism%20and%20Mass%20Communication" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">BA Journalism and Mass Communication</a>
+                                        <a href="/coursepage/ba-journalism-and-mass-communication" className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded">BA Journalism and Mass Communication</a>
                                     </li>
                                 </ul>
 

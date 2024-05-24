@@ -1,6 +1,8 @@
 import React from 'react';
 import PageClient from './PageClient';
 import admisiions from '../../../../public/admissions.png';
+import { slugify } from '@/utils';
+
 
 const courses = [
 
@@ -419,7 +421,7 @@ const courses = [
 const CoursePageServer = ({ params }) => {
     const { program } = params;
     const decodedProgram = decodeURIComponent(program);  // Decode URL-encoded string
-    const selectedCourse = courses.find(course => course.name === decodedProgram);
+    const selectedCourse = courses.find(course => slugify(course.name) === decodedProgram);
 
     if (!selectedCourse) {
         return <div>Course not found</div>;

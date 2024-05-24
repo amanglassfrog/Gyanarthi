@@ -8,6 +8,8 @@ import media from "../../../public/media.png"
 import arts from "../../../public/arts.png"
 
 import Link from 'next/link';
+import { slugify } from '@/utils';
+
 
 
 
@@ -165,7 +167,7 @@ const Courses = () => {
                                 {isButtonDisabled ? (
                                     <button className="text-white px-4 py-2 vp focus:outline-none disabled:bg-slate-400" disabled>View Program</button>
                                 ) : (
-                                    <Link href={`/coursepage/${selectedProgram}`} >
+                                    <Link href={`/coursepage/${slugify(selectedProgram)}`} >
                                         <button className="text-white px-4 py-2 vp focus:outline-none" >View Program</button>
                                     </Link>
                                 )}
