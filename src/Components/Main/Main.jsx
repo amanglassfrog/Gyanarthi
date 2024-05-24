@@ -1517,31 +1517,31 @@ const Main = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='flex items-center w-full'>
+                                    <div className='flex flex-col md:flex-row sm:flex-row  md:flex sm:flex items-center w-full'>
                                         {phone.length === 10 && !otpVerified ? (
-                                            <div className='mb-2 w-1/4'>
+                                            <div className='mb-2 w-full md:w-1/4 sm:w-1/4 mr-2'>
                                                 <button
                                                     type="button"
                                                     onClick={handleSendOtp}
-                                                    className={`text-black p-5 rounded bg-white ${otpCooldown ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
+                                                    className={`text-black md:p-5 sm:p-5 p-2  rounded w-full bg-white ${otpCooldown ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
                                                     disabled={otpCooldown}>
                                                     {otpCooldown ? 'Wait 10s' : 'Send OTP'}
                                                 </button>
                                             </div>
                                         ) : null}
                                         {otpSent && !otpVerified && (
-                                            <div className='mb-2 flex w-3/4'>
+                                            <div className='mb-2 flex md:w-3/4 sm:w-3/4 w-full'>
                                                 <input
                                                     type='text'
                                                     value={otpToVerify}
                                                     onChange={handleVerifyOtpChange}
                                                     placeholder='Enter OTP'
-                                                    className='p-5 rounded bg-white flex-grow mr-2'
+                                                    className='md:p-5 sm:p-5 p-2 rounded bg-white flex-grow mr-2'
                                                 />
                                                 <button
                                                     type="button"
                                                     onClick={handleVerifyOtp}
-                                                    className={`text-black p-5 rounded bg-white w-full ${!otpToVerify ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
+                                                    className={`text-black md:p-5 sm:p-5 p-2 rounded bg-white w-full ${!otpToVerify ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
                                                     disabled={!otpToVerify}>
                                                     Verify OTP
                                                 </button>
