@@ -15,10 +15,10 @@ import icon6 from '../../../public/insta.png';
 
 const page = () => {
     const [formData, setFormData] = useState({
-        firstName: '',
+        name: '',
         lastName: '',
         email: '',
-        phoneNumber: '',
+        phone: '',
         subject: '',
         message: ''
     });
@@ -35,15 +35,16 @@ const page = () => {
             setSubmitted(true);
             // Reset form fields after successful submission
             setFormData({
-                firstName: '',
+                name: '',
                 lastName: '',
                 email: '',
-                phoneNumber: '',
+                phone: '',
                 subject: '',
                 message: ''
             });
         } catch (error) {
-            console.error("Form submission failed:", error);
+            alert("This phone number has already been used once, please try a different number.", error);
+
         }
     };
     return (
@@ -64,8 +65,8 @@ const page = () => {
                             <form className='w-full' onSubmit={handleSubmit}>
                                 <div className="flex  mb-4">
                                     <div className="w-1/2 mr-2">
-                                        <label htmlFor="firstName" className="block text-md font-medium text-gray-700">First Name</label>
-                                        <input type="text" id="firstName" name="firstName" value={formData.firstName} onChange={handleChange} required className="mt-1 block h-12 w-full rounded-md border-gray-300   border border-solid
+                                        <label htmlFor="name" className="block text-md font-medium text-gray-700">First Name</label>
+                                        <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required className="mt-1 block h-12 w-full rounded-md border-gray-300   border border-solid
 " />
                                     </div>
                                     <div className="w-1/2 ml-2">
@@ -81,8 +82,8 @@ const page = () => {
 " />
                                     </div>
                                     <div className="w-1/2 ml-2">
-                                        <label htmlFor="phoneNumber" className="block text-md font-medium text-gray-700">Phone Number</label>
-                                        <input type="tel" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} required onChange={handleChange} className="mt-1 block w-full h-12 rounded-md border-gray-300 border border-solid
+                                        <label htmlFor="phone" className="block text-md font-medium text-gray-700">Phone Number</label>
+                                        <input type="tel" id="phone" name="phone" value={formData.phone} required onChange={handleChange} className="mt-1 block w-full h-12 rounded-md border-gray-300 border border-solid
 " />
                                     </div>
                                 </div>

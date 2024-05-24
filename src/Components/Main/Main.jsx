@@ -1,21 +1,24 @@
-"use client"
-import React, { useState } from 'react'
+"use client";
+import React, { useState } from 'react';
 import axios from 'axios';
-
-
 
 const Main = () => {
     const [selectedState, setSelectedState] = useState('');
     const [selectedCity, setSelectedCity] = useState('');
     const [dob, setDob] = useState('');
+    const [otp, setOtp] = useState('');
+    const [otpToVerify, setOtpToVerify] = useState('');
     const [submitted, setSubmitted] = useState(false);
-    const [loading, setLoading] = useState(false); // State for loading status
-
+    const [otpSent, setOtpSent] = useState(false);
+    const [otpVerified, setOtpVerified] = useState(false);
+    const [otpMessage, setOtpMessage] = useState('');
+    const [otpCooldown, setOtpCooldown] = useState(false);
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
     const handleDobChange = (e) => {
         setDob(e.target.value);
     };
-
+    // Define your states and corresponding cities here
     const stateCityMap = {
         "Andaman and Nicobar Islands": [
             "Port Blair"
@@ -1310,9 +1313,11 @@ const Main = () => {
         setSelectedState(e.target.value);
         setSelectedCity('');
     };
+
     const [selectedCourse, setSelectedCourse] = useState('');
     const [selectedProgram, setSelectedProgram] = useState('');
 
+    // Define your courses and corresponding programs here
     const courseProgramMap = {
         "Commerce": ["BCom",
             "BCom Taxation",
@@ -1329,6 +1334,7 @@ const Main = () => {
         // Add more courses and programs as needed
     };
 
+
     const handleCourseChange = (e) => {
         setSelectedCourse(e.target.value);
         setSelectedProgram('');
@@ -1340,35 +1346,42 @@ const Main = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setIsSubmitting(true);  // Show loader
         try {
-            await axios.post("https://sea-turtle-app-sm5l4.ondigitalocean.app/api/sendMail/gynarthi-web", {
-                name,
-                email,
-                phone,
-                dob,
-                state: selectedState,
-                city: selectedCity,
-                course: selectedCourse,
-                program: selectedProgram
-            });
-            console.log("Form submission successful");
-            setSubmitted(true);
-            setName('');
-            setEmail('');
-            setPhone('');
-            setDob('');
-            setSelectedState('');
-            setSelectedCity('');
-            setSelectedCourse('');
-            setSelectedProgram('');
-            setTimeout(() => {
-                setSubmitted(false);
-            }, 3000);
+            if (otpVerified) {
+                await axios.post("https://sea-turtle-app-sm5l4.ondigitalocean.app/api/sendMail/gynarthi-web", {
+                    name,
+                    email,
+                    phone,
+                    dob,
+                    state: selectedState,
+                    city: selectedCity,
+                    course: selectedCourse,
+                    program: selectedProgram
+                });
+                console.log("Form submission successful");
+                setSubmitted(true);
+                setName('');
+                setEmail('');
+                setPhone('');
+                setDob('');
+                setSelectedState('');
+                setSelectedCity('');
+                setSelectedCourse('');
+                setSelectedProgram('');
+                setOtpVerified(false);
+                setTimeout(() => {
+                    setSubmitted(false);
+                }, 3000);
+            } else {
+                alert("Please verify phone number");
+            }
         } catch (error) {
-            console.error("Form submission failed:", error);
+            alert("This phone number has already been used once, please try a different number.", error);
+        } finally {
+            setIsSubmitting(false);  // Hide loader
         }
     };
-
 
     const handleNameChange = (e) => {
         const input = e.target.value;
@@ -1389,10 +1402,64 @@ const Main = () => {
         }
     };
 
+    const generateOtp = () => {
+        return Math.floor(100000 + Math.random() * 900000).toString();
+    };
+
+    const handleSendOtp = async () => {
+        const generatedOtp = await generateOtp();
+        await localStorage.setItem('otp', generatedOtp);
+        const apiKey = "APIfJCi7asW85127";
+        const message = `Dear User, Your OTP for login to MobiDoc app is ${generatedOtp}. Valid for 30 minutes. Please do not share this OTP. Regards, Team IntelGray`;
+        const apiUrl = `https://www.bulksmsplans.com/api/send_sms?api_id=APIfJCi7asW85127&api_password=qI5sERZC&sms_type=OTP&sms_encoding=1&sender=INTLGR&number=${phone}&message=${message}&template_id=1207164447361211223`;
+
+        const response = await fetch(apiUrl, {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${apiKey}`,
+            },
+        });
+        if (response.status === 200) {
+            const data = await response.json();
+            setOtpSent(true);
+            setOtpCooldown(true);
+            setTimeout(() => {
+                setOtpCooldown(false);
+            }, 10000); // 10 seconds cooldown
+            return data;
+        } else {
+            console.log(response);
+        }
+    };
+
+    const handleOtpChange = (e) => {
+        setOtp(e.target.value);
+    };
+
+    const handleVerifyOtpChange = (e) => {
+        setOtpToVerify(e.target.value);
+    };
+
+    const handleVerifyOtp = () => {
+        const storedOtp = localStorage.getItem('otp');
+        if (otpToVerify === storedOtp) {
+            setOtpVerified(true);
+            setOtpSent(false);
+            setOtpMessage('OTP verified successfully');
+            setTimeout(() => {
+                setOtpMessage('');
+            }, 3000); // Hide the message after 3 seconds
+            console.log("OTP verified successfully");
+        } else {
+            alert("Invalid OTP. Please try again.");
+            console.log("OTP verification failed");
+        }
+    };
 
     return (
         <main>
-            <section className="  flex items-center imgbc " >
+            <section className="bg-cover bg-center flex items-center imgbc">
                 <div className="container mx-auto px-4 py-8">
                     <div className="flex flex-col md:flex-row">
                         <div className="md:w-3/5 md:pr-4 flex flex-col justify-center">
@@ -1402,11 +1469,18 @@ const Main = () => {
                         <div className="md:w-2/5 md:pl-4">
                             <div className="bgform p-2 md:p-4 sm:p-8 rounded-md shadow-md flex items-center justify-center flex-col">
                                 <h3 className="mb-4 text-white formheading">GYANARTHI APPLICATION FORM 2024</h3>
-
+                                <div className="bg-red-500 text-white p-4 mb-4 rounded-md">
+                                    Admissions Open Now
+                                </div>
+                                {isSubmitting && (
+                                    <div className="loader mb-4 text-white">
+                                        Sending mail...
+                                    </div>
+                                )}
                                 <form className='w-full' onSubmit={handleSubmit} method="POST">
-                                    <div className="mb-4 name" >
+                                    <div className="mb-2 name">
                                         <div className="flex mb-2">
-                                            <div className="w-full ">
+                                            <div className="w-full">
                                                 <input
                                                     type="text"
                                                     className="w-full p-2 border rounded-md"
@@ -1419,7 +1493,7 @@ const Main = () => {
                                             </div>
                                         </div>
                                         <div className="flex mb-2">
-                                            <div className="w-1/2 ">
+                                            <div className="w-1/2">
                                                 <input
                                                     type="email"
                                                     name='email'
@@ -1438,16 +1512,47 @@ const Main = () => {
                                                     placeholder="Phone"
                                                     value={phone}
                                                     onChange={handlePhoneChange}
-                                                    minLength={10}
-                                                    maxLength={10}
                                                     required
                                                 />
                                             </div>
-
                                         </div>
                                     </div>
+                                    <div className='flex items-center w-full'>
+                                        {phone.length === 10 && !otpVerified ? (
+                                            <div className='mb-2 w-1/4'>
+                                                <button
+                                                    type="button"
+                                                    onClick={handleSendOtp}
+                                                    className={`text-black p-5 rounded bg-white ${otpCooldown ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
+                                                    disabled={otpCooldown}>
+                                                    {otpCooldown ? 'Wait 10s' : 'Send OTP'}
+                                                </button>
+                                            </div>
+                                        ) : null}
+                                        {otpSent && !otpVerified && (
+                                            <div className='mb-2 flex w-3/4'>
+                                                <input
+                                                    type='text'
+                                                    value={otpToVerify}
+                                                    onChange={handleVerifyOtpChange}
+                                                    placeholder='Enter OTP'
+                                                    className='p-5 rounded bg-white flex-grow mr-2'
+                                                />
+                                                <button
+                                                    type="button"
+                                                    onClick={handleVerifyOtp}
+                                                    className={`text-black p-5 rounded bg-white w-full ${!otpToVerify ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
+                                                    disabled={!otpToVerify}>
+                                                    Verify OTP
+                                                </button>
+                                            </div>
+                                        )}
+                                    </div>
+                                    {otpMessage && (
+                                        <p className='text-green-500 mb-2'>{otpMessage}</p>
+                                    )}
                                     <div className='mb-4'>
-                                        <h4 className='text-white chy'>Please Enter Student's Date of Birth </h4>
+                                        <h4 className='text-white chy'>Please Enter Student's Date of Birth</h4>
                                         <div className='flex mb-2 mt-2'>
                                             <div className="w-full">
                                                 <input
@@ -1467,7 +1572,7 @@ const Main = () => {
 
                                     <div className="mb-4">
                                         <div className="flex mb-2">
-                                            <div className="w-1/2 ">
+                                            <div className="w-1/2">
                                                 <select
                                                     className="w-full p-2 border rounded-md"
                                                     onChange={handleStateChange}
@@ -1488,7 +1593,7 @@ const Main = () => {
                                                     onChange={(e) => setSelectedCity(e.target.value)}
                                                     value={selectedCity}
                                                     required
-                                                    disabled={!selectedState} // Disable city select until state is selected
+                                                    disabled={!selectedState}
                                                 >
                                                     <option value="">Select City</option>
                                                     {stateCityMap[selectedState] && stateCityMap[selectedState].map((city, index) => (
@@ -1500,7 +1605,7 @@ const Main = () => {
                                     </div>
                                     <div className="mb-4">
                                         <div className="flex mb-2">
-                                            <div className="w-1/2 ">
+                                            <div className="w-1/2">
                                                 <select
                                                     className="w-full p-2 border rounded-md"
                                                     onChange={handleCourseChange}
@@ -1520,8 +1625,8 @@ const Main = () => {
                                                     onChange={(e) => setSelectedProgram(e.target.value)}
                                                     value={selectedProgram}
                                                     name='program'
-                                                    required
                                                     disabled={!selectedCourse}
+                                                    required
                                                 >
                                                     <option value="">Select Program</option>
                                                     {courseProgramMap[selectedCourse] && courseProgramMap[selectedCourse].map((program, index) => (
@@ -1533,36 +1638,28 @@ const Main = () => {
                                     </div>
 
                                     <div className="mb-4">
-                                        <label className="flex items-center  text-white">
+                                        <label className="flex items-center text-white">
                                             <input
                                                 type="checkbox"
                                                 className="mr-2 text-white"
-
-
+                                                required
                                             />
                                             By submitting this form, I agree to receive notifications from the College in the form of SMS/ E-mail/ Call.
                                         </label>
                                     </div>
 
                                     <div className="flex justify-between gap-4">
-                                        <button type="submit" className="homebutton text-white px-4 py-2 rounded-md w-full">{loading ? (
-                                            <>
-                                                <span className="loader"></span> &nbsp; SUBMIT
-                                            </>
-                                        ) : (
-                                            "SUBMIT"
-                                        )}   </button>
+                                        <button type="submit" className="homebutton text-white px-4 py-2 rounded-md w-full" disabled={isSubmitting}>SUBMIT</button>
                                     </div>
                                 </form>
                                 {submitted && <p className='success'>Message sent successfully!</p>}
-
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
-    )
-}
+    );
+};
 
-export default Main
+export default Main;
