@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from 'react';
 import axios from 'axios';
+import { FaCheckCircle } from 'react-icons/fa';
+
 
 const Main = () => {
     const [selectedState, setSelectedState] = useState('');
@@ -14,7 +16,9 @@ const Main = () => {
     const [otpMessage, setOtpMessage] = useState('');
     const [otpCooldown, setOtpCooldown] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
-
+    const handleCloseModal = () => {
+        setSubmitted(false);
+    };
     const handleDobChange = (e) => {
         setDob(e.target.value);
     };
@@ -1652,7 +1656,21 @@ const Main = () => {
                                         <button type="submit" className="homebutton text-white px-4 py-2 rounded-md w-full" disabled={isSubmitting}>SUBMIT</button>
                                     </div>
                                 </form>
-                                {submitted && <p className='success'>Message sent successfully!</p>}
+                                {submitted && (
+                                    <div className="fixed inset-0 flex items-center justify-center z-50">
+                                        <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+                                            <FaCheckCircle size={48} className="text-green-500 mb-4" />
+                                            <p className="text-green-500 mb-4">Message sent successfully!</p>
+                                            <button
+                                                onClick={handleCloseModal}
+                                                className="bg-green-500 text-white py-2 px-4 rounded"
+                                            >
+                                                Close
+                                            </button>
+                                        </div>
+                                        <div className="fixed inset-0  opacity-50" onClick={handleCloseModal}></div>
+                                    </div>
+                                )}
                             </div>
                         </div>
                     </div>
