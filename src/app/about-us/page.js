@@ -8,6 +8,7 @@ import Header from '../../Components/Header/Header';
 import Services from './Services';
 import Edge from './Edge';
 import Footer from '@/Components/Footer/Footer';
+import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons';
 
 const page = () => {
   return (
@@ -52,6 +53,7 @@ const page = () => {
         </div>
         <Edge />
         <Footer />
+        <FloatingIcons />
       </main>
     </>)
 }

@@ -92,9 +92,23 @@ p {
   border-top: 1px solid #D48F23;
 }
 
+.desktop {
+  display: block;
+}
 
+.mobile {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
+  .mobile {
+    display: block !important;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
   .tablistpanel {
     width: 100% !important;
   }

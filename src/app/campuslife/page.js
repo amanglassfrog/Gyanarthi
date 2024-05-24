@@ -10,6 +10,7 @@ import five from "../../../public/five.png"
 
 import admisiions from "../../../public/admissions.png"
 import Footer from '@/Components/Footer/Footer';
+import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons';
 
 const page = () => {
     return (
@@ -82,7 +83,7 @@ const page = () => {
                         </div>
                     </div>
                 </section>
-
+                <FloatingIcons />
                 <Footer />
             </main>
         </>)

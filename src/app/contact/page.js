@@ -10,6 +10,7 @@ import axios from 'axios';
 import slogan from '../../../public/slogan.jpg';
 import icon5 from '../../../public/twitter.png';
 import icon6 from '../../../public/insta.png';
+import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons';
 
 
 
@@ -115,6 +116,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
+                <FloatingIcons />
                 <Footer />
             </main>
         </>

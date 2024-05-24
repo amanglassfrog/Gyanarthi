@@ -1,3 +1,4 @@
+import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons'
 import Footer from '@/Components/Footer/Footer'
 import Header from '@/Components/Header/Header'
 import React from 'react'
@@ -164,6 +165,7 @@ const page = () => {
 
                     </p>
                 </div>            </div>
+            <FloatingIcons />
             <Footer />
         </>
     )

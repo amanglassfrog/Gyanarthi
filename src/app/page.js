@@ -10,29 +10,31 @@ import Footer from "@/Components/Footer/Footer";
 
 import Homegallery from "@/Components/Homegallery/Homegallery";
 import Courses from "@/Components/Courses/Courses";
+import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
 
 
 export default function Home() {
   return (
     <>
-     <head>
-            <title>Gyanarthi</title>
-            <meta name="description" content="gyanarthi media college" />
-        </head>
-        <body>
-      <main>
-        <Header />
-        <Main />
-        <Placement />
+      <head>
+        <title>Gyanarthi</title>
+        <meta name="description" content="gyanarthi media college" />
+      </head>
+      <body>
+        <main>
+          <Header />
+          <Main />
+          <Placement />
 
-        <Whygyanarthi />
-        <Courses />
-        <Ourvision />
+          <Whygyanarthi />
+          <Courses />
+          <Ourvision />
 
-        <Homegallery />
-        <Footer />
+          <Homegallery />
+          <Footer />
+          <FloatingIcons />
 
-      </main>
+        </main>
       </body>
     </>
   );

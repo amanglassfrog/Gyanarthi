@@ -2,6 +2,7 @@ import React from 'react'
 
 import Header from '../../Components/Header/Header';
 import Footer from '@/Components/Footer/Footer';
+import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons';
 
 const Page = () => {
     return (
@@ -126,6 +127,7 @@ const Page = () => {
                         </div>
                     </div>
                 </main>
+                <FloatingIcons />
                 <Footer />
             </main>
         </>

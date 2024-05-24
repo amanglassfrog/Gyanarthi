@@ -39,6 +39,7 @@ import gallery from "../../../public/gallery.png"
 
 import Header from '@/Components/Header/Header'
 import Footer from '@/Components/Footer/Footer'
+import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons'
 
 
 const page = () => {
@@ -178,6 +179,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
+                <FloatingIcons />
                 <Footer />
             </main>
         </>

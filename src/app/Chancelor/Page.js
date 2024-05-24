@@ -3,6 +3,7 @@ import Image from 'next/image';
 import chancelor1 from '../../../public/chancelor1.png';
 import Header from '../../Components/Header/Header';
 import Footer from '@/Components/Footer/Footer';
+import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons';
 
 const Page = () => {
     return (
@@ -39,6 +40,7 @@ const Page = () => {
                         Founder & Chancellor
                     </p>
                 </div>
+                <FloatingIcons />
                 <Footer />
             </main>
         </>

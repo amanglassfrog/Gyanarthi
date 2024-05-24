@@ -13,6 +13,7 @@ import com from "../../../public/commerce.png"
 import design from "../../../public/design.png"
 import media from "../../../public/media.png"
 import arts from "../../../public/arts.png"
+import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons';
 
 
 
@@ -87,6 +88,7 @@ const page = () => {
                     </Tabs>
                 </div>
                 <Homegallery />
+                <FloatingIcons />
                 <Footer />
             </main>
         </>)

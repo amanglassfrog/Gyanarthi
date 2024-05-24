@@ -25,6 +25,7 @@ import Footer from '@/Components/Footer/Footer';
 import wp from "../../../public/wp.png"
 import apply from "../../../public/apply.png"
 import download from "../../../public/download.png"
+import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons';
 
 
 
@@ -338,7 +339,7 @@ const page = () => {
                     </div>
                 </section>
 
-
+                <FloatingIcons />
                 <Footer />
             </main>
         </>)
