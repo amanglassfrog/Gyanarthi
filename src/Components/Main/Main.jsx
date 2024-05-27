@@ -1352,7 +1352,7 @@ const Main = () => {
         e.preventDefault();
         setIsSubmitting(true);  // Show loader
         try {
-            if (otpVerified) {
+            {
                 await axios.post("https://sea-turtle-app-sm5l4.ondigitalocean.app/api/sendMail/gynarthi-web", {
                     name,
                     email,
@@ -1373,12 +1373,10 @@ const Main = () => {
                 setSelectedCity('');
                 setSelectedCourse('');
                 setSelectedProgram('');
-                setOtpVerified(false);
+                // setOtpVerified(false);
                 setTimeout(() => {
                     setSubmitted(false);
                 }, 3000);
-            } else {
-                alert("Please verify phone number");
             }
         } catch (error) {
             alert("This phone number has already been used once, please try a different number.", error);
@@ -1410,56 +1408,56 @@ const Main = () => {
         return Math.floor(100000 + Math.random() * 900000).toString();
     };
 
-    const handleSendOtp = async () => {
-        const generatedOtp = await generateOtp();
-        await localStorage.setItem('otp', generatedOtp);
-        const apiKey = "APIfJCi7asW85127";
-        const message = `Dear User, Your OTP for login to MobiDoc app is ${generatedOtp}. Valid for 30 minutes. Please do not share this OTP. Regards, Team IntelGray`;
-        const apiUrl = `https://www.bulksmsplans.com/api/send_sms?api_id=APIfJCi7asW85127&api_password=qI5sERZC&sms_type=OTP&sms_encoding=1&sender=INTLGR&number=${phone}&message=${message}&template_id=1207164447361211223`;
+    // const handleSendOtp = async () => {
+    //     const generatedOtp = await generateOtp();
+    //     await localStorage.setItem('otp', generatedOtp);
+    //     const apiKey = "APIfJCi7asW85127";
+    //     const message = `Dear User, Your OTP for login to MobiDoc app is ${generatedOtp}. Valid for 30 minutes. Please do not share this OTP. Regards, Team IntelGray`;
+    //     const apiUrl = `https://www.bulksmsplans.com/api/send_sms?api_id=APIfJCi7asW85127&api_password=qI5sERZC&sms_type=OTP&sms_encoding=1&sender=INTLGR&number=${phone}&message=${message}&template_id=1207164447361211223`;
 
-        const response = await fetch(apiUrl, {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                Authorization: `Bearer ${apiKey}`,
-            },
-        });
-        if (response.status === 200) {
-            const data = await response.json();
-            setOtpSent(true);
-            setOtpCooldown(true);
-            setTimeout(() => {
-                setOtpCooldown(false);
-            }, 10000); // 10 seconds cooldown
-            return data;
-        } else {
-            console.log(response);
-        }
-    };
+    //     const response = await fetch(apiUrl, {
+    //         method: "GET",
+    //         headers: {
+    //             "Content-Type": "application/json",
+    //             Authorization: `Bearer ${apiKey}`,
+    //         },
+    //     });
+    //     if (response.status === 200) {
+    //         const data = await response.json();
+    //         setOtpSent(true);
+    //         setOtpCooldown(true);
+    //         setTimeout(() => {
+    //             setOtpCooldown(false);
+    //         }, 10000); // 10 seconds cooldown
+    //         return data;
+    //     } else {
+    //         console.log(response);
+    //     }
+    // };
 
-    const handleOtpChange = (e) => {
-        setOtp(e.target.value);
-    };
+    // const handleOtpChange = (e) => {
+    //     setOtp(e.target.value);
+    // };
 
-    const handleVerifyOtpChange = (e) => {
-        setOtpToVerify(e.target.value);
-    };
+    // const handleVerifyOtpChange = (e) => {
+    //     setOtpToVerify(e.target.value);
+    // };
 
-    const handleVerifyOtp = () => {
-        const storedOtp = localStorage.getItem('otp');
-        if (otpToVerify === storedOtp) {
-            setOtpVerified(true);
-            setOtpSent(false);
-            setOtpMessage('OTP verified successfully');
-            setTimeout(() => {
-                setOtpMessage('');
-            }, 3000); // Hide the message after 3 seconds
-            console.log("OTP verified successfully");
-        } else {
-            alert("Invalid OTP. Please try again.");
-            console.log("OTP verification failed");
-        }
-    };
+    // const handleVerifyOtp = () => {
+    //     const storedOtp = localStorage.getItem('otp');
+    //     if (otpToVerify === storedOtp) {
+    //         setOtpVerified(true);
+    //         setOtpSent(false);
+    //         setOtpMessage('OTP verified successfully');
+    //         setTimeout(() => {
+    //             setOtpMessage('');
+    //         }, 3000); // Hide the message after 3 seconds
+    //         console.log("OTP verified successfully");
+    //     } else {
+    //         alert("Invalid OTP. Please try again.");
+    //         console.log("OTP verification failed");
+    //     }
+    // };
 
     return (
         <main>
@@ -1521,7 +1519,7 @@ const Main = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='flex flex-col md:flex-row sm:flex-row  md:flex sm:flex items-center w-full'>
+                                    {/* <div className='flex flex-col md:flex-row sm:flex-row  md:flex sm:flex items-center w-full'>
                                         {phone.length === 10 && !otpVerified ? (
                                             <div className='mb-2 w-full md:w-1/4 sm:w-1/4 mr-2'>
                                                 <button
@@ -1554,7 +1552,7 @@ const Main = () => {
                                     </div>
                                     {otpMessage && (
                                         <p className='text-green-500 mb-2'>{otpMessage}</p>
-                                    )}
+                                    )} */}
                                     <div className='mb-4'>
                                         <h4 className='text-white chy'>Please Enter Student's Date of Birth</h4>
                                         <div className='flex mb-2 mt-2'>
