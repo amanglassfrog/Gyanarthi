@@ -7,7 +7,7 @@ const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -32,7 +32,8 @@ export default function RootLayout({ children }) {
             src="https://www.facebook.com/tr?id=293918380265545&ev=PageView&noscript=1"
           />
         </noscript>
-      </Head>
+        <meta name="google-site-verification" content="PZmEgTeoZGa19Mium6STqH0mEHf2dBvFjibQUxOm6wE" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
