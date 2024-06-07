@@ -26,10 +26,10 @@ const Courses = () => {
 
     const courseProgramMap = {
         "Commerce": ["BCom",
-            "BCom Taxation",
+            
             "BCom Banking and Finance",
             "BCom Financial Accounting",
-            "BCom International Business"],
+           ],
         "Design": ["BA Journalism and Mass Communication",
             "BSc Fashion Designing",
             "MA Animation and Design",
