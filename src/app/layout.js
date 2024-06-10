@@ -1,20 +1,11 @@
-"use client"
-import React, { useEffect} from 'react';
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "../../public/globals.css";
 import Head from "next/head";
 
 const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
+const GA_TRACKING_ID = 'G-FVZEWPFVML';
 
 export default function RootLayout({ children }) {
-  useEffect(() => {
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-FVZEWPFVML');
-  }, []);
   return (
     <html lang="en">
       <head>
@@ -34,21 +25,18 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-FVZEWPFVML"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-FVZEWPFVML');
-        `}
-      </Script>
-       
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FVZEWPFVML"></script>
-
+       <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_TRACKING_ID}');
+            `,
+          }}
+        />
+        
         <noscript>
           <img
             height="1"
