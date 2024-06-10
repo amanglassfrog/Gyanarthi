@@ -69,7 +69,7 @@ const Courses = () => {
                                 <div className='flex w-full justify-between'>
                                     <div><h3 className="coursename">School of Commerce</h3>
                                         <p className="text-gray-500 coursepara">5+ Students Viewing this course</p></div>
-                                    <div><a href="/coursepage?course=Commerce&program=BCom"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                                    <div><a href="/coursepage/bcom"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg>
@@ -83,7 +83,7 @@ const Courses = () => {
                                 <div className='flex w-full justify-between'>
                                     <div><h3 className="coursename">School of Design</h3>
                                         <p className="text-gray-500 coursepara">9+ Students Viewing this course</p></div>
-                                    <div><a href="/coursepage?course=Design&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                                    <div><a href="/coursepage/ba-journalism-and-mass-communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg>
@@ -100,11 +100,11 @@ const Courses = () => {
                                 <div className='flex w-full justify-between'>
                                     <div><h3 className="coursename">School of Media Studies</h3>
                                         <p className="text-gray-500 coursepara">3+ Students Viewing this course</p></div>
-                                    <div><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                                    <div><a href="/coursepage/ba-journalism-and-mass-communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg>
-                                    </button></div>
+                                    </button></a></div>
                                 </div>
 
 
@@ -114,7 +114,7 @@ const Courses = () => {
                                 <div className='flex w-full justify-between'>
                                     <div><h3 className="coursename">School of Fine Arts</h3>
                                         <p className="text-gray-500 coursepara">11+ Students Viewing this course</p></div>
-                                    <div><a href="/coursepage?course=Communication,%20and%20Arts&program=BA%20Journalism%20and%20Mass%20Communication"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
+                                    <div><a href="/coursepage/bachelor-of-fine-arts-bfa"><button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none coursebutton">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg>
