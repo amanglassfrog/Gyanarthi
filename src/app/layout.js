@@ -1,3 +1,5 @@
+"use client"
+import React, { useEffect} from 'react';
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "../../public/globals.css";
 import Head from "next/head";
