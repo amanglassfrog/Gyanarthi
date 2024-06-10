@@ -5,6 +5,14 @@ import Head from "next/head";
 const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-FVZEWPFVML');
+  }, []);
   return (
     <html lang="en">
       <head>
@@ -24,15 +32,21 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+        <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-FVZEWPFVML"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FVZEWPFVML');
+        `}
+      </Script>
        
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVZEWPFVML"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
 
-  gtag('config', 'G-FVZEWPFVML');
-</script>
         <noscript>
           <img
             height="1"
