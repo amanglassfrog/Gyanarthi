@@ -19,6 +19,20 @@ export default function Home() {
       <head>
         <title>Gyanarthi</title>
         <meta name="description" content="gyanarthi media college" />
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-956907995"
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'AW-956907995');
+              `,
+            }}
+          ></script>
       </head>
       <body>
         <main>
