@@ -23,7 +23,8 @@ The world of news is rapidly evolving. The internet and social media, a great de
 Despite the vast amount of information available, there is still a great demand for storytellers and trustworthy information providers. Businesses require internet-savvy people to create engaging content and maintain an online presence. Furthermore, journalists who uncover the truth and hold people accountable are more crucial than ever in light of the increasing amount of fake news. The future of mass media and journalism is bright, as long as people are creative, flexible, and committed to telling the truth in this ever-changing world. 
 
 </br></br>
-<h2><b>8 Advantages of Mass Communication in the Current Global Scenario.</b></h2></br></br>
+<h2 style="    font-size: 23px;
+"><b>8 Advantages of Mass Communication in the Current Global Scenario.</b></h2></br></br>
 
 Despite the huge amount of information available, there is a greater need than ever for effective communicators and storytellers. Today's worldwide work market offers fascinating and fulfilling journalism and mass communication clients. </br></br>
 
