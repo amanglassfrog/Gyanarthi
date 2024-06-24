@@ -61,7 +61,7 @@ There is competition in the media world. It takes original thought and creative 
     imageUrl: blog1img,
 
     category: {
-      title: "exam",
+      title: "Course",
       href: "#",
     },
     author: {
