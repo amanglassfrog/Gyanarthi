@@ -56,8 +56,8 @@ There is competition in the media world. It takes original thought and creative 
 
 
         `,
-    date: "May 23 2024",
-    datetime: "2024-05-23",
+    date: "June 24 2024",
+    datetime: "2024-06-24",
     imageUrl: blog1img,
 
     category: {
