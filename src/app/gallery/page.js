@@ -68,8 +68,7 @@ const page = () => {
                     {/* Second Row */}
                     <div className="mb-8 text-center">
                         <p className="gallerypara">
-                            Take a stroll through our pictorials that are all about our students, faculty, staff, moments to reminisce,<br></br> behind the scenes, and so much more!
-                        </p>
+Explore our visual galleries highlighting our students, faculty, and staff—capturing memorable moments and fostering nostalgia.  </p>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2 md:p-4 sm:p-8">
 

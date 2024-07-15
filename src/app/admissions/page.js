@@ -259,7 +259,7 @@ const Page = () => {
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className=" text-center mb-4 text-white journeyheading">Apply</h3>
-                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2024!</p>
+                  <p className="text-center mb-6 text-white journeypara">Complete the Application Form for enrollment in the 2024 academic session at Gyanarthi Media College!</p>
                   <button className="bg-transparent  hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex  items-center gap-3' href='/contact'>Apply Now <Image src={apply} alt="Image Description"
                     className="add" /></a></button>
                 </div>
