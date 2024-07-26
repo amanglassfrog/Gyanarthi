@@ -24,8 +24,7 @@ const BlogDetail = () => {
     return (
         <>
             <head>
-                <title>{post.title}</title>
-                <meta name="description" content={post.metadescription} />
+                
                 {parse(post.html)}
  
 </head>
