@@ -1438,9 +1438,9 @@ const Main = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-3/5 md:pr-4 flex flex-col justify-center">
-              <h2 className="heading mb-4 text-white">
+              <h1 className="heading mb-4 text-white">
                 ADMISSIONS OPEN, APPLY NOW!{" "}
-              </h2>
+              </h1>
               <p className="paragraph mb-4 text-white">
                 Kickstart your career in the direction of your dreams by
                 choosing the right education at Gyanarthi Media College.

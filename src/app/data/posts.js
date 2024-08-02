@@ -27,7 +27,7 @@ If you want your inner creativity to pour out and create something extraordinary
 
 <br></br>
 
-<h2>How Does a BFA Turn Ideas into Reality?</h2>
+<h1>How Does a BFA Turn Ideas into Reality?</h1>
 <br></br>
 BFA seems like a special place where ideas become reality. Here, pure thought becomes something you can see and touch. Do you wonder how it does that? 
 A BFA degree helps you to learn the basics of art, such as painting, sculpture or design. This degree is not just about following strict rules rather it is about how you use these tools in your unique way after understanding their functioning. 
@@ -79,8 +79,8 @@ The world of news is rapidly evolving. The internet and social media, a great de
 Despite the vast amount of information available, there is still a great demand for storytellers and trustworthy information providers. Businesses require internet-savvy people to create engaging content and maintain an online presence. Furthermore, journalists who uncover the truth and hold people accountable are more crucial than ever in light of the increasing amount of fake news. The future of mass media and journalism is bright, as long as people are creative, flexible, and committed to telling the truth in this ever-changing world. 
 
 </br></br>
-<h2 style="    font-size: 23px;
-"><b>8 Advantages of Mass Communication in the Current Global Scenario.</b></h2></br></br>
+<h1 style="    font-size: 23px;
+"><b>8 Advantages of Mass Communication in the Current Global Scenario.</b></h1></br></br>
 
 Despite the huge amount of information available, there is a greater need than ever for effective communicators and storytellers. Today's worldwide work market offers fascinating and fulfilling journalism and mass communication clients. </br></br>
 
