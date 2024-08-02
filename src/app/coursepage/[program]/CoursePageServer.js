@@ -43,7 +43,7 @@ const courses = [
 
     {
         metatitle: "Best Course after 12 Commerce in Taxation at Gyanarthi",
-        metadescription: "Check BCom Course Details for Bachelor in Commerce in Taxation Specialization at Gyanarthi Media College for Commerce domain after Class 12 undergraduate degree. ",
+        metadescription: "BCom Course Details for Bachelor in Commerce in Taxation Specialization at Gyanarthi Media College for Commerce domain after Class 12 undergraduate degree. ",
         schemas : "", 
         name: "BCom Taxation",
         description: "Gyanarthi Media College, Kashipur, is very inclusive in terms of educational backgrounds. Students of nearly all backgrounds can opt for courses at Gyanarthi. All they need to do is Pass Class 12th from a recognized board of schooling. The students should have scored more than 40% marks as an aggregate. The selection criteria at the Gyanarthi is relaxed to ensure that the students of all backgrounds and potential can chase their passion and turn them into profession.We seek to help students in building the career they desire in the domains of Media, Communication, Commerce, Arts, and Fashion. The students at Gyanarthi Media College are groomed to face all the challenges of their professional as well as personal lives.Thus, as one of the top colleges in the city of Kashipur, we strive to reach out every student who has the compassion and enthusiasm for passionate professions.",
@@ -354,7 +354,172 @@ const courses = [
     {
         metatitle: "Check Fashion, Graphic, and Design Course at Gyanarthi",
         metadescription: "Study Fashion and Designing Course with Gyanarthi’s Bachelor in Fashion Designing in Kashipur City by applying and checking all the course details here.  ",
-        schemas : "", 
+        schemas : `<link rel="canonical" href="https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing"/>
+
+
+<!-- HTML Meta Tags -->
+<title>Check Fashion, Graphic, and Design Course at Gyanarthi</title>
+<meta name="description" content="Study Fashion and Designing Course with Gyanarthi’s Bachelor in Fashion Designing in Kashipur City by applying and checking all the course details here.  ">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Check Fashion, Graphic, and Design Course at Gyanarthi">
+<meta property="og:description" content="Study Fashion and Designing Course with Gyanarthi’s Bachelor in Fashion Designing in Kashipur City by applying and checking all the course details here.  ">
+<meta property="og:image" content="https://opengraph.b-cdn.net/production/images/65e94716-7dd7-401e-b785-621c8d8f22bb.jpg?token=xXh-ceSZ_rMsKtLBSM4Ne_IC9cIKpbbFfC5OxCzXtTQ&height=1512&width=1200&expires=33258587912">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="gyanarthimedia.com">
+<meta property="twitter:url" content="https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing">
+<meta name="twitter:title" content="Check Fashion, Graphic, and Design Course at Gyanarthi">
+<meta name="twitter:description" content="Study Fashion and Designing Course with Gyanarthi’s Bachelor in Fashion Designing in Kashipur City by applying and checking all the course details here.  ">
+<meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/65e94716-7dd7-401e-b785-621c8d8f22bb.jpg?token=xXh-ceSZ_rMsKtLBSM4Ne_IC9cIKpbbFfC5OxCzXtTQ&height=1512&width=1200&expires=33258587912">
+
+
+<script type="application/ld+json">
+{
+    "@type": "Article",
+    "headline": "Check Fashion, Graphic, and Design Course at Gyanarthi",
+    "keywords": "fashion and designing course,fashion designing course",
+    "datePublished": "2023-08-11T15:41:53+05:30",
+    "dateModified": "2024-08-02T00:47:16+05:30",
+    "author": {
+        "@id": "https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing",
+        "name": "fashion designing course"
+    },
+    "publisher": {
+        "@id": "https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing/#organisation"
+    },
+    "description": "Study Fashion and Designing Course with Gyanarthi’s Bachelor in Fashion Designing in Kashipur City by applying and checking all the course details here.",
+    "name": "Check Fashion, Graphic, and Design Course at Gyanarthi",
+    "@id": "https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing/#richSnippet",
+    "isPartOf": {
+        "@id": "https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing/#webpage"
+    },
+    "image": {
+        "@id": "https://www.gyanarthimedia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage3.5ced9d62.png&w=256&q=75"
+    },
+    "inLanguage": "en-US",
+    "mainEntityOfPage": {
+        "@id": "https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing/#organisation/#webpage"
+    }
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": "https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing",
+            "name": "fashion and designing course"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": "https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing",
+            "name": "fashion designing course"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": "https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing",
+            "name": "fashion designing"
+        }
+    ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+    "@type": "ImageObject",
+    "@id": "https://www.gyanarthimedia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage3.5ced9d62.png&w=256&q=75",
+    "url": "https://www.gyanarthimedia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage3.5ced9d62.png&w=256&q=75",
+    "width": "1024",
+    "height": "512",
+    "caption": "fashion and designing course,INDIA Campus",
+    "inLanguage": "en-US"
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "fashion and designing course",
+    "url": "https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing"
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is a BSc in Fashion designing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A Fashion and Designing course is an undergraduate degree program that focuses on the study of fashion design, garment construction, textiles, fashion illustration, pattern making, fashion merchandising, and fashion marketing. Students with the skills and knowledge create innovative and marketable clothing designs and succeed in the fashion industry."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the duration of the B.Sc. in Fashion Designing course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The duration of the B.Sc. in Fashion Designing course typically ranges from three to four years, which may differ in institutions. A masters degree in fashion design is a post-graduate program after an undergraduate degree. Most programs follow a semester system, with each academic year divided into two semesters."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the scope after doing a B.Sc in Fashion Designing course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Graduates of B.Sc in Fashion design can pursue careers as fashion designers, stylists, merchandisers, illustrators, textile designers, or entrepreneurs. They can also get into roles in marketing, branding, retail management, journalism, costume design, or event management within the global fashion industry, offering diverse career paths in both domestic and international markets"
+    }
+  }]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "HowTo", 
+  "name": "choose the best fashion and designing course after 12th?",
+  "description": "To choose the best fashion and designing course after 12th, you must consider the following factors:",
+  "image": "https://www.gyanarthimedia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage5.c011693d.png&w=1920&q=75",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "INR",
+    "value": "5000000"
+  },
+  "step": [{
+    "@type": "HowToStep",
+    "text": "The course must have a curriculum that helps you learn about different textiles, fabrics, silhouettes, and various other components of fashion.",
+    "image": "https://www.gyanarthimedia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage3.5ced9d62.png&w=256&q=75",
+    "name": "fashion designing"
+  },{
+    "@type": "HowToStep",
+    "text": "Curriculum must include real time projects that can help you with important industrial experiences.",
+    "image": "https://www.gyanarthimedia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage3.5ced9d62.png&w=256&q=75",
+    "name": "fashion designing course"
+  },{
+    "@type": "HowToStep",
+    "text": "The course must teach you about the necessary niche in which you are aiming to develop your career.",
+    "image": "https://www.gyanarthimedia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage3.5ced9d62.png&w=256&q=75",
+    "name": "fashion and designing course"
+  }]    
+}
+</script>`, 
         name: "BSc Fashion Designing",
         description: "The Fashion and Designing Course at the Gyanarthi Media College is well- curated to help students build their dream careers in the fashion world.In the city of Kashipur, Gyanarthi happens to be one of the top choices for the fashion course.The reason for the same is the kind of curriculum that the college provides to the students.The Bachelor of Science in Fashion Designing is very effectively structured to assist students beginning from the basics to the complexes of the Fashion World.At the Gyanarthi Media College, the compounded concepts are explained to the students in the most simple world.The students are nurtured with knowledge in the domains of Indian Textiles, Fashion Trends, History of Clothing, and many much more.This enables the students gain a comprehensive knowledge of the important domains they must be aware of while they practice fashion professionally.Our students grow to be fashion designers, analysts, buyers, textile designers, and other major roles in many bcommendable workspaces across the nation.",
         specialization: "The BSc in Fashion Designing is a three- year undergraduate course.It is a course filled with creativity, innovation and endless opportunities.For aspiring fashion enthusiasts BSc in Fashion Designing is a perfect course.It is a foundation to explore the multifaceted world of designs, textiles and trends.The Gyanarthi Media College’s Fashion Designing Course promises to give students an experience of industry’s technical aspects with its state - of - the - art infrastructure.The college provides variety of hands - on labs and access to specialised equipment for their training.These labs include pattern - making, pattern drafting, interior drafting, and draping, providing practical experience in creating and transforming garment patterns and designs.The labs are equipped with industrial sewing machines, interlocking machines, and supporting equipment, ensuring students have the tools they need to bring their creativity into lively designs.Further, we make sure that our students are well - equipped with the knowledge of textiles such as Chikankari, Zardosi, Kalamkari, and many others.The faculty at Gyanarthi is highly conscientious of the information that they extend to the students as they believe that the students must be prepare for the corporate world while being constantly in touch with the traditional as well as the modern approaches.",
