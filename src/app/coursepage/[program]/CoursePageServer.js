@@ -10,7 +10,8 @@ const courses = [
 
     {
         metatitle: "Check BCom Course Details at Gyanarthi Media College, Kashipur",
-        metadescription: "Check BCom Course Details at Gyanarthi Media College, Kashipur for Bachelor in Commerce, best course after 12 commerce in industry-specific specializations. ",
+        metadescription: "Check BCom Course Details at Gyanarthi Media College, Kashipur for Bachelor in Commerce, best course after 12 commerce in industry-specific specializations. ", 
+        schemas : ``,       
         name: "BCom",
         description: "Gyanarthi Media College, Kashipur, is very inclusive in terms of educational backgrounds. Students of nearly all backgrounds can opt for courses at Gyanarthi. All they need to do is Pass Class 12th from a recognized board of schooling. The students should have scored more than 40% marks as an aggregate. The selection criteria at the Gyanarthi is relaxed to ensure that the students of all backgrounds and potential can chase their passion and turn them into profession.We seek to help students in building the career they desire in the domains of Media, Communication, Commerce, Arts, and Fashion. The students at Gyanarthi Media College are groomed to face all the challenges of their professional as well as personal lives.Thus, as one of the top colleges in the city of Kashipur, we strive to reach out every student who has the compassion and enthusiasm for passionate professions.",
         specialization: "The Gyanarthi College offers eclectic education in the  domain with the Bachelor of Commerce course. Our courses are tailored to equip students for the professional world. Thus, we offer knowledge in domains that are highly relevant to the industrial demands. Gyanarthi Media College is the first and only college in the city of Kashipur to offer such specialization in a Bachelor of Commerce degree. Our Bachelor of Commerce Course can be wither pursued generally or the students can opt for either the Taxation, International Business, Banking and Finance, or Financial Accounting domains. The students simply need to specify if they seek to opt for a curated curriculum course or simply a Bachelor of Commerce degree at the Gyanarthi Media College.Irrespective of subject combination, they can seek admission in the course of their choice easily.",
@@ -45,6 +46,7 @@ const courses = [
     {
         metatitle: "Best Course after 12 Commerce in Taxation at Gyanarthi",
         metadescription: "Check BCom Course Details for Bachelor in Commerce in Taxation Specialization at Gyanarthi Media College for Commerce domain after Class 12 undergraduate degree. ",
+        schemas : ``, 
         name: "BCom Taxation",
         description: "Gyanarthi Media College, Kashipur, is very inclusive in terms of educational backgrounds. Students of nearly all backgrounds can opt for courses at Gyanarthi. All they need to do is Pass Class 12th from a recognized board of schooling. The students should have scored more than 40% marks as an aggregate. The selection criteria at the Gyanarthi is relaxed to ensure that the students of all backgrounds and potential can chase their passion and turn them into profession.We seek to help students in building the career they desire in the domains of Media, Communication, Commerce, Arts, and Fashion. The students at Gyanarthi Media College are groomed to face all the challenges of their professional as well as personal lives.Thus, as one of the top colleges in the city of Kashipur, we strive to reach out every student who has the compassion and enthusiasm for passionate professions.",
         specialization: "The Gyanarthi College offers eclectic education in the  domain with the Bachelor of Commerce course. Our courses are tailored to equip students for the professional world. Thus, we offer knowledge in domains that are highly relevant to the industrial demands. Gyanarthi Media College is the first and only college in the city of Kashipur to offer such specialization in a Bachelor of Commerce degree. Our Bachelor of Commerce Course can be wither pursued generally or the students can opt for either the Taxation, International Business, Banking and Finance, or Financial Accounting domains. The students simply need to specify if they seek to opt for a curated curriculum course or simply a Bachelor of Commerce degree at the Gyanarthi Media College.Irrespective of subject combination, they can seek admission in the course of their choice easily.",
@@ -80,6 +82,7 @@ const courses = [
     {
         metatitle: "Banking and Finance BCom Course Details at Gyanarthi Media ",
         metadescription: "BCom Course Details for Banking and Finance Course at Gyanarthi Media College  for students who have passed Class 12 are listed. Check and enroll for course. ",
+        schemas : ``, 
         name: "BCom Banking and Finance",
         description: "Gyanarthi Media College, Kashipur, is very inclusive in terms of educational backgrounds. Students of nearly all backgrounds can opt for courses at Gyanarthi. All they need to do is Pass Class 12th from a recognized board of schooling. The students should have scored more than 40% marks as an aggregate. The selection criteria at the Gyanarthi is relaxed to ensure that the students of all backgrounds and potential can chase their passion and turn them into profession.We seek to help students in building the career they desire in the domains of Media, Communication, Commerce, Arts, and Fashion. The students at Gyanarthi Media College are groomed to face all the challenges of their professional as well as personal lives.Thus, as one of the top colleges in the city of Kashipur, we strive to reach out every student who has the compassion and enthusiasm for passionate professions.",
         specialization: "The Gyanarthi College offers eclectic education in the  domain with the Bachelor of Commerce course. Our courses are tailored to equip students for the professional world. Thus, we offer knowledge in domains that are highly relevant to the industrial demands. Gyanarthi Media College is the first and only college in the city of Kashipur to offer such specialization in a Bachelor of Commerce degree. Our Bachelor of Commerce Course can be wither pursued generally or the students can opt for either the Taxation, International Business, Banking and Finance, or Financial Accounting domains. The students simply need to specify if they seek to opt for a curated curriculum course or simply a Bachelor of Commerce degree at the Gyanarthi Media College.Irrespective of subject combination, they can seek admission in the course of their choice easily.",
@@ -116,6 +119,7 @@ const courses = [
     {
         metatitle: "BCom Course Details in Financial Accounting at Gyanarthi ",
         metadescription: "All the details for BCom Financial Accounting specialization at Gyanarthi Media College, best course after 12 commerce here and apply for admissions here.  ",
+        schemas : ``, 
         name: "BCom Financial Accounting",
         description: "Gyanarthi Media College, Kashipur, is very inclusive in terms of educational backgrounds. Students of nearly all backgrounds can opt for courses at Gyanarthi. All they need to do is Pass Class 12th from a recognized board of schooling. The students should have scored more than 40% marks as an aggregate. The selection criteria at the Gyanarthi is relaxed to ensure that the students of all backgrounds and potential can chase their passion and turn them into profession.We seek to help students in building the career they desire in the domains of Media, Communication, Commerce, Arts, and Fashion. The students at Gyanarthi Media College are groomed to face all the challenges of their professional as well as personal lives.Thus, as one of the top colleges in the city of Kashipur, we strive to reach out every student who has the compassion and enthusiasm for passionate professions.",
         specialization: "The Gyanarthi College offers eclectic education in the  domain with the Bachelor of Commerce course. Our courses are tailored to equip students for the professional world. Thus, we offer knowledge in domains that are highly relevant to the industrial demands. Gyanarthi Media College is the first and only college in the city of Kashipur to offer such specialization in a Bachelor of Commerce degree. Our Bachelor of Commerce Course can be wither pursued generally or the students can opt for either the Taxation, International Business, Banking and Finance, or Financial Accounting domains. The students simply need to specify if they seek to opt for a curated curriculum course or simply a Bachelor of Commerce degree at the Gyanarthi Media College.Irrespective of subject combination, they can seek admission in the course of their choice easily.",
@@ -151,6 +155,7 @@ const courses = [
     {
         metatitle: "Best Course After 12 Commerce International Business Details",
         metadescription: "Apply for international business bachelor of commerce, best course after 12 commerce at Gyanarthi Media College, Kashipur affiliated to Kumaun University. ",
+        schemas : ``, 
         name: "BCom International Business",
         description: "Gyanarthi Media College, Kashipur, is very inclusive in terms of educational backgrounds. Students of nearly all backgrounds can opt for courses at Gyanarthi. All they need to do is Pass Class 12th from a recognized board of schooling. The students should have scored more than 40% marks as an aggregate. The selection criteria at the Gyanarthi is relaxed to ensure that the students of all backgrounds and potential can chase their passion and turn them into profession.We seek to help students in building the career they desire in the domains of Media, Communication, Commerce, Arts, and Fashion. The students at Gyanarthi Media College are groomed to face all the challenges of their professional as well as personal lives.Thus, as one of the top colleges in the city of Kashipur, we strive to reach out every student who has the compassion and enthusiasm for passionate professions.",
         specialization: "The Gyanarthi College offers eclectic education in the  domain with the Bachelor of Commerce course. Our courses are tailored to equip students for the professional world. Thus, we offer knowledge in domains that are highly relevant to the industrial demands. Gyanarthi Media College is the first and only college in the city of Kashipur to offer such specialization in a Bachelor of Commerce degree. Our Bachelor of Commerce Course can be wither pursued generally or the students can opt for either the Taxation, International Business, Banking and Finance, or Financial Accounting domains. The students simply need to specify if they seek to opt for a curated curriculum course or simply a Bachelor of Commerce degree at the Gyanarthi Media College.Irrespective of subject combination, they can seek admission in the course of their choice easily.",
@@ -184,8 +189,142 @@ const courses = [
     {
         metatitle: "BAJMC : Bachelor of Arts (Journalism & Mass Communication)",
         metadescription: "Gyanarthi is an institute for Mass Communication that offers Bachelor Degree in Journalism and Mass Communication. Check all details and apply for the course. ",
+        schemas : `
+<link rel="canonical" href="https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication"/>
+<title>BAJMC : Bachelor of Arts (Journalism & Mass Communication)</title>
+<meta name="description" content="Gyanarthi is an institute for Mass Communication that offers Bachelor Degree in Journalism and Mass Communication. Check all details and apply for the course. ">
+
+<meta property="og:url" content="https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BAJMC : Bachelor of Arts (Journalism & Mass Communication)">
+<meta property="og:description" content="Gyanarthi is an institute for Mass Communication that offers Bachelor Degree in Journalism and Mass Communication. Check all details and apply for the course. ">
+<meta property="og:image" content="https://opengraph.b-cdn.net/production/images/1feb2971-8388-4a47-9406-a63ba404ba19.jpg?token=C4cSd4hUnUiFLWC2XnY5YlssgcsH5r1aCo-hzhsY5qE&height=186&width=270&expires=33258578400">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="gyanarthimedia.com">
+<meta property="twitter:url" content="https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication">
+<meta name="twitter:title" content="BAJMC : Bachelor of Arts (Journalism & Mass Communication)">
+<meta name="twitter:description" content="Gyanarthi is an institute for Mass Communication that offers Bachelor Degree in Journalism and Mass Communication. Check all details and apply for the course. ">
+<meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/1feb2971-8388-4a47-9406-a63ba404ba19.jpg?token=C4cSd4hUnUiFLWC2XnY5YlssgcsH5r1aCo-hzhsY5qE&height=186&width=270&expires=33258578400">
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "BAJMC : Bachelor of Arts (Journalism & Mass Communication)",
+    "keywords": "mass communication course,institute for mass communication,bachelor degree in journalism and mass communication",
+    "datePublished": "2023-08-11T15:41:53+05:30",
+    "dateModified": "2024-08-02T00:47:16+05:30",
+    "author": {
+        "@type": "Organization",
+        "@id": "https://www.gyanarthimedia.com/blogs",
+        "name": "BLOGS"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication/#organisation",
+        "name": "Gyanarthi Institute"
+    },
+    "description": "Gyanarthi is an institute for Mass Communication that offers Bachelor Degree in Journalism and Mass Communication. Check all details and apply for the course.",
+    "name": "BAJMC : Bachelor of Arts (Journalism & Mass Communication)",
+    "@id": "https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication/#richSnippet",
+    "isPartOf": {
+        "@id": "https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication/#webpage"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.gyanarthimedia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fadmissions.61b6d3f3.png&w=3840&q=75",
+        "url": "https://www.gyanarthimedia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fadmissions.61b6d3f3.png&w=3840&q=75",
+        "width": "1024",
+        "height": "512",
+        "caption": "Institute for mass communication, INDIA Campus",
+        "inLanguage": "en-US"
+    },
+    "inLanguage": "en-US",
+    "mainEntityOfPage": {
+        "@id": "https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication/#organisation/#webpage"
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication",
+                "name": "Mass Communication Course"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@id": "https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication",
+                "name": "Institute for mass communication"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@id": "https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication",
+                "name": "Bachelor degree in journalism and mass communication"
+            }
+        }
+    ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Institute for mass communication",
+    "url": "https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is B.A. Journalism and Mass Communication Course about?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "B.A. Journalism and Mass Communication teaches about mass media and communication, including journalism, broadcasting, advertising, and digital media. Students learn news reporting, media writing, interviewing, media law, and management. It aims to prepare students for jobs in media and communication fields by developing essential skills in these areas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the scope of the Journalism and Mass Communication Course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After the Mass Communication course, graduates can work in journalism (print, broadcast, digital), TV and radio production, advertising, public relations, corporate communications, content creation, digital media management, media research, and consulting. Jobs after a master's in journalism & mass communication can be found in newspapers, magazines, TV networks, radio stations, ad agencies, PR firms, digital media companies, and corporate communication departments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the qualification needed for a bachelor degree in journalism and mass communication?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The qualification needed for an institute for mass communication typically includes completing 12th grade. Masters in journalism and mass communication is the next step after under-graduation. Additionally, proficiency in the language of instruction (usually English) and strong communication skills are essential. Admission processes may include entrance exams, interviews, or submission of portfolios, depending on the institution's requirements."
+      }
+    }
+  ]
+}
+</script>
+`,
         name: "BA Journalism and Mass Communication",
         description: "The Journalism and Mass Communication course at the Gyanarthi Media College at Kashipur is a dynamic undergraduate degree designed to help students with the skills necessary to navigate the fast-paced world of media. The mass communication course offers a structured education in an array of media domains such as print, digital, television, and radio. We focus on building a strong foundation in journalistic practices, ethics, and research techniques for our students. At Gyanarthi, the students learn to craft compelling news stories, conduct effective interviews, and formulate multimedia content.We ensure that they are able to gain a deep understanding of the impact of media on society and culture which shall assist them in curating a very specific career in the future.The coursework for the bachelor degree in journalism and mass communication at the Gyanarthi Media College integrates theoretical learning with practical application.Our students are prepared to work on practical projects as we provide them with real - time experience and internships.We ensure that the students are able to build professional networks and inculcate practical skills before they are all set to move to the market to move ahead with professional commitments.This degree not only prepares students for careers in journalism and communications but also helps them build critical thinking and communication skills.",
+
         specialization: "The students at Gyanarthi Media College are well-equipped to move forward and prepare themselves for the fields of mass communication and media studies. The curriculum at the Gyanarthi Media College is extensive and well-crafted for building careers in the right direction. Our students are thoroughly taught to navigate through the challenges in the Media and Communication world. At Gyanarthi, the faculty focuses on helping the students with domains such as Television Broadcasting and Radio Broadcasting. We make sure that our students are equipped with the appropriate knowledge in the domains of Print Journalism and even the basics of Photography. This helps the students gain ample acumen to practically test their knowledge in the domains of Journalism and Mass Communication. Gyanarthi Media College is a competent institute for mass communication that equips students with the right amount of knowledge to work in the fields of Advertising and Public Relations. We ensure that our students are up to date in subjects such as Social Sciences, Indian Polity and Society, Media Research, Media Law and Ethics, Functional Hindi, and Functional English as this shall assist them in going forward with activities in Media Planning, Management, and execution very smoothly. ",
         Eligibility: "Gyanarthi Media College, Kashipur, is very inclusive in terms of educational backgrounds. Students of nearly all backgrounds can opt for courses at Gyanarthi. All they need to do is Pass Class 12th from a recognized board of schooling. The students should have scored more than 40% marks as an aggregate. The selection criteria at the Gyanarthi are relaxed to ensure that students of all backgrounds and potential can chase their passion and turn them into profession. We seek to help students in building the careers they desire in the domains of Media, Communication, Commerce, Arts, and Fashion. The students at Gyanarthi Media College are groomed to face all the challenges of their professional as well as personal lives. Thus, as one of the top colleges in the city of Kashipur, we strive to reach out to every student who has compassion and enthusiasm for passionate professions.",
         image: admisiions,
@@ -217,6 +356,7 @@ const courses = [
     {
         metatitle: "Check Fashion, Graphic, and Design Course at Gyanarthi",
         metadescription: "Study Fashion and Designing Course with Gyanarthi’s Bachelor in Fashion Designing in Kashipur City by applying and checking all the course details here.  ",
+        schemas : ``, 
         name: "BSc Fashion Designing",
         description: "The Fashion and Designing Course at the Gyanarthi Media College is well- curated to help students build their dream careers in the fashion world.In the city of Kashipur, Gyanarthi happens to be one of the top choices for the fashion course.The reason for the same is the kind of curriculum that the college provides to the students.The Bachelor of Science in Fashion Designing is very effectively structured to assist students beginning from the basics to the complexes of the Fashion World.At the Gyanarthi Media College, the compounded concepts are explained to the students in the most simple world.The students are nurtured with knowledge in the domains of Indian Textiles, Fashion Trends, History of Clothing, and many much more.This enables the students gain a comprehensive knowledge of the important domains they must be aware of while they practice fashion professionally.Our students grow to be fashion designers, analysts, buyers, textile designers, and other major roles in many bcommendable workspaces across the nation.",
         specialization: "The BSc in Fashion Designing is a three- year undergraduate course.It is a course filled with creativity, innovation and endless opportunities.For aspiring fashion enthusiasts BSc in Fashion Designing is a perfect course.It is a foundation to explore the multifaceted world of designs, textiles and trends.The Gyanarthi Media College’s Fashion Designing Course promises to give students an experience of industry’s technical aspects with its state - of - the - art infrastructure.The college provides variety of hands - on labs and access to specialised equipment for their training.These labs include pattern - making, pattern drafting, interior drafting, and draping, providing practical experience in creating and transforming garment patterns and designs.The labs are equipped with industrial sewing machines, interlocking machines, and supporting equipment, ensuring students have the tools they need to bring their creativity into lively designs.Further, we make sure that our students are well - equipped with the knowledge of textiles such as Chikankari, Zardosi, Kalamkari, and many others.The faculty at Gyanarthi is highly conscientious of the information that they extend to the students as they believe that the students must be prepare for the corporate world while being constantly in touch with the traditional as well as the modern approaches.",
@@ -250,6 +390,7 @@ const courses = [
     {
         metatitle: "Details of  Bachelor in Fine Arts Courses at Gyanarthi",
         metadescription: "Details such as Eligibility, Curriculum, Course Details, Application Form, and more for Bachelor of Fine Arts Course at Gyanarthi Media College and apply now.  ",
+        schemas : ``, 
         name: "Bachelor of Fine Arts BFA",
         description: "The students at the Gyanarthi Media College are inspired to choose their fields of interest and build a career in the same. The domain of Fine Arts is one of the most creative fields. However, the options of courses that solely focus on the same are very limited. At Gyanarthi, we allow the students to explore the Fine Arts with finesse and comprehensive techniques. The Bachelor of Fine Arts course is supported by an intensive curriculum which is affiliated with the University of Kumaun, Nainital and is recognized by the University Grants Commission. For building a career in creative fields, a very supportive environment and structure of the course are required. This structure must be backed by thorough techniques and expertise that our experienced faculty brings to the table. The Bachelor of Fine Arts Course at the Gyanarthi Media College aims to assist students in building the careers they have always dreamt of. ",
         specialization: "Bachelor of Fine Arts Courses are available with four specializations at the Gyanarthi Media College. These domains are very balanced and curated in order to build expertise in one of the four leading domains of the field. The students can either choose Painting, Sculpture, Applied Arts, or Photography in order to choose the course of their career. The curriculum in each of the specializations is highly specific while also providing a general idea of the basics of Fine Arts. The four specializations are more inclined towards equipping the students with the right amount of knowledge they need so as to build careers in different industries within the Fine Arts field. The students pursue Painting to take up fields that require intricate brush work while those who take up Sculpting are more adept in moulding. Applied Arts primarily focuses on the domain of Graphic Design and related artistical works while the Photography arena deals with a meticulous understanding of the frames and visual adjustments. ",
@@ -283,6 +424,7 @@ const courses = [
     {
         metatitle: "Courses in Animation and Media at Gyanarthi Media College",
         metadescription: "Check out the details of the course of animation at Gyanarthi Media College for undergraduate students named Bachelor of Arts BA in Animation and Design here.   ",
+        schemas : ``, 
         name: "BA Animation and Design",
         description: "One of the rapidly growing fields in the market is Animation. The demand for 3D Animators is growing day by day and this is fueling the demand for courses in animation and multimedia. The importance of graphic and design courses is extensively explored at the Gyanarthi Media College. We understand that students seeking to build a career in the animation field are more inclined towards absorbing techniques. At Gyanarthi, our prime focus remains to deliver an understanding of the latest trends and technical assistance associated with the same. We believe in helping our students find their creativity in the right manner with limitless possibilities. Gyanarthi Media College aims to prepare students for the professional world where they can explore their creative sides while being intact with the traditional techniques and methods. For animation and design, there are rising trends and technical updates. We ensure that our students are prepped to take on any challenges in the most holistic way. ",
         specialization: "As far as the BA Animation and Design Course is concerned at the Gynarthi Media College, the criteria are highly relaxed. Since we welcome students of nearly all backgrounds, we ensure that we move up in the most basic way and establish concepts. We lay the foundation for animation and design for the students beginning with colour theory to modeling and motion designing. We concentrate on illustrating to our students the best industry techniques in 2D Hand-Drawn and 3D Modelling. Further, the prime software such as Adobe and Blender are explained to the students in a very thorough way. Techniques for visual storytelling, including scriptwriting and sequential art are well included in the course curriculum making the entire structure meticulously insightful. Further, the BA Animation and Design Course is one of the most pursued courses at the Gyanartjhi Media College. Our students proceed on to join bigger enterprises in the markets in order to kickstart their careers. ",
@@ -316,6 +458,7 @@ const courses = [
     {
         metatitle: "Apply for Courses in Animation & Multimedia at Gyanarthi ",
         metadescription: "Check the Details for Master Courses in Animation & Multimedia at Gyanarthi Media College and fill out the application for MA in Animation and Design. ",
+        schemas : ``, 
         name: "MA Animation and Design",
         description: "Animation is the art of bringing life to a lifeless item using special effects is called animation. The Master in Animation and Design provides artistic and technical training to prepare the students for future artistic 3D character animation, traditional animation, storyboarding, computer game art, motion graphics, or visual effects animation. In the era of the Internet, the trend of animation and VFX in the entertainment industry is expected to persist, demanding expertise in new-age software. Gyanarthi Media College’s M.A. Animation and Design, a two-year program equips students with essential skills for success in this field. Gyanarthi Media College aims to help students understand the fascinating world of animation, VFX and motion graphics for film, broadcast and other media. Basic understanding of story and design concepts related to Pre-production for animation and VFX are taught. Special skill sets in the creation of Artwork for Production and Post-Production are also taught.The world of 3D Digital Art and VFX visualization are also introduced in our program to expose students to industry-relevant software. At the end of the programme, students are exposed to industrial training for real-world experience. essential aspects of art and design fundamentals, script development, and storyboard creation are also covered. Students get hands-on experience in both 2D and 3D animation techniques, mastering skills in 3D modelling, texturing, character rigging, and animation. Additionally, they learn about lighting, rendering, photography, and cinematography to enhance visual storytelling. ",
         specialization: "MA Animation and Design program students can specialize in various areas for their careers. Skills like Character Animation are making characters look real by using special animation skills, visual effects (VFX) for making cool effects for movies and TV shows, and motion graphics for creating moving graphics for titles and ads. 3D modelling and Texturing is another skill for making digital 3D models and game design and development shows how animation works for games. The wide-ranging scope for Animation and Design exists in production houses, gaming developers and many others. In addition to introducing students to the world of 3D digital art and VFX visualization, this programme exposes students to industry-relevant software. At the end of the programme, Students are exposed to industrial training to know about real-world experience. Renowned Industry experts often make an appearance at GMC to share their experiences about the use of 3D and 2D animation in film making and design. Different workshops are also organized periodically to keep students abreast of the ongoing developments in the animation industry. ",
@@ -350,6 +493,7 @@ const courses = [
     {
         metatitle: "Masters in Journalism and Mass Communication at Gyanarthi ",
         metadescription: "Check eligibility, curriculum, and other details for Master in Journalism & Mass Communication at Gyanarthi Media College, Kashipur and apply for admission. ",
+        schemas : ``, 
         name: "MA Journalism and Mass Communication",
         description: "MA Journalism and Mass Communication course is a graduate programme that focuses on developing skills and knowledge in the field of media and communication. Students pursuing this program get to learn about different aspects of journalism including news reporting, writing, editing etc. The Master's Degree in Journalism and Mass Communication program at Gyanarthi Media College aims to transform students into highly skilled professionals in media and communication. The program makes the students eligible and well-deserved to get a strong career in the media industry and media research. The duration of this MA Journalism and Mass Communication Course is two years.Gyanarthi Media College allows students to choose from specializations in their third semester. Specialization in the three main areas of Broadcast Media, Print & Online Media and Advertising & PR, a perfect blend of theoretical knowledge & practical exposure, classroom learning, and field visits for media communication skills are being provided. Assignments to prepare portfolios, short films, documentaries, radio programmes and research projects are being assigned. For hands-on experience, regular industrial interactions and news channel visits are planned for students.The program teaches advanced television journalism, production & broadcasting,	advanced radio broadcasting, print journalism, digital media, data journalism, photography, media research, media laws & ethics, media planning & management, advertising, PR & Corporate communication, development communication and contemporary & International Affairs. ",
         specialization: "A lot of career opportunities for aspirants are available after the MA Journalism and Mass Communication Course. Wide range of areas such as print journalism, digital journalism, public relations, advertising, media management, and international journalism including broadcast journalism, and feature writing. Broadcast journalism is for reporting and presenting news on television while Print journalism is for those passionate about crafting compelling stories for newspapers or magazines. The specialization provides students with expertise and experience, preparing students for diverse roles in the media and communication roles. The Master’s Degree programme in Journalism and Mass communication aims to transform students into highly skilled media and communication professionals. The programme is carefully structured to offer the students a foundation for a strong career in the media industry as well as media research. After successfully completing their MA-J&MC, the students will be ready to grab job opportunities as Radio Jockeys, Anchors, TV Broadcasters, Reporters, Copy Editors, Creative/Script Writers, Advertising Executives and PR/Corporate Communication Professionals. ",
@@ -383,6 +527,7 @@ const courses = [
     {
         metatitle: "Details of Masters Degree in Fashion Design at Gyanarthi GMC",
         metadescription: "Pursue Masters Degree in Fashion Design at Gyanarthi Media College, Kashipur by enrolling in an MSc Fashion Designing Course. Check all the Details here. ",
+        schemas : ``, 
         name: "MSc Fashion Designing",
         description: "Master of Science MSc in Fashion Design is the postgraduate course after completing bachelors. Fashion Design is the art of creating clothes and accessories that reflect cultural influences, individual expression, and the latest trends. This course focuses on the design, development, and production of clothes, footwear and accessories. Gyanarthi Media College in Kashipur offers Fashion and design courses in bachelors as well as postgraduate courses. The MSc Fashion Designing course of two years at Gyanarthi Media College provides a basic understanding of the fashion industry, various fashion segments like women, kids and men etc.Additionally, the course provides the basics of the fashion industry like working on different machines like sewing machines and overlock machines. The MSc program also teaches you basic pattern-making, textile art and draping techniques. The college has state-of-the-art infrastructure and equipment, such as pattern-making labs, drafting labs, draping labs and industrial sewing machines for a better experience in the industry.The key benefits of pursuing an MSc in Fashion design are that it provides an opportunity to specialize in a particular area of field and work with some of the best professionals in the fashion industry. Gyanarthi College also provides student workshops like Chitkala Workshops, and Kashmir Embroidery Workshops to get first-hand experience of the latest trends in the fashion industry.  ",
         specialization: "In an MSC Fashion Designing Course, students have the opportunity to choose from a variety of specializations depending on their interests. The specializations include fashion technology, textile design, accessory design, fashion marketing and merchandizing, and fashion technology. These specializations help students to focus on specific domains of the fashion world. They learn how to make clothes, design fabrics, sell fashion products or use technology in fashion.By studying these specializations, students get the expertise of their field and work with professionals in the outside world. Doing an MSc in Fashion Designing provides students with adequate abilities and skills for the course and improves their abilities and methods to construct a portfolio. ",
@@ -434,6 +579,9 @@ const CoursePageServer = ({ params }) => {
                 <head>
                     <title>{selectedCourse.metatitle}</title>
                     <meta name="description" content={selectedCourse.metadescription} />
+                    {selectedCourse.schemas}
+
+
                 </head>
                 <body>
                     <PageClient selectedCourse={selectedCourse} />
