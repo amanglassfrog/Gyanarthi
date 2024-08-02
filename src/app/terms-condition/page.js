@@ -8,11 +8,7 @@ const Page = () => {
   return (
     <>
       <head>
-        <title>Gyanarthi</title>
-        <meta
-          name="title"
-          content="Terms and Conditions: Gyanarthi Media College, Kashipur"
-        />
+        <title>Terms and Conditions: Gyanarthi Media College, Kashipur</title>
         <meta
           name="description"
           content="Check out the Terms and Conditions for the best Media College in the city of Kashipur, Gyanarthi Media College, affiliated with the Kumaun University, Nainital."

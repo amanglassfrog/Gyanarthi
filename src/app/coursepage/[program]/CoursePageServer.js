@@ -189,8 +189,6 @@ const courses = [
         metadescription: "Gyanarthi is an institute for Mass Communication that offers Bachelor Degree in Journalism and Mass Communication. Check all details and apply for the course. ",
         schemas : `
 <link rel="canonical" href="https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication"/>
-<title>BAJMC : Bachelor of Arts (Journalism & Mass Communication)</title>
-<meta name="description" content="Gyanarthi is an institute for Mass Communication that offers Bachelor Degree in Journalism and Mass Communication. Check all details and apply for the course. ">
 
 <meta property="og:url" content="https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication">
 <meta property="og:type" content="website">
@@ -355,12 +353,6 @@ const courses = [
         metatitle: "Check Fashion, Graphic, and Design Course at Gyanarthi",
         metadescription: "Study Fashion and Designing Course with Gyanarthi’s Bachelor in Fashion Designing in Kashipur City by applying and checking all the course details here.  ",
         schemas : `<link rel="canonical" href="https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing"/>
-
-
-<!-- HTML Meta Tags -->
-<title>Check Fashion, Graphic, and Design Course at Gyanarthi</title>
-<meta name="description" content="Study Fashion and Designing Course with Gyanarthi’s Bachelor in Fashion Designing in Kashipur City by applying and checking all the course details here.  ">
-
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://www.gyanarthimedia.com/coursepage/bsc-fashion-designing">
 <meta property="og:type" content="website">
