@@ -38,11 +38,7 @@ const page = () => {
   return (
     <>
       <head>
-        <title>Gyanarthi</title>
-        <meta
-          name="title"
-          content="Pictures and Behind the Scenes at Gyanarthi Media College"
-        />
+        <title>Pictures and Behind the Scenes at Gyanarthi Media College</title>
         <meta
           name="description"
           content="Want to know how life is at Gyanarthi Media College, located in the picturesque city of Kashipur? Check out our Gallery for pictures and behind-the-scenes!"
