@@ -63,7 +63,7 @@ const page = () => {
           <Header />
           <div>
             {/* Full-width image */}
-            <div className="relative">
+            <div className="relative -z-10">
               <div>
                 <Image src={gallery} alt="Course 1" className="w-full h-auto" />
               </div>
