@@ -85,9 +85,9 @@ const page = () => {
               </div>
               {/* Right column for contact form */}
               <div className="flex items-center flex-col justify-center w-full">
-                <h2 className="text-left font-bold chancelorheading pb-5">
+                <h1 className="text-left font-bold chancelorheading pb-5">
                   Contact Us
-                </h2>
+                </h1>
                 <form className="w-full" onSubmit={handleSubmit}>
                   <div className="flex  mb-4">
                     <div className="w-1/2 mr-2">
