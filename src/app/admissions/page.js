@@ -567,7 +567,7 @@ const Page = () => {
                     </p>
                     <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">
                       <a
-                        href="https://glassfrogtech.com/broucher.pdf"
+                        href="#"
                         download
                         target="_blank"
                         className="flex items-center gap-3"
