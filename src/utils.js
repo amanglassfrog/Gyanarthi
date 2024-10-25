@@ -7,3 +7,4 @@ export const slugify = (title) => {
         .replace(/-+/g, '-') // Replace multiple - with single -
         .trim();
 };
+
