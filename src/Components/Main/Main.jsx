@@ -1439,7 +1439,7 @@ const Main = () => {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-3/5 md:pr-4 flex flex-col justify-center">
               <h1 className="heading mb-4 text-white">
-                ADMISSIONS OPEN, APPLY NOW!{" "}
+                Launch Your Creative Career - Limited Seats Available! Apply Now
               </h1>
               <p className="paragraph mb-4 text-white">
                 Kickstart your career in the direction of your dreams by

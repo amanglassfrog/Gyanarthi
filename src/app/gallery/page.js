@@ -72,7 +72,7 @@ const page = () => {
           </div>
           <div className=" mx-auto p-3 md:p-6 sm:p-12 py-12">
             <div className="mb-8 text-center">
-              <h1 className="galleryheading">Gallery and Behind the Scenes</h1>
+              <h1 className="galleryheading">Experience Campus Life: Inside Gyanarthi</h1>
             </div>
 
             {/* Second Row */}

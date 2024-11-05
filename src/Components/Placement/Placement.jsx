@@ -35,7 +35,7 @@ const NewSection = () => {
           {/* First row new section*/}
           <div className="mb-8">
             <h2 className="placementheading md:text-center text-left">
-              Get your hands on Industry Relevant Courses{" "}
+              Transform Your Future with Industry-Backed Programs{" "}
               <br className="hidden md:inline" /> in Mass Communication, Media,
               Fashion and Commerce
             </h2>

@@ -13,7 +13,9 @@ const Whygyanarthi = () => {
         <div className="mx-auto container">
           {/* First Row */}
           <div className="mb-8 text-center">
-            <h2 className="whygyan">Why Gyanarthi?</h2>
+            <h2 className="whygyan">
+              Why Top Employers Choose Gyanarthi Graduates
+            </h2>
           </div>
 
           {/* Second Row */}

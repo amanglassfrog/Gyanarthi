@@ -43,9 +43,9 @@ const page = () => {
               <div className="vis mx-auto">
                 <h2 className="emx mb-4">Education Meets Expertise</h2>
                 <p className="text-gray-700">
-                  Gyanarthi Media College is a space where education meets expertise. Our Expert Faculty devises a curriculum for students that is highly personalized and specific. Teaching Methods at Gyanarthi are more about  practical implications rather than theoretical practices. Teachers at Gyanarthi understand the particular requisites of the students and accordingly devise strategies to help them conceive the concepts. The relevant problems and solutions are backed by strong conceptual clearance which reflects strong educative values.               </p><br></br><br></br>
+                  Gyanarthi Media College is a space where education meets expertise. Our Expert Faculty devises a highly personalized and specific curriculum for students. Teaching Methods at Gyanarthi are more about practical implications rather than theoretical practices. Teachers at Gyanarthi understand the particular requisites of the students and, accordingly, devise strategies to help them conceive the concepts. The relevant problems and solutions are backed by vital conceptual clearance, which reflects solid educative values.</p><br></br><br></br>
                 <p className="text-gray-700 mt-4">
-                  Students at Gyanarthi are prepared to work at enterprises that are best in the respective industries. They are accordingly provided with education that supports this envision. The teachers are more inclined towards making learning insightful yet enjoyable. This is what sets Gyanarthi apart from all the other places of education. The college becomes home for students!               </p>
+                  Students at Gyanarthi are prepared to work at enterprises that are best in their respective industries. They are accordingly provided with an education that supports this vision. The teachers are more inclined towards making learning insightful yet enjoyable. This is what sets Gyanarthi apart from all the other places of education. The college becomes home for students.   </p>
 
               </div>
             </div>
