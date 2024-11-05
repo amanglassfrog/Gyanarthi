@@ -13,7 +13,7 @@ const Ourvision = () => {
             <div>
               {/* First Row */}
               <div className="mb-8">
-                <h2 className="text-3xl font-bold ourfutureheading">
+                <h2 className="text-xl font-bold ourfutureheading">
                   Join a Legacy of Success - Shape Tomorrow's Industry{" "}
                 </h2>
               </div>
