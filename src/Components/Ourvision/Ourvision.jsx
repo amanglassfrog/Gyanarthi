@@ -61,7 +61,7 @@ const Ourvision = () => {
                       </p>
                       <div className=" pt-5">
                         <button className="text-white px-4 py-2 vp focus:outline-none">
-                          <a href="/about-us">Read More</a>
+                          <a href="/about-us">About us</a>
                         </button>
                       </div>
                     </TabPanel>
