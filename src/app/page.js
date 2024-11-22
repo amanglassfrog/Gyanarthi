@@ -10,7 +10,8 @@ import Footer from "@/Components/Footer/Footer";
 import Homegallery from "@/Components/Homegallery/Homegallery";
 import Courses from "@/Components/Courses/Courses";
 import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
-
+import VideoPopup from "@/Components/VideoPopup";
+import Feed from "@/Components/feed/feed";
 export default function Home() {
   return (
     <>
@@ -37,8 +38,10 @@ export default function Home() {
       </head>
       <body>
         <main>
+           <VideoPopup />
           <Header />
           <Main />
+          {/* <Feed /> */}
           <Placement />
 
           <Whygyanarthi />
