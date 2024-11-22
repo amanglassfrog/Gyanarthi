@@ -7,7 +7,7 @@ const VideoPopup = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setPopupVisible(false);
-    }, 15000); // Automatically hide popup after 15 seconds
+    }, 120000); // Automatically hide popup after 15 seconds
     return () => clearTimeout(timer);
   }, []);
 
