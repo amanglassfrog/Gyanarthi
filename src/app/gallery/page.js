@@ -37,28 +37,8 @@ import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
 const page = () => {
   return (
     <>
-      <head>
-        <title>Pictures and Behind the Scenes at Gyanarthi Media College</title>
-        <meta
-          name="description"
-          content="Want to know how life is at Gyanarthi Media College, located in the picturesque city of Kashipur? Check out our Gallery for pictures and behind-the-scenes!"
-        />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-956907995"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'AW-956907995');
-              `,
-          }}
-        ></script>
-      </head>
-      <body>
+      
+      
         <main>
           <Header />
           <div>
@@ -299,7 +279,7 @@ const page = () => {
           <FloatingIcons />
           <Footer />
         </main>
-      </body>
+      
     </>
   );
 };

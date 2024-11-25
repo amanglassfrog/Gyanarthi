@@ -740,9 +740,9 @@ const CoursePageServer = ({ params }) => {
                     
 
                 </head>
-                <body>
+              
                     <PageClient selectedCourse={selectedCourse} />
-                </body>
+                
             </html>
 
         </>

@@ -6,28 +6,8 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <head>
-        <title>Gyanarthi Media College, Kashipur: Privacy Policy Details</title>
-        <meta
-          name="description"
-          content="Check out the Privacy Policy Details of the Gyanarthi Media College, Kashipur, affiliated with the Kumaon University, Nainital. Connect for more details. "
-        />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-956907995"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'AW-956907995');
-              `,
-          }}
-        ></script>
-      </head>
-      <body>
+   
+      
         <Header />
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-3xl font-bold mb-8">GYANARTHI PRIVACY POLICY</h1>
@@ -456,7 +436,7 @@ const page = () => {
         </div>
         <FloatingIcons />
         <Footer />
-      </body>
+      
     </>
   );
 };

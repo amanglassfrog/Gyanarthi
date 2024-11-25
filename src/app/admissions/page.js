@@ -17,28 +17,8 @@ import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
 const Page = () => {
   return (
     <>
-      <head>
-        <title>Gyanarthi Media College: Admissions Open Now, Apply Today!</title>
-        <meta
-          name="description"
-          content="Gyanarthi Media College, affiliated with Kumaun University, Nainital, is offering admissions in courses like BJMC, BFA, BCom, Animation, and more. Apply Now."
-        />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-956907995"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'AW-956907995');
-              `,
-          }}
-        ></script>
-      </head>
-      <body>
+      
+      
         <main>
           <Header />
 
@@ -572,7 +552,7 @@ const Page = () => {
           <FloatingIcons />
           <Footer />
         </main>
-      </body>
+      
     </>
   );
 };
