@@ -75,7 +75,7 @@ export default function Home() {
           }}
         ></script>
       </head>
-      <body>
+      
         <main>
            <VideoPopup />
           <Header />
@@ -91,7 +91,7 @@ export default function Home() {
           <Footer />
           <FloatingIcons />
         </main>
-      </body>
+      
     </>
   );
 }

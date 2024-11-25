@@ -74,7 +74,7 @@ const page = () => {
           }}
         ></script>
       </head>
-      <body>
+      
         <main>
           <Header />
           <div className="container mx-auto py-12 px-4">
@@ -248,7 +248,7 @@ const page = () => {
           <FloatingIcons />
           <Footer />
         </main>
-      </body>
+      
     </>
   );
 };
