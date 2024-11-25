@@ -9,7 +9,7 @@ const Page = () => {
     <>
      
       
-        <main>
+       
           <Header />
           <main>
             <div className="container mx-auto px-4 py-8">
@@ -398,7 +398,7 @@ const Page = () => {
           </main>
           <FloatingIcons />
           <Footer />
-        </main>
+        
      
     </>
   );
