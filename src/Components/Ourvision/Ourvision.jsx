@@ -13,9 +13,9 @@ const Ourvision = () => {
             <div>
               {/* First Row */}
               <div className="mb-8">
-                <h2 className="text-xl font-bold ourfutureheading">
+                <h4 className="text-xl font-bold ourfutureheading">
                   Join a Legacy of Success - Shape Tomorrow's Industry{" "}
-                </h2>
+                </h4>
               </div>
               {/* Second Row */}
               <div className="mb-8">
@@ -121,9 +121,9 @@ const Ourvision = () => {
 
         <div className="max-w-6xl mx-auto container">
           <div className="py-8 ">
-            <h2 className="lifetime mb-4">
+            <h5 className="lifetime mb-4">
               Build Skills & Connections That Last a Lifetime{" "}
-            </h2>
+            </h5>
             <p className="lifetimepara">
               Our student community is not only adept with academic brilliance,
               but they are also equipped with skills that extend beyond

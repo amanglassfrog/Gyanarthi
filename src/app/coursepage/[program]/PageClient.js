@@ -106,7 +106,7 @@ const PageClient = ({ selectedCourse }) => {
         <div className='flex justify-center'>
           <div className="flex flex-wrap py-8 container">
             <div className='py-8 px-6 md:px-12 sm:px-24'>
-              <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
+              <h3 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h3>
               <p className="edgepara text-justify">
                 {selectedCourse.edge}
               </p>
