@@ -3,12 +3,13 @@ import "../../public/globals.css";
 import Head from "next/head";
 
 const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
-const GA_TRACKING_ID = 'G-FVZEWPFVML';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-     
+      <head>
+        
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

@@ -13,6 +13,8 @@ import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
 import VideoPopup from "@/Components/VideoPopup";
 import Feed from "@/Components/feed/feed";
 export default function Home() {
+  const GA_TRACKING_ID = 'G-FVZEWPFVML';
+
   return (
     <>
       <head>
