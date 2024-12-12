@@ -11,6 +11,7 @@ import { slugify } from '@/utils';
 import parse from 'html-react-parser';
 import Header from '@/Components/Header/Header';
 import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons';
+import Head from 'next/head';
 
 
 
@@ -23,11 +24,11 @@ const BlogDetail = () => {
 
     return (
         <>
-            <head>
+            <Head>
                 
                 {parse(post.html)}
  
-</head>
+</Head>
             <div className='relative z-50'>
                 
                 <Header />
