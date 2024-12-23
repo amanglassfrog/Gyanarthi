@@ -10,10 +10,9 @@ export const metadata = {
 const Layout = ({ children }) => {
   return (
     <>
-      <html lang="en">
-            <body>{children}</body>
+      
+            {children}
 
-        </html>
     </>
   );
 };
