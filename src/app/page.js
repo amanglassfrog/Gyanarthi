@@ -13,6 +13,9 @@ import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
 import VideoPopup from "@/Components/VideoPopup";
 import Feed from "@/Components/feed/feed";
 import Head from "next/head";
+
+const GA_TRACKING_ID = 'G-FVZEWPFVML';
+
 export default function Home() {
 
 
