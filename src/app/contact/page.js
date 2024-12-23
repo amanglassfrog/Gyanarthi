@@ -2,7 +2,7 @@
 "use client";
 import Footer from "@/Components/Footer/Footer";
 import Header from "@/Components/Header/Header";
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import Image from "next/image";
 import phone from "../../../public/phone.png";
 import email from "../../../public/email.png";
@@ -53,11 +53,8 @@ const page = () => {
     }
   };
   return (
-    <>
-      
-      
-        
-          <Header />
+      <Fragment>
+      <Header />
           <div className="container mx-auto py-12 px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Left column for contact information */}
@@ -228,10 +225,7 @@ const page = () => {
           </div>
           <FloatingIcons />
           <Footer />
-       
-      
-    </>
-  );
+</Fragment>  );
 };
 
 export default page;
