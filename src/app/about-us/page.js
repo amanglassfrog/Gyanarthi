@@ -26,7 +26,7 @@ const page = () => {
           {/* Full-width image */}
           <div className="relative -z-10">
             <div>
-              <Image src={college} alt="Course 1" className="w-full h-auto" /></div>
+              <Image src={college} alt="Gyanarthi" className="w-full h-auto" /></div>
             {/* Text overlay */}
             <div className=" inset-0 flex items-center justify-center ">
               <h1 className=" text-2xl md:text-4xl font-bold text-center tpip">

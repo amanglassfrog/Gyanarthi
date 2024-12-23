@@ -62,7 +62,7 @@ const Bloglist = () => {
                             <Link key={post.id} href={`/${slugify(post.title)}`} passHref>
                                 <article className="flex max-w-xl flex-col items-start justify-between blogcard">
                                     <div style={{height:"16rem"}}>
-                                        <Image src={post.imageUrl} alt="" style={{height:"inherit"}}/>
+                                        <Image src={post.imageUrl} alt="Gyanarthi" style={{height:"inherit"}}/>
                                     </div>
                                     <div className="flex items-center gap-x-4 text-xs">
                                         <time dateTime={post.datetime} className="text-gray-500">
@@ -84,7 +84,7 @@ const Bloglist = () => {
                                         </p> */}
                                     </div>
                                     <div className="relative mt-8 flex items-center gap-x-4">
-                                        <Image src={post.author.authorimageUrl} alt="" className="h-14 w-30 rounded-full bg-gray-50" />
+                                        <Image src={post.author.authorimageUrl} alt="Gyanarthi" className="h-14 w-30 rounded-full bg-gray-50" />
                                         <div className="text-sm leading-6">
                                             <p className="font-semibold text-gray-900">
                                                 <span className="absolute inset-0" />
