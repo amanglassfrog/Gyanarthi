@@ -1,8 +1,8 @@
 import React from "react";
 export const metadata = {
-  title: "Pictures and Behind the Scenes at Gyanarthi Media College ",
+  title: "Contact Us at Gyanarthi Media College for Admissions & More",
   description:
-    "Want to know how life is at Gyanarthi Media College, located in the picturesque city of Kashipur? Check out our Gallery for pictures and behind-the-scenes! ",
+    "With Gyanarthi Media College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!",
   
 };
 
@@ -18,6 +18,9 @@ const Layout = ({ children }) => {
 };
 
 export default Layout;
+
+
+
 
 
 
