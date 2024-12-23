@@ -7,13 +7,7 @@ import admisiions from '../../../../public/admissions.png';
 import { slugify } from '@/utils';
 const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
-const { program } = params;
-    const decodedProgram = decodeURIComponent(program);  // Decode URL-encoded string
-    const selectedCourse = courses.find(course => slugify(course.name) === decodedProgram);
 
-    if (!selectedCourse) {
-        return <div>Course not found</div>;
-    }
 
 export const metadata = {
   title: "{selectedCourse.metatitle}",
@@ -25,6 +19,13 @@ export const metadata = {
     
 
 const Layout = ({ children }) => {
+  const { program } = params;
+    const decodedProgram = decodeURIComponent(program);  // Decode URL-encoded string
+    const selectedCourse = courses.find(course => slugify(course.name) === decodedProgram);
+
+    if (!selectedCourse) {
+        return <div>Course not found</div>;
+    }
   return (
     <>
      
