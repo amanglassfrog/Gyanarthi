@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <>
-       <Head>
+       <head>
         <title>Gyanarthi: Best Fashion, Media, and Arts College in Kashipur</title>       
         <meta
           name="description"
@@ -76,7 +76,7 @@ export default function Home() {
               `,
           }}
         ></script>
-      </Head>
+      </head>
       
         <main>
            <VideoPopup />
