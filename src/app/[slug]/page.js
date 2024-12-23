@@ -44,7 +44,7 @@ const BlogDetail = () => {
                 <div className='container flex items-center justify-center'>
                     <div className="w-full p-4">
                         <div className="text-sm leading-6 flex items-center gap-4">
-                            <Image src={post.author.authorimageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
+                            <Image src={post.author.authorimageUrl} alt="Gyanarthi Media College" className="h-10 w-10 rounded-full bg-gray-50" />
                             <p className="font-semibold text-gray-900">
                                 <span className="absolute inset-0" />
                                 {post.author.name}
