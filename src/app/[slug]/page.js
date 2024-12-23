@@ -24,11 +24,11 @@ const BlogDetail = () => {
 
     return (
         <>
-            <Head>
+            <head>
                 
                 {parse(post.html)}
  
-</Head>
+</head>
             <div className='relative z-50'>
                 
                 <Header />

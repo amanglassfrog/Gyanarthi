@@ -38,12 +38,12 @@ import Head from "next/head";
 const page = () => {
   return (
     <>
-      <Head>
+      <head>
         <title>Pictures and Behind the Scenes at Gyanarthi Media College</title>       
         <meta
           name="description"
           content="Want to know how life is at Gyanarthi Media College, located in the picturesque city of Kashipur? Check out our Gallery for pictures and behind-the-scenes!  "
-                /></Head>
+                /></head>
       
         <main>
           <Header />

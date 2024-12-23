@@ -31,12 +31,12 @@ import Head from "next/head";
 const page = () => {
   return (
     <>
-      <Head>
+      <head>
         <title>Join Gyanarthi Media College and secure 100% Placements</title>       
         <meta
           name="description"
           content="With Gyanarthi Media Colleges curriculum-focused education and industry-best infrastructure, learn how to use your education to secure 100% placements."
-                /></Head>
+                /></head>
       
         <main>
           <Header />

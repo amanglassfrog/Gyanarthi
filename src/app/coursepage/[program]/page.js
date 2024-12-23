@@ -731,14 +731,14 @@ const CoursePage = ({ params }) => {
         return <div>Course not found</div>;
     }
   return (<>
-    <Head>
+    <head>
                     <title>{selectedCourse.metatitle}</title>
                     <meta name="description" content={selectedCourse.metadescription} />
                     <div dangerouslySetInnerHTML={{ __html: selectedCourse.schemas }} />
 
                     
 
-                </Head>
+                </head>
     
     <CoursePageServer params={params} />
     <FloatingIcons />

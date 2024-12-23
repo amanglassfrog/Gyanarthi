@@ -7,12 +7,12 @@ import Head from "next/head";
 const page = () => {
   return (
     <>
-   <Head>
+   <head>
         <title>Gyanarthi Media College, Kashipur: Privacy Policy Details</title>       
         <meta
           name="description"
           content="Check out the Privacy Policy Details of the Gyanarthi Media College, Kashipur, affiliated with the Kumaon University, Nainital. Connect for more details. "
-                /></Head>
+                /></head>
       
         <Header />
         <div className="container mx-auto px-4 py-8">

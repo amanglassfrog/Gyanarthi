@@ -15,7 +15,7 @@ import Head from 'next/head';
 const Bloglist = () => {
     return (
         <>
-            <Head>
+            <head>
         <title>Blog: Read More about Gyanarthi Media College Kashipur</title>       
         <meta
           name="description"
@@ -35,7 +35,7 @@ const Bloglist = () => {
 <meta name="twitter:description" content="Check out the Gyanarthi Blog for more information on the Courses, Curriculum, Infrastructure, Faculty, Life at the College, Media Studies, and more"/>
 <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/1feb2971-8388-4a47-9406-a63ba404ba19.jpg?token=eZpSGk5upaDtXbUzablA8QFXP1gCv6jfLErchJyjITY&height=186&width=270&expires=33258587912"/>
       
-      </Head>
+      </head>
             <Header />
             <div className="flex flex-wrap py-8 px-0 md:px-12 sm:px-24 pr-0 items-center justify-center">
                 <div className='container flex flex-col md:flex-row sm:flex-row items-center'>

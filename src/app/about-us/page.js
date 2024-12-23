@@ -14,12 +14,12 @@ import Head from 'next/head';
 const page = () => {
   return (
     <>
-      <Head>
+      <head>
         <title>About Us - Gyanarthi</title>       
         <meta
           name="description"
           content="Expand your knowledge and learning experience at Gyanarthi Media College, Kashipur. Learn more about us, faculty, board members, curriculum and placements. "
-                /></Head>
+                /></head>
       <main>
         <Header />
         <div>
