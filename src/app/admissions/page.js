@@ -13,11 +13,18 @@ import wp from "../../../public/wp.png";
 import apply from "../../../public/apply.png";
 import download from "../../../public/download.png";
 import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
+import Head from "next/head";
 
 const Page = () => {
   return (
     <>
-      
+       <Head>
+        <title>Gyanarthi Media College: Admissions Open Now, Apply Today!</title>       
+        <meta
+          name="description"
+          content="Gyanarthi Media College, affiliated with Kumaun University, Nainital, is offering admissions in courses like BJMC, BFA, BCom, Animation, and more. Apply Now."
+      />
+      </Head>
       
         <main>
           <Header />
