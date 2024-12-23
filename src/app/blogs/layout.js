@@ -3,16 +3,15 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 
 
 const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
-// export const metadata = {
-//   title: "Blogs - Rantra Academy",
-//   description:"Looking for more? Read our blogs and check the news updates to know more about the National Defence Academy"
-// };
+export const metadata = {
+  title: "Blog: Read More about Gyanarthi Media College Kashipur",
+  description:"Check out the Gyanarthi Blog for more information on the Courses, Curriculum, Infrastructure, Faculty, Life at the College, Media Studies, and more."
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">     
-<title>Blog: Read More about Gyanarthi Media College Kashipur</title>
-<meta name="description" content="Check out the Gyanarthi Blog for more information on the Courses, Curriculum, Infrastructure, Faculty, Life at the College, Media Studies, and more."/>
+
 {/* <!-- Facebook Meta Tags --> */}
 <meta property="og:url" content="https://www.gyanarthimedia.com/blogs"/>
 <meta property="og:type" content="website"/>
