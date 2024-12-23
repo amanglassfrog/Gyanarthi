@@ -12,12 +12,9 @@ import slogan from "../../../public/slogan.jpg";
 import icon5 from "../../../public/twitter.png";
 import icon6 from "../../../public/insta.png";
 import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
+import Head from "next/head";
 
 
-export const metadata = {
-    title: "Contact Us at Gyanarthi Media College for Admissions & More",
-    description: "With Gyanarthi Media College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!",
-};
 const page = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -60,13 +57,13 @@ const page = () => {
   return (
    
     <>
-       {/* <head>
+       <Head>
         <title>Contact Us at Gyanarthi Media College for Admissions & More</title>       
         <meta
           name="description"
           content="With Gyanarthi Media College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!"
       />
-      </head> */}
+      </Head>
       <Header />
           <div className="container mx-auto py-12 px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
