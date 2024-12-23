@@ -13,7 +13,7 @@ export const metadata = {
 
     
 
-const Layout = ({ children }) => {
+const layout = ({ children }) => {
   return (
     <>
      
@@ -25,4 +25,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export default Layout;
+export default layout;

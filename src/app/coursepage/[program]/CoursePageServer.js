@@ -731,12 +731,12 @@ const CoursePageServer = ({ params }) => {
 
     return (
         <>
-            <html lang="en">
+          
                
               
                     <PageClient selectedCourse={selectedCourse} />
                 
-            </html>
+            
 
         </>
 
