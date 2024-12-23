@@ -2,7 +2,6 @@ import React from 'react';
 import PageClient from './PageClient';
 import admisiions from '../../../../public/admissions.png';
 import { slugify } from '@/utils';
-import Head from 'next/head';
 
 
 const courses = [
@@ -733,14 +732,7 @@ const CoursePageServer = ({ params }) => {
     return (
         <>
             <html lang="en">
-                {/* <Head>
-                    <title>{selectedCourse.metatitle}</title>
-                    <meta name="description" content={selectedCourse.metadescription} />
-                    <div dangerouslySetInnerHTML={{ __html: selectedCourse.schemas }} />
-
-                    
-
-                </Head> */}
+               
               
                     <PageClient selectedCourse={selectedCourse} />
                 
