@@ -18,6 +18,12 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Gyanarthi: Best Fashion, Media, and Arts College in Kashipur</title>       
+        <meta
+          name="description"
+          content="Pursue your College Education at Gyanarthi Media College, Kumaun University, in Fashion, Media, Commerce, Fine Arts, and Animation Course in city of Kashipur."
+                /></Head>
        
       
       
