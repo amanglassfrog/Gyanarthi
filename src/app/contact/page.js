@@ -53,7 +53,15 @@ const page = () => {
     }
   };
   return (
-     <main>
+   
+    <>
+       <head>
+        <title>Contact Us at Gyanarthi Media College for Admissions & More</title>       
+        <meta
+          name="description"
+          content="With Gyanarthi Media College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!"
+      />
+      </head>
       <Header />
           <div className="container mx-auto py-12 px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -225,7 +233,7 @@ const page = () => {
           </div>
           <FloatingIcons />
       <Footer />
-      </main>
+      </>
   );
 };
 
