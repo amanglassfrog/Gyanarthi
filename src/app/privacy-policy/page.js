@@ -2,11 +2,17 @@ import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
 import Footer from "@/Components/Footer/Footer";
 import Header from "@/Components/Header/Header";
 import React from "react";
+import Head from "next/head";
 
 const page = () => {
   return (
     <>
-   
+   <Head>
+        <title>Gyanarthi Media College, Kashipur: Privacy Policy Details</title>       
+        <meta
+          name="description"
+          content="Check out the Privacy Policy Details of the Gyanarthi Media College, Kashipur, affiliated with the Kumaon University, Nainital. Connect for more details. "
+                /></Head>
       
         <Header />
         <div className="container mx-auto px-4 py-8">

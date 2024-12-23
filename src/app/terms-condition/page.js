@@ -3,11 +3,17 @@ import React from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "@/Components/Footer/Footer";
 import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
+import Head from "next/head";
 
 const Page = () => {
   return (
     <>
-     
+     <Head>
+        <title>Terms and Conditions: Gyanarthi Media College, Kashipur</title>       
+        <meta
+          name="description"
+          content="Check out the Terms and Conditions for the best Media College in the city of Kashipur, Gyanarthi Media College, affiliated with the Kumaun University, Nainital."
+                /></Head>
       
        
           <Header />

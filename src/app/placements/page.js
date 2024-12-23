@@ -26,11 +26,17 @@ import wp from "../../../public/wp.png";
 import apply from "../../../public/apply.png";
 import download from "../../../public/download.png";
 import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
+import Head from "next/head";
 
 const page = () => {
   return (
     <>
-      
+      <Head>
+        <title>Join Gyanarthi Media College and secure 100% Placements</title>       
+        <meta
+          name="description"
+          content="With Gyanarthi Media Colleges curriculum-focused education and industry-best infrastructure, learn how to use your education to secure 100% placements."
+                /></Head>
       
         <main>
           <Header />

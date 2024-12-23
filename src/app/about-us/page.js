@@ -9,10 +9,17 @@ import Services from './Services';
 import Edge from './Edge';
 import Footer from '@/Components/Footer/Footer';
 import FloatingIcons from '@/Components/FloatingIcons/FloatingIcons';
+import Head from 'next/head';
 
 const page = () => {
   return (
     <>
+      <Head>
+        <title>About Us - Gyanarthi</title>       
+        <meta
+          name="description"
+          content="Expand your knowledge and learning experience at Gyanarthi Media College, Kashipur. Learn more about us, faculty, board members, curriculum and placements. "
+                /></Head>
       <main>
         <Header />
         <div>
