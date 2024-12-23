@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-const Contact = dynamic(() => import("@/src/components/Contact/Contact"), {
+const Contact = dynamic(() => import("@/Components/Contact/Contact"), {
   ssr: false, // Disable server-side rendering for this component
 });
 

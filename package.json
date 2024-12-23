@@ -19,6 +19,7 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-tabs": "^6.0.2",
+    "sharp": "^0.33.5",
     "swiper": "^11.0.7",
     "tailwind-merge": "^2.2.2"
   },
