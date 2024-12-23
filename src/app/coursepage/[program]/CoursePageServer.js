@@ -733,14 +733,14 @@ const CoursePageServer = ({ params }) => {
     return (
         <>
             <html lang="en">
-                <Head>
+                {/* <Head>
                     <title>{selectedCourse.metatitle}</title>
                     <meta name="description" content={selectedCourse.metadescription} />
                     <div dangerouslySetInnerHTML={{ __html: selectedCourse.schemas }} />
 
                     
 
-                </Head>
+                </Head> */}
               
                     <PageClient selectedCourse={selectedCourse} />
                 
