@@ -53,7 +53,7 @@ const page = () => {
     }
   };
   return (
-      <Fragment>
+     <main>
       <Header />
           <div className="container mx-auto py-12 px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -224,8 +224,9 @@ const page = () => {
             </div>
           </div>
           <FloatingIcons />
-          <Footer />
-</Fragment>  );
+      <Footer />
+      </main>
+  );
 };
 
 export default page;
