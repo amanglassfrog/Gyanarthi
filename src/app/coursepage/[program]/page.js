@@ -6,6 +6,7 @@ import admisiions from '../../../../public/admissions.png';
 
 import { slugify } from '@/utils';
 import Head from 'next/head';
+import { Helmet } from 'react-helmet';
 
 const courses = [
 
@@ -732,7 +733,7 @@ const CoursePage = ({ params }) => {
     }
   return (<>
    
-     <head>
+     <Helmet>
        
          <title>
           {selectedCourse.metatitle}
@@ -742,7 +743,7 @@ const CoursePage = ({ params }) => {
           content={selectedCourse.metadescription}
           key="desc"
         />
-      </head>
+      </Helmet>
     <CoursePageServer params={params} />
     <FloatingIcons />
   </>);
