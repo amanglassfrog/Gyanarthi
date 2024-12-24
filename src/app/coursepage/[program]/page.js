@@ -739,7 +739,7 @@ const CoursePage = ({ params }) => {
         </title>
         <meta
           name="description"
-          content="{selectedCourse.metadescription}"
+          content={selectedCourse.metadescription}
           key="desc"
         />
       </head>
