@@ -59,7 +59,7 @@ const page = () => {
    
     <>
       <Helmet>
-       
+       <head>
          <title>
           Contact Us at Gyanarthi Media College for Admissions & More
         </title>
@@ -67,7 +67,7 @@ const page = () => {
           name="description"
           content="With Gyanarthi Media College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!"
           key="desc"
-        />
+        /></head>
       </Helmet>
        <main>
       <Header />
