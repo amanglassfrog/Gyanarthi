@@ -13,7 +13,6 @@ import icon5 from "../../../public/twitter.png";
 import icon6 from "../../../public/insta.png";
 import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
 import Head from "next/head";
-import { Helmet } from "react-helmet";
 
 
 const page = () => {
@@ -58,8 +57,8 @@ const page = () => {
   return (
    
     <>
-      <Helmet>
-       <head>
+      <head>
+       
          <title>
           Contact Us at Gyanarthi Media College for Admissions & More
         </title>
@@ -67,8 +66,8 @@ const page = () => {
           name="description"
           content="With Gyanarthi Media College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!"
           key="desc"
-        /></head>
-      </Helmet>
+        />
+      </head>
        <main>
       <Header />
           <div className="container mx-auto py-12 px-4">
