@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Header from "@/Components/Header/Header";
 import Main from "@/Components/Main/Main";
@@ -13,6 +14,7 @@ import FloatingIcons from "@/Components/FloatingIcons/FloatingIcons";
 import VideoPopup from "@/Components/VideoPopup";
 import Feed from "@/Components/feed/feed";
 import Head from "next/head";
+import { useEffect } from "react";
 
 
 export const metadata = {
@@ -24,7 +26,15 @@ export const metadata = {
 
 export default function Home() {
 
-
+useEffect(() => {
+    const allHeads = document.getElementsByTagName("head");
+    if (allHeads.length > 1) {
+      console.warn("Found multiple head tags. Removing duplicates...");
+      for (let i = 1; i < allHeads.length; i++) {
+        allHeads[i].parentNode.removeChild(allHeads[i]);
+      }
+    }
+  }, []);
   return (
     <>
       

@@ -1,6 +1,3 @@
-"use client";
-import React from "react";
-import { useEffect } from "react";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "../../public/globals.css";
 
@@ -14,15 +11,7 @@ const GA_TRACKING_ID = 'G-FVZEWPFVML';
 export default function RootLayout({ children }) {
 
 
-  useEffect(() => {
-  const allHeadTags = document.getElementsByTagName('head');
-  if (allHeadTags.length > 1) {
-    // Keep the first <head> and remove others
-    for (let i = 1; i < allHeadTags.length; i++) {
-      allHeadTags[i].remove();
-    }
-  }
-}, []);
+  
   return (
     <html lang="en">
      <head>
