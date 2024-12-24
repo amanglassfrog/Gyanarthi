@@ -57,12 +57,17 @@ const page = () => {
   return (
    
     <>
-      <Head>
-        <title>Contact Us at Gyanarthi Media College for Admissions & More</title>
-				<meta name="description">
-					With Gyanarthi Media College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!
-				</meta>
-      </Head>
+      <head>
+       
+         <title>
+          Contact Us at Gyanarthi Media College for Admissions & More
+        </title>
+        <meta
+          name="description"
+          content="With Gyanarthi Media College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!"
+          key="desc"
+        />
+      </head>
        <main>
       <Header />
           <div className="container mx-auto py-12 px-4">
