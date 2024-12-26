@@ -17,12 +17,7 @@ import Head from "next/head";
 import { useEffect } from "react";
 
 
-export const metadata = {
-  title: "Gyanarthi: Best Fashion, Media, and Arts College in Kashipur",
-  description:
-    "Pursue your College Education at Gyanarthi Media College, Kumaun University, in Fashion, Media, Commerce, Fine Arts, and Animation Course in city of Kashipur.",
- 
-};
+
 
 export default function Home() {
 
