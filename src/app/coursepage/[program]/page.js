@@ -733,7 +733,7 @@ const CoursePage = ({ params }) => {
     }
   return (<>
    
-     <head>
+     {/* <head>
        
          <title>
           {selectedCourse.metatitle}
@@ -743,7 +743,7 @@ const CoursePage = ({ params }) => {
           content={selectedCourse.metadescription}
           key="desc"
         />
-      </head>
+      </head> */}
     <CoursePageServer params={params} />
     <FloatingIcons />
   </>);

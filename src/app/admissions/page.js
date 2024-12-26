@@ -18,13 +18,7 @@ import Head from "next/head";
 const Page = () => {
   return (
     <>
-       <head>
-        <title>Gyanarthi Media College: Admissions Open Now, Apply Today!</title>       
-        <meta
-          name="description"
-          content="Gyanarthi Media College, affiliated with Kumaun University, Nainital, is offering admissions in courses like BJMC, BFA, BCom, Animation, and more. Apply Now."
-      />
-      </head>
+      
       
         <main>
           <Header />
