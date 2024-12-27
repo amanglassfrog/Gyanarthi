@@ -1,40 +1,19 @@
-
-
-"use client";
 import React from "react";
-import posts from '../data/posts';
-import { useParams } from 'next/navigation';
-import { slugify } from '@/utils';
-
 import Head from "next/head";
 
-const Layout = ({ children }) => {
-const { slug } = useParams();
-    const post = posts.find(post => slugify(post.title) === slug);
+const Layout = ({ children, post }) => {
+  // If no post, just render the children
+  if (!post) return <>{children}</>;
 
-    if (!post) return <p>Loading...</p>;
   return (
     <>
-    
-                <Head>
-                    <title>{post.title}</title>
-                    <meta name="description" content={post.metadescription} />
-        </Head>
-        {children}
-           
-
-      
+  <head>
+        <title>{post.titles}</title>
+        <meta name="description" content={post.metadescription } />
+      </head>     
+      {children} {/* Render the children (blog content) */}
     </>
   );
 };
 
 export default Layout;
-
-
-
-
-
-
-
-
-

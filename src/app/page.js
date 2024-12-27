@@ -34,7 +34,7 @@ useEffect(() => {
     <>
       
       
-           <VideoPopup />
+           {/* <VideoPopup /> */}
           <Header />
           <Main />
           {/* <Feed /> */}

@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import posts from '../data/posts';
 import Image from 'next/image';
 import Link from 'next/link';
+import Layout from './layout';
 // import Header from '@/Components/Header/Header';
 import Footer from '@/Components/Footer/Footer';
 import { slugify } from '@/utils';
@@ -24,8 +25,9 @@ const BlogDetail = () => {
 
     return (
         <>
-            
-
+          
+ 
+ <Layout post={post}></Layout>
             <div className='relative z-50'>
                 
                 <Header />
