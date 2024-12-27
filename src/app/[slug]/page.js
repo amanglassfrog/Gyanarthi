@@ -24,20 +24,8 @@ const BlogDetail = () => {
 
     return (
         <>
-            <head>
-                
-<head>
-       
-         <title>
-          {post.titles}
-        </title>
-        <meta
-          name="description"
-          content={post.metadescription}
-          key="desc"
-        />
-      </head> 
-</head>
+            
+
             <div className='relative z-50'>
                 
                 <Header />

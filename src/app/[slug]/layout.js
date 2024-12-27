@@ -1,36 +1,40 @@
-import { Plus_Jakarta_Sans } from "next/font/google";
+
+
+"use client";
+import React from "react";
 import posts from '../data/posts';
-
-
+import { useParams } from 'next/navigation';
 import { slugify } from '@/utils';
-import parse from 'html-react-parser';
-const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
-
-
-export const metadata = {
-  title: "posts.titles",
-  description:"{posts.metadescription}",
- 
-};
-
-    
+import Head from "next/head";
 
 const Layout = ({ children }) => {
- const { slug } = useParams();
+const { slug } = useParams();
     const post = posts.find(post => slugify(post.title) === slug);
 
     if (!post) return <p>Loading...</p>;
-    console.log(post.title);
   return (
     <>
-     
+    
+                <Head>
+                    <title>{post.title}</title>
+                    <meta name="description" content={post.metadescription} />
+        </Head>
+        {children}
            
-            {children}
-            
-          
+
+      
     </>
   );
 };
 
 export default Layout;
+
+
+
+
+
+
+
+
+
