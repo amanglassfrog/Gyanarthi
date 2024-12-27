@@ -16,11 +16,7 @@ const Bloglist = () => {
     return (
         <>
             <head>
-        <title>Blog: Read More about Gyanarthi Media College Kashipur</title>       
-        <meta
-          name="description"
-          content="Check out the Gyanarthi Blog for more information on the Courses, Curriculum, Infrastructure, Faculty, Life at the College, Media Studies, and more."
-                />
+       
                 {/* <!-- Facebook Meta Tags --> */}
 <meta property="og:url" content="https://www.gyanarthimedia.com/blogs"/>
 <meta property="og:type" content="website"/>

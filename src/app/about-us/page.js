@@ -15,7 +15,7 @@ const page = () => {
   return (
     <>
       <head>
-        <title>About Us - Gyanarthi</title>       
+        <title></title>       
         <meta
           name="description"
           content="Expand your knowledge and learning experience at Gyanarthi Media College, Kashipur. Learn more about us, faculty, board members, curriculum and placements. "
