@@ -14,12 +14,7 @@ import Head from 'next/head';
 const page = () => {
   return (
     <>
-      <head>
-        <title></title>       
-        <meta
-          name="description"
-          content="Expand your knowledge and learning experience at Gyanarthi Media College, Kashipur. Learn more about us, faculty, board members, curriculum and placements. "
-                /></head>
+      
       <main>
         <Header />
         <div>
