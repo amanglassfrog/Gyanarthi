@@ -7,8 +7,10 @@ import logo from "../../../public/GyanarthiLogo.png";
 const posts = [
  {
     id: 2,
-    html: '<title>Can Bachelor of Fine Arts  Boost Your Creativity?</title><meta name="description" content="Unleash your creativity with a Bachelor of Fine Arts (BFA) degree. Explore art and sculpture. Develop problem-solving skills and turn ideas into reality."/>',
     title: "HOW DOES BFA BOOST YOUR CREATIVITY? ",
+    titles: "Can Bachelor of Fine Arts  Boost Your Creativity?",	
+    metadescription:
+      "Unleash your creativity with a Bachelor of Fine Arts (BFA) degree. Explore art and sculpture. Develop problem-solving skills and turn ideas into reality.",
     
 
     href: "#",
@@ -64,10 +66,10 @@ In a BFA degree, you can study any form of fine art like painting, sculpture, ph
 
   {
     id: 1,
-    html: '<title>Upsides of Global Job Scenario of Mass Communication and Journalism</title><meta name="description" content="Journalism and mass communication play interconnected roles in disseminating information to the broader audience. They enhance creativity and critical thinking."/>',
     title: "8 Upsides of Mass Communication and Journalism ",
+    titles:"upsides of mass communication and journalism",
     metadescription:
-      "Eligible candidates will be able to download their NDA I admit card  2024 one week before the exam date. ",
+      "Journalism and mass communication play interconnected roles in disseminating information to the broader audience. They enhance creativity and critical thinking. ",
 
     href: "#",
     description: `
