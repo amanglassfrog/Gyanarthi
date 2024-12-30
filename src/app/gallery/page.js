@@ -52,8 +52,9 @@ const page = () => {
             </div>
           </div>
           <div className=" mx-auto p-3 md:p-6 sm:p-12 py-12">
-            <div className="mb-8 text-center">
-              <h1 className="galleryheading">Experience Campus Life: Inside Gyanarthi</h1>
+          <div className="mb-8 text-center">
+            <h1 className="font-bold">Gallery</h1>
+              <h2 className="galleryheading">Experience Campus Life: Inside Gyanarthi</h2>
             </div>
 
             {/* Second Row */}

@@ -14,6 +14,7 @@ const posts = [
     
 
     href: "#",
+    link:"https://www.gyanarthimedia.com/how-does-bfa-boost-your-creativity-",
     description: `
         <Image src="/blog21.png" alt='Image Description' width={100} height={100}/>
 
@@ -72,6 +73,8 @@ In a BFA degree, you can study any form of fine art like painting, sculpture, ph
       "Journalism and mass communication play interconnected roles in disseminating information to the broader audience. They enhance creativity and critical thinking. ",
 
     href: "#",
+        link:"https://www.gyanarthimedia.com/8-upsides-of-mass-communication-and-journalism-",
+
     description: `
         <Image src="/gyan1.png" alt='Image Description' width={100} height={100}/>
 
