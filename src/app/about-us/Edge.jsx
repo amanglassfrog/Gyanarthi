@@ -15,7 +15,7 @@ import image8 from "../../../public/journalism.png";
 const Edge = () => {
   return (
     <div className="py-8 p-6 md:p-12 sm:px-24">
-      <h2 className="lifetime mb-4">Education that Extends beyond Basics!</h2>
+      <h3 className="lifetime mb-4">Education that Extends beyond Basics!</h3>
       <p className="lifetimepara">
         The specializations at Gyanarthi are particular. Each industrial stream
         has been introduced into the courses with the intent of integrating

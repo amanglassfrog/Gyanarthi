@@ -53,10 +53,10 @@ const page = () => {
             <div className="container mx-auto ">
               {/* First row new section*/}
               <div className="mb-8">
-                <h2 className="text-xl md:text-3xl font-bold leading-tight md:text-center text-left">
+                <h3 className="text-xl md:text-3xl font-bold leading-tight md:text-center text-left">
                   Gyanarthi Offers Placements at Top Giants
                   <br className="hidden md:inline" /> in the Respective Fields
-                </h2>
+                </h3>
               </div>
               {/* Second row */}
               <div className="mb-8">

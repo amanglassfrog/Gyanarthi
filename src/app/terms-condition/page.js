@@ -168,9 +168,9 @@ const Page = () => {
                   media.
                 </p>
                 <br></br>{" "}
-                <h2>
+                <h3>
                   <b>4</b>Hyperlinking to our Content
-                </h2>
+                </h3>
                 <br></br>{" "}
                 <p>
                   <b>4.1</b> The following organizations may link to our Website
@@ -293,9 +293,9 @@ const Page = () => {
                   agreement.
                 </p>
                 <br></br>{" "}
-                <h2>
+                <h3>
                   <b>5.</b> iFrames
-                </h2>
+                </h3>
                 <br></br>{" "}
                 <p>
                   <b>5.1</b> Without prior approval and written permission, you
@@ -303,9 +303,9 @@ const Page = () => {
                   way the visual presentation or appearance of our Website.
                 </p>
                 <br></br>{" "}
-                <h2>
+                <h3>
                   <b>6.</b> Content Liability
-                </h2>
+                </h3>
                 <br></br>{" "}
                 <p>
                   <b>6.1.</b> We shall not be hold responsible for any content
@@ -317,9 +317,9 @@ const Page = () => {
                   violation of, any third-party rights.
                 </p>
                 <br></br>{" "}
-                <h2>
+                <h4>
                   <b>7.</b>Reservation of Rights
-                </h2>
+                </h4>
                 <br></br>{" "}
                 <p>
                   <b>7.1.</b>We reserve the right to request that you remove all
@@ -331,9 +331,9 @@ const Page = () => {
                   terms and conditions.
                 </p>
                 <br></br>{" "}
-                <h2>
+                <h4>
                   <b>8.</b>Removal of links from our website
-                </h2>
+                </h4>
                 <br></br>{" "}
                 <p>
                   <b>8.1.</b> If you find any link on our Website that is
@@ -351,9 +351,9 @@ const Page = () => {
                   date.
                 </p>
                 <br></br>{" "}
-                <h2>
+                <h4>
                   <b>9.</b> Disclaimer
-                </h2>
+                </h4>
                 <br></br>{" "}
                 <p>
                   <b>9.1 .</b>To the maximum extent permitted by applicable law,

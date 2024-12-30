@@ -60,7 +60,7 @@ const Page = () => {
           <div className=" py-8 px-6 md:px-12 sm:px-24">
             <div className="container mx-auto">
               <div className=" mb-8">
-                <h2 className="UG">Undergraduate (UG)</h2>
+                <h3 className="UG">Undergraduate (UG)</h3>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
                 <div className="flex items-center gap-3">
@@ -266,7 +266,7 @@ const Page = () => {
           <div className=" py-12  px-6 md:px-12 sm:px-24">
             <div className="container mx-auto">
               <div className=" mb-8">
-                <h2 className="UG">Post Graduate (PG)</h2>
+                <h3 className="UG">Post Graduate (PG)</h3>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
                 <div className="flex items-center gap-3">
@@ -340,7 +340,7 @@ const Page = () => {
           </div>
           <div className="flex flex-wrap py-8 px-6 md:px-12 sm:px-24 ">
             <div className="w-full md:w-full  p-0 md:p-2 sm:p-4">
-              <h2 className="lifetime mb-4">Admission Process </h2>
+              <h3 className="lifetime mb-4">Admission Process </h3>
               <p className="lifetimepara">
                 Gyanarthi Media College, located in Kashipur , is established in
                 the Industrial City of Uttarakhand with a purpose of building a
@@ -470,9 +470,9 @@ const Page = () => {
           <section className=" py-12">
             <div className="container mx-auto px-2 md:px-2 sm:px-4">
               <div className="flex flex-col md:flex-row items-center justify-between mb-8">
-                <h2 className="text-3xl font-bold md:text-left text-center mb-4 md:mb-0">
+                <h3 className="text-3xl font-bold md:text-left text-center mb-4 md:mb-0">
                   Start Your Gyanarthi Journey
-                </h2>
+                </h3>
               </div>
               <div className="flex flex-col md:flex-row items-stretch justify-between gap-8">
                 <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
