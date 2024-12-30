@@ -1,9 +1,11 @@
 import React from "react";
 export const metadata = {
-  title: "BAJMC : Bachelor of Arts (Journalism & Mass Communication)",
+  title: "Bachelor Degree in Journalism and Mass Communication(BAJMC)",
   description:
-    "Gyanarthi is an institute for Mass Communication that offers Bachelor Degree in Journalism and Mass Communication. Check all details and apply for the course. ",
-  
+    "Gyanarthi is an Institute for Mass Communication Course that offers a Bachelor's Degree in Journalism and Mass Communication(BAJMC) program in Kashipur.",
+  alternates: {
+    canonical: "https://www.gyanarthimedia.com/coursepage/ba-journalism-and-mass-communication",
+  },
 };
 
 

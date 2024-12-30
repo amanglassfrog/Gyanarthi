@@ -3,27 +3,21 @@ import "../../public/globals.css";
 
 const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
-const GA_TRACKING_ID = 'G-FVZEWPFVML';
+const GA_TRACKING_ID = "G-FVZEWPFVML";
 
-
-    export const metadata = {
-  title: "Gyanarthi: Best Fashion, Media, and Arts College in Kashipur",
+export const metadata = {
+  title: "Gyanarthi Media College: Best College in Kashipur, India",
   description:
-    "Pursue your College Education at Gyanarthi Media College, Kumaun University, in Fashion, Media, Commerce, Fine Arts, and Animation Course in city of Kashipur.",
- 
+    "Pursue your College Education at Gyanarthi Media College, Kumaun University, in Fashion, Media, Commerce, Fine Arts, and Animation Course in Kashipur.",
+  alternates: {
+    canonical: "https://www.gyanarthimedia.com",
+  },
 };
 
 export default function RootLayout({ children }) {
-
-
-  
   return (
     <html lang="en">
-     <head>
-       
-       
-   
-       
+      <head>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -40,7 +34,10 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-       <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}></script>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+        ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -51,7 +48,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        
+
         <noscript>
           <img
             height="1"
@@ -60,7 +57,10 @@ export default function RootLayout({ children }) {
             src="https://www.facebook.com/tr?id=293918380265545&ev=PageView&noscript=1"
           />
         </noscript>
-        <meta name="google-site-verification" content="PZmEgTeoZGa19Mium6STqH0mEHf2dBvFjibQUxOm6wE" />
+        <meta
+          name="google-site-verification"
+          content="PZmEgTeoZGa19Mium6STqH0mEHf2dBvFjibQUxOm6wE"
+        />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-956907995"

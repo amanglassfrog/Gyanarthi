@@ -1,9 +1,11 @@
 import React from "react";
 export const metadata = {
-  title: "Apply for Courses in Animation & Multimedia at Gyanarthi ",
+  title: "Masters in Animation & Multimedia courses at Gyanarthi",
   description:
-    "Check the Details for Master Courses in Animation & Multimedia at Gyanarthi Media College and fill out the application for MA in Animation and Design. ",
-  
+    "Check the Details for Master Courses in Animation &amp; Multimedia at Gyanarthi Media College and fill out the application for MA in Animation and Design.",
+  alternates: {
+    canonical: "https://www.gyanarthimedia.com/coursepage/ma-animation-and-design",
+  },
 };
 
 
