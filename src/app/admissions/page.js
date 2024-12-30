@@ -25,9 +25,9 @@ const Page = () => {
 
           <div className="flex flex-wrap py-8 px-0 md:px-12 sm:px-24 pr-0">
             <div className="w-full md:w-1/2  p-4">
-              <h2 className="text-xl font-bold chancelorheading">
+              <h1 className="text-xl font-bold chancelorheading">
                 Find the Course that Charts Your Path of Success
-              </h2>
+              </h1>
               <p className="mt-2 chancelorparagraph">
                 Pick the course that suits your desire to build a career in Mass Communication, Animation, Design, Fashion, Fine Arts, Journalism, and Commerce, easily to turn your Passion into Profession!
               </p>
@@ -44,7 +44,7 @@ const Page = () => {
                 className="max-w-full h-auto"
               />
               <div className="w-full inset-0 flex items-center justify-center ">
-                <h1 className="  tpip">Ace Your Career, Gyanarthi Way! </h1>
+                <h2 className="  tpip">Ace Your Career, Gyanarthi Way! </h2>
               </div>
             </div>
           </div>

@@ -106,7 +106,7 @@ const page = () => {
         <div className='flex justify-center'>
           <div className="flex flex-wrap py-8 container">
             <div className='py-8 px-6 md:px-12 sm:px-24'>
-              <h3 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h3>
+              <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
               <p className="edgepara text-justify">
 At Gyanarthi Media College of Kashipur, our main goal as faculty members is to enhance students' professional profiles. Our aim is to produce graduates specialized in areas like Taxation, International Business, Banking & Finance and Financial Accounting. All courses at our College are affiliated with Kumaun University, with curriculum designed with students after 12 Commerce in mind - as a top option after graduating or to supplement another specialization domain such as BCom Course Details for further understanding each specialization domain.</p>
               <Tabs className="cctabs pt-16">

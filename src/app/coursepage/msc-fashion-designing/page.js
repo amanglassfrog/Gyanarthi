@@ -106,7 +106,7 @@ const page = () => {
         <div className='flex justify-center'>
           <div className="flex flex-wrap py-8 container">
             <div className='py-8 px-6 md:px-12 sm:px-24'>
-              <h3 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h3>
+              <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
               <p className="edgepara text-justify">
 The prime objective of the faculty at the Gyanarthi Media College, Kashipur is to enhance the professional profiles of the students. We seek to create professionals who are equipped with thorough knowledge in the domains of Fashion. The courses at the Gyanarthi Media College are affiliated with Kumaun University and the curriculum is curated with a vision to make it one of the prime options for the best course after Graduation in the field of Fashion Design. The students can check the Bachelor of Science in Fashion Designing Course subsequently to get a comprehension of the specifications of each specialization domain that the College has to offer to the students.              </p>
               <Tabs className="cctabs pt-16">

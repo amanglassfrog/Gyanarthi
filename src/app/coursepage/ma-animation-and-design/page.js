@@ -106,7 +106,7 @@ const page = () => {
         <div className='flex justify-center'>
           <div className="flex flex-wrap py-8 container">
             <div className='py-8 px-6 md:px-12 sm:px-24'>
-              <h3 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h3>
+              <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
               <p className="edgepara text-justify">
 The prime objective of the faculty at the Gyanarthi Media College, Kashipur is to enhance the professional profiles of the students. We seek to create professionals who are equipped with thorough knowledge in the domains of 3d animation courses in Animation and Design. The courses at the Gyanarthi Media College are affiliated with Kumaun University and the curriculum is curated with a vision to make it one of the prime options for best postgraduate courses in Animation and Design. Students can look at the Animation and Design undergraduate program to understand the specifics of all the professional programs offered to students at the university.
               </p>

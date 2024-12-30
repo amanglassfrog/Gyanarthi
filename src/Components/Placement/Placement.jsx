@@ -34,11 +34,11 @@ const NewSection = () => {
         <div className="container mx-auto ">
           {/* First row new section*/}
           <div className="mb-8">
-            <h2 className="placementheading md:text-center text-left">
+            <p className="placementheading md:text-center text-left">
               Transform Your Future with Industry-Backed Programs{" "}
               <br className="hidden md:inline" /> in Mass Communication, Media,
               Fashion and Commerce
-            </h2>
+            </p>
           </div>
           {/* Second row */}
           <div className="mb-8">

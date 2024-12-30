@@ -106,7 +106,7 @@ const page = () => {
         <div className='flex justify-center'>
           <div className="flex flex-wrap py-8 container">
             <div className='py-8 px-6 md:px-12 sm:px-24'>
-              <h3 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h3>
+              <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
               <p className="edgepara text-justify">
 Gyanarthi Media College, Kashipur's faculty strives to heighten student’s professional profiles. Our mission is to produce professionals armed with comprehensive expertise in painting, sculpture, Applied arts and photography.The courses at the Gyanarthi Media College are affiliated with Kumaun University and the curriculum is curated with a vision to make it one of the prime options for the best course after Class 12th in the field of Fine Arts. The students can check the Bachelor of Fine Arts Course subsequently to get a comprehension of the specifications of each specialization domain that the College has to offer to the students.</p>
               <Tabs className="cctabs pt-16">
