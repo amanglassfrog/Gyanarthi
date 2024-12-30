@@ -73,9 +73,9 @@ const Page = () => {
                   affiliate/advertising partners may also use cookies.
                 </p>
                 <br></br>{" "}
-                <h2>
+                <h3>
                   <b>3.</b> License
-                </h2>
+                </h3>
                 <br></br>{" "}
                 <p>
                   <b>3.1 </b>Unless otherwise stated, Non-Profit and/or its

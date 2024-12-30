@@ -12,9 +12,9 @@ const page = () => {
         <Header />
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-3xl font-bold mb-8">GYANARTHI PRIVACY POLICY</h1>
-          <div className="prose">
+        <div className="prose">
             <p>
-              GYANARTHI PRIVACY POLICY<br></br>
+              
               <br></br>
               This Privacy Policy describes Our policies and procedures on the
               collection, use and disclosure of Your information when You use
@@ -27,7 +27,7 @@ const page = () => {
               has been created with the help of the Interpretation and
               Definitions.
               <br></br>
-              <br></br> <b>Interpretation</b>
+              <br></br> </p><h2 className="font-bold">Interpretation</h2><p>
               <br></br>
               <br></br>
               The words of which the initial letter is capitalized have meanings

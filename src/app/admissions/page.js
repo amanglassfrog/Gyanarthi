@@ -51,7 +51,7 @@ const Page = () => {
 
           <div className="flex flex-wrap py-8 px-6 md:px-12 sm:px-24 ">
             <div className="w-full md:w-full container  p-0 md:p-2 sm:p-4">
-              <h2 className="lifetime mb-4">Eligibility Criteria </h2>
+              <h3 className="lifetime mb-4">Eligibility Criteria </h3>
               <p className="lifetimepara">
                At Gyanarthi, the main eligibility criteria for a course is the intensity of interest in it. We accept students of different educational backgrounds and potentials. The basic eligibility condition for Graduate Courses is to have passed Class 12 from a recognized board of education with at least 40% marks. However, the students should have passed their 12th standard from a recognized board of education. There are no further conditions of eligibility that the students must satisfy in order to find their place at the Gyanarthi Media College. For the Post Graduate Courses, the students must have graduated from a recognized University with at least 40% marks. There are no specific course requirements for educational qualifications as we believe that the students must be able to pursue what they desire, without any hindrances.
               </p>

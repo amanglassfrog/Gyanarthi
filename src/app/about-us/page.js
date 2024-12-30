@@ -43,7 +43,7 @@ const page = () => {
             {/* Second Column (Text) */}
             <div className=" md:ml-4 vision">
               <div className="vis mx-auto">
-                <h2 className="emx mb-4">Education Meets Expertise</h2>
+                <h3 className="emx mb-4">Education Meets Expertise</h3>
                 <p className="text-gray-700">
                   Gyanarthi Media College is a space where education meets expertise. Our Expert Faculty devises a highly personalized and specific curriculum for students. Teaching Methods at Gyanarthi are more about practical implications rather than theoretical practices. Teachers at Gyanarthi understand the particular requisites of the students and, accordingly, devise strategies to help them conceive the concepts. The relevant problems and solutions are backed by vital conceptual clearance, which reflects solid educative values.</p><br></br><br></br>
                 <p className="text-gray-700 mt-4">

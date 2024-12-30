@@ -80,7 +80,8 @@ const page = () => {
               <div className="flex items-center flex-col justify-center w-full">
                 <h1 className="text-left font-bold chancelorheading pb-5">
                   Contact Us
-                </h1>
+              </h1>
+              <h2 className="font-bold">Gyanarthi Media College</h2>
                 <form className="w-full" onSubmit={handleSubmit}>
                   <div className="flex  mb-4">
                     <div className="w-1/2 mr-2">

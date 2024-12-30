@@ -144,7 +144,7 @@ const page = () => {
         <section className="py-12">
           <div className="container mx-auto px-2 md:px-2 sm:px-4">
             <div className="flex flex-col md:flex-row items-center justify-between mb-8">
-              <h2 className="text-3xl font-bold md:text-left text-center mb-4 md:mb-0">Start Your Gyanarthi Journey</h2>
+              <h3 className="text-3xl font-bold md:text-left text-center mb-4 md:mb-0">Start Your Gyanarthi Journey</h3>
             </div>
             <div className="flex flex-col md:flex-row items-stretch justify-between gap-8">
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">

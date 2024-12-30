@@ -272,9 +272,9 @@ const page = () => {
           </section>
           <section className=" py-12">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl text-center font-bold mb-8">
+              <h3 className="text-3xl text-center font-bold mb-8">
                 How does Gyanarthi turn Students into Professionals?
-              </h2>
+              </h3>
               <p className="text-lg text-center mb-8">
                 Gyanarthi Media College promotes holistic development and growth
                 of the students in potentials that go beyond the academics. In
