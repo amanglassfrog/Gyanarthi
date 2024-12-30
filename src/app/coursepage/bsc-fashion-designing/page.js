@@ -24,7 +24,7 @@ const page = () => {
         <div className='flex justify-center'>
           <div className="flex flex-wrap py-8 container">
             <div className="w-full md:w-1/2 p-4">
-              <h2 className="text-xl font-bold chancelorheading">BSc Fashion Designing</h2>
+              <h1 className="text-xl font-bold chancelorheading">BSc Fashion and Designing Course</h1>
               <p className="mt-2 chancelorparagraph pt-3">
                 Session Starts – August 2024<br /><br />
                 Duration – 3 Years (For UG Program),<br />
@@ -39,9 +39,9 @@ const page = () => {
             <div className="w-full md:w-1/2 p-4">
               <Image src={admisiions} alt="Image Description" className="max-w-full h-auto" />
               <div className="w-full inset-0 flex items-center justify-center">
-                <h1 className="tpip">
+                <span className="tpip">
                   Ace Your Career, Gyanarthi Way!
-                </h1>
+                </span>
               </div>
             </div>
           </div>
