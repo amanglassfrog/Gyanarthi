@@ -24,7 +24,7 @@ const page = () => {
         <div className='flex justify-center'>
           <div className="flex flex-wrap py-8 container">
             <div className="w-full md:w-1/2 p-4">
-              <h1 className="text-xl font-bold chancelorheading">BA Courses in Animation and Multimedia</h1>
+              <h1 className="text-xl font-bold chancelorheading">Courses in Animation and Multimedia</h1>
               <p className="mt-2 chancelorparagraph pt-3">
                 Session Starts – August 2024<br /><br />
                 Duration – 3 Years (For UG Program),<br />
