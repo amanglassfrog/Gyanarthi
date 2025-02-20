@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import logo from "../../../public/GyanarthiLogo.png";
+import logo from "../../../public/newlogo.png";
 import Image from "next/image";
 
 const Header = () => {
