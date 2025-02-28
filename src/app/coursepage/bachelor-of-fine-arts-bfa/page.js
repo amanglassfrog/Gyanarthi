@@ -61,7 +61,10 @@ const page = () => {
                 <TabPanel className="tabpanel futurevision">
                   <div className="flex flex-wrap">
                     <div className="w-full md:w-1/2 p-4">
-                      <p className='selectedcourse'>The students at the Gyanarthi Media College are inspired to choose their fields of interest and build a career in the same. The domain of Fine Arts is one of the most creative fields. However, the options of courses that solely focus on the same are very limited. At Gyanarthi, we allow the students to explore the Fine Arts with finesse and comprehensive techniques. The Bachelor of Fine Arts course is supported by an intensive curriculum which is affiliated with the University of Kumaun, Nainital and is recognized by the University Grants Commission. For building a career in creative fields, a very supportive environment and structure of the course are required. This structure must be backed by thorough techniques and expertise that our experienced faculty brings to the table. The Bachelor of Fine Arts Course at the Gyanarthi Media College aims to assist students in building the careers they have always dreamt of. </p>
+                      <p className='selectedcourse'>Gyanarthi believes in offering exciting courses. We aim at keeping our students engaged with their studies. To ensure that, we plan our curriculum interesting enough. Fine arts is a rising field in today’s times. The<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of Fine Arts course</a> is important in opening many creative fields. Bachelor of Fine Arts course is important in opening many creative fields.
+ <br></br>
+Our innovative program backs<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of Fine Arts Degree</a> Courses. The University of Kumaun, Nainital, affiliates it. Apart from that, the University Grants Commission recognizes it as well. We offer a supportive environment and a structured course. The structure of the BFA course at Gyanarthi Media College is planned and executed by experts in the field. Experts in the field plan and execute the structure of the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>BFA degree</a> course at Gyanarthi Media College.
+</p>
                       <div className="pt-5">
                         <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
                       </div>
@@ -75,7 +78,14 @@ const page = () => {
                 <TabPanel className="tabpanel futurevision">
                   <div className="flex flex-wrap">
                     <div className="w-full md:w-1/2 p-4">
-                      <p className='selectedcourse'>Bachelor of Fine Arts Courses are available with four specializations at the Gyanarthi Media College. These domains are very balanced and curated in order to build expertise in one of the four leading domains of the field. The students can either choose Painting, Sculpture, Applied Arts, or Photography in order to choose the course of their career. The curriculum in each of the specializations is highly specific while also providing a general idea of the basics of Fine Arts. The four specializations are more inclined towards equipping the students with the right amount of knowledge they need so as to build careers in different industries within the Fine Arts field. The students pursue Painting to take up fields that require intricate brush work while those who take up Sculpting are more adept in moulding. Applied Arts primarily focuses on the domain of Graphic Design and related artistical works while the Photography arena deals with a meticulous understanding of the frames and visual adjustments. </p>
+                      <p className='selectedcourse'>The<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor in Fine Arts Courses</a> offer fine arts courses with four specializations. These specializations are curated to make our students excel in that particular art course. We offer painting, photography, sculpture, and applied arts under the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>Bachelor of FIne Arts degree</a>.
+
+The curriculum for each course provides a general idea of the basics of fine arts. Apart from that, the specialization part talks deeply about the subject. It ensures that students have a broad understanding of the specific techniques, styles, and historical context within the field of fine arts.
+
+Our qualified faculty members ensure that students receive engaging lessons. They provide support to develop their creative abilities. These specializations are there to bring out the creative side of students.
+
+Students in painting focus on brushwork. The ones who opt for sculpting excel at molding. Applied arts mainly emphasizes graphic design and related artistic work. The specialization of photography covers all aspects of the field.
+</p>
                       <div className="pt-5">
                         <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
                       </div>
@@ -88,7 +98,12 @@ const page = () => {
                 <TabPanel className="tabpanel futurevision">
                   <div className="flex flex-wrap">
                     <div className="w-full md:w-1/2 p-4">
-                      <p className='selectedcourse'>Gyanarthi Media College, Kashipur, is very inclusive in terms of educational backgrounds. Students of nearly all backgrounds can opt for courses at Gyanarthi. All they need to do is Pass Class 12th from a recognized board of schooling. The students should have scored more than 40% marks as an aggregate. The selection criteria at the Gyanarthi are relaxed to ensure that students of all backgrounds and potential can chase their passion and turn them into profession. We seek to help students in building the careers they desire in the domains of Media, Communication, Commerce, Arts, and Fashion. The students at Gyanarthi Media College are groomed to face all the challenges of their professional as well as personal lives. Thus, as one of the top colleges in the city of Kashipur, we strive to reach out to every student who has compassion and enthusiasm for passionate professions.</p>
+                      <p className='selectedcourse'>Gyanarthi Media College, Kashipur, is very peculiar about educational backgrounds. We help students build careers in the domains of media, communication, commerce, arts, and fashion. Students of nearly all backgrounds can opt for the<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of Arts courses after 12th</a>.
+<br></br>
+There are certain eligibility criteria for admissions in the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>BFA courses</a> at Gyanarthi Media College. So, the most important criteria is 40% marks in 12th grade. Basically, candidates must score 40% in the 12th grade in order to be considered for a <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>Bachelor in Fine Arts Courses</a>. It should have been recognized by an accredited board. 
+<br></br>
+The <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>Bachelor of Fine Arts  Course</a> selection criteria at Gyanarthi ensures students become professionals. As a top college in Kashipur, we aim to reach students who are passionate about their professions.
+</p>
                       <div className="pt-5">
                         <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
                       </div>
@@ -108,7 +123,8 @@ const page = () => {
             <div className='py-8 px-6 md:px-12 sm:px-24'>
               <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
               <p className="edgepara text-justify">
-Gyanarthi Media College, Kashipur's faculty strives to heighten student’s professional profiles. Our mission is to produce professionals armed with comprehensive expertise in painting, sculpture, Applied arts and photography.The courses at the Gyanarthi Media College are affiliated with Kumaun University and the curriculum is curated with a vision to make it one of the prime options for the best course after Class 12th in the field of Fine Arts. The students can check the Bachelor of Fine Arts Course subsequently to get a comprehension of the specifications of each specialization domain that the College has to offer to the students.</p>
+Gyanarthi encourages academic excellence along with skill development. The college provides a friendly environment for students. Helping students to grow as individuals and encouraging them to pursue their passions. Gyanarthi is well-known as one of the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>best fine arts colleges in India</a>. Gyanarthi provides academic learning along with the overall growth of students. Therefore, several clubs and teams work to organize fun learning events.
+              </p>
               <Tabs className="cctabs pt-16">
                 <TabList className="etablist pb-5">
                   <Tab className="etab">BFA in Painting </Tab>
@@ -118,16 +134,31 @@ Gyanarthi Media College, Kashipur's faculty strives to heighten student’s prof
                 </TabList>
                 <div>
                   <TabPanel className="tabpanel">
-                    <p className='kalakari'>Painting is one of the prime and most pursued specializations under the Bachelor of Fine Arts Course at the Gyanarthi Media College. The well-curated and structured curriculum enables students to refine their craft by employing better techniques. This is one of the best courses in the city of Kashipur and it not only hones the skills of the students but also helps them build careers in textiles, art studios, animation, production houses, and other such places of work. </p>
+                    <p className='kalakari'>One of the four specializations that we offer under the<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of Fine Arts</a> is painting.
+It offers our students the opportunity to learn about painting techniques, styles, & mediums to develop a unique artistic tone. 
+Experienced faculty is there to guide painting students of the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>BFA degree</a>. We also equip students with necessary guidance and resources to excel in the painting art field.
+After doing BFA, students can go for career options including professional artists, art educators, set designers, and illustrators, among others.
+</p>
                   </TabPanel>
                   <TabPanel className="tabpanel">
-                    <p className='kalakari'>Integrating moulding, carving, welding, and modelling in Bachelor of Fine Arts, this specialization focuses on the holistic development of the students to grow their career in Sculpting. While the students are able to get an understanding of photography, fine arts, graphic designing, and other domains, this specialization helps them gain a closer understanding of the sculpting arena while repairing them more intricately for a career in the same field. </p>
+                    <p className='kalakari'>The Bachelor of Fine Art's specialization in sculpture includes a curriculum regarding molding, carving, and modeling.
+This specialization is about all-inclusive development of our students to excel in the sculpture field.
+The <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>BFA degree</a> course's specialization in sculpture equips students with an in-depth learning of sculpture. 
+Students can opt for a <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>Bachelor of Fine Arts Course</a>  if they plan to be professional sculptors, art instructors, gallery curators, or sculpture restorers.</p>
                   </TabPanel>
                   <TabPanel className="tabpanel">
-                    <p className='kalakari'>The Applied Arts domain in the Bachelor of Fine Arts Courses is more inclined towards Calligraphy, Graphic Design, Advertising, Clay Modelling, and other such fields. This domain can be pursued by students who are interested in joining workspaces such as Animation Studios, Production Houses, Music Companies, Theatres and others. We prepare our students to work in exciting workspaces across the globe after they graduate from Gyanarthi.</p>
+                    <p className='kalakari'>We offer applied arts under our <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>Bachelor of Fine Arts degree Courses</a>, teaching creative product packaging design.
+Students can learn the art of calligraphy, graphic design, advertising, clay modeling, and other such fields in applied arts. 
+Aspiring animation studio, production house, and theater professionals can opt for the applied arts specialization in the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>Bachelor of Fine Arts Course</a>.
+Students can choose from graphic design, illustrator, and many more after taking applied arts.
+</p>
                   </TabPanel>
                   <TabPanel className="tabpanel">
-                    <p className='kalakari'>The Photography specialization in the Bachelor of Fine Arts Course brings forward opportunities for the students to explore visual aesthetics, photography frames, and relative specifications in the field.This course lays the foundation for students to pursue careers in cinematography, digital technologies, visual communication, and many more.We blend technology with talent to make our students compatible with modern trends in photography.</p>
+                    <p className='kalakari'>Photography is the art of creativity. It allows individuals to capture moments, emotions, and beauty in a single frame. 
+The <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>BA fine arts</a> photography course gives students the chance to understand relative specifications in the phototography field.
+Photography studies in BFA lay the groundwork for a career in cinematography, digital technologies, visual communication, and many other fields.
+The<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of FIne Arts degree</a> in photography art opens career options like curator, photographer, photojournalist, consultant, stylist, and more.
+</p>
                   </TabPanel>
                 </div>
               </Tabs>
