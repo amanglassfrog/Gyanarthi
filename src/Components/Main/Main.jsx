@@ -1454,7 +1454,7 @@ const Main = () => {
             <div className="md:w-2/5 md:pl-4">
               <div className="bgform p-2 md:p-4 sm:p-8 rounded-md shadow-md flex items-center justify-center flex-col">
                 <h3 className="mb-4 text-white formheading">
-                  GYANARTHI APPLICATION FORM 2024
+                  GYANARTHI APPLICATION FORM 2025
                 </h3>
                 <div className="bg-red-500 text-white p-4 mb-4 rounded-md">
                   Admissions Open Now
