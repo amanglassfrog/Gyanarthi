@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
@@ -15,8 +15,29 @@ import admisiions from '../../../../public/admissions.png';
 
 
 const page = () => {
- 
+ const faqs = [
+    {
+      question: "Explain BFA as a degree course.",
+      answer: "Bachelor’s of Fine Arts Degree is an undergraduate program that offers courses in arts after 10th. This course focuses on design and visual arts. It's a degree program where students can explore creative expression. They have mediums like painting, sculpture, photography, graphic design, and many more."
+    },
+    {
+      question: "What are the benefits of pursuing a BA in fine arts degree?",
+      answer: "Pursuing a BA in fine arts offers the opportunity to develop creative learning & analytical thinking abilities. BFA also helps in providing a strong foundation in art history."
+    },
+    {
+      question: "Why should I go for BFA Degree from Gyanarthi Media College, Kashipur?",
+      answer: "Gyanarthi Media College, Kashipur, is one of the best fine arts colleges in India. The Bachelor of Fine Arts degree is one of the advanced courses it offers. We don't just provide academic learning, but our expert faculty provide students with valuable guidance to help them excel."
+    },
+    {
+      question: "What are the career options students have after pursuing their Bachelor of Fine Arts degree?",
+      answer: "A Bachelor of Fine Arts degree opens up numerous creative field careers in art therapy, animation, advertising, and marketing. Students who pursue a BFA degree can become professional artists, set designers, and photojournalists, among other options."
+    }
+  ];
+const [openIndex, setOpenIndex] = useState(null);
 
+  const toggleAnswer = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
   return (
     <>
       <main>
@@ -26,11 +47,11 @@ const page = () => {
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl font-bold chancelorheading">Bachelor of Fine Arts Course</h1>
               <p className="mt-2 chancelorparagraph pt-3">
-                Session Starts – August 2024<br /><br />
+                Session Starts – August 2025<br /><br />
                 Duration – 3 Years (For UG Program),<br />
                 2 Years (For PG Program)<br /><br />
                 Residential Degree Program<br /><br />
-                Applications Deadline: July 2024
+                Applications Deadline: July 2025
               </p>
               <div className='flex pt-8'>
                 <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
@@ -180,7 +201,7 @@ The<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa 
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Apply</h3>
-                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2024!</p>
+                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2025!</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex items-center gap-3' href='/contact'>Apply Now <Image src={apply} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>
@@ -194,13 +215,30 @@ The<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa 
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
-                  <p className="text-center mb-6 text-white journeypara">Download the 2024 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
+                  <p className="text-center mb-6 text-white journeypara">Download the 2025 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='#' download target="_blank" className='flex items-center gap-3'>Download Now<Image src={download} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        <div className="max-w-7xl mx-auto px-4 py-8">
+      <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">Frequently Asked Questions</h2>
+      <div className="space-y-4">
+        {faqs.map((faq, index) => (
+          <div key={index} className="border-b border-gray-300 pb-4">
+            <button
+              onClick={() => toggleAnswer(index)}
+              className="w-full text-left text-lg font-medium text-gray-900 focus:outline-none">
+              {faq.question}
+            </button>
+            {openIndex === index && (
+              <p className="mt-2 text-gray-700">{faq.answer}</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
         <Footer />
       </main>
     </>

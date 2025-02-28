@@ -26,11 +26,11 @@ const page = () => {
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl font-bold chancelorheading">Masters in Animation & Multimedia Courses</h1>
               <p className="mt-2 chancelorparagraph pt-3">
-                Session Starts – August 2024<br /><br />
+                Session Starts – August 2025<br /><br />
                 Duration – 3 Years (For UG Program),<br />
                 2 Years (For PG Program)<br /><br />
                 Residential Degree Program<br /><br />
-                Applications Deadline: July 2024
+                Applications Deadline: July 2025
               </p>
               <div className='flex pt-8'>
                 <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
@@ -150,7 +150,7 @@ The prime objective of the faculty at the Gyanarthi Media College, Kashipur is t
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Apply</h3>
-                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2024!</p>
+                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2025!</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex items-center gap-3' href='/contact'>Apply Now <Image src={apply} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>
@@ -164,7 +164,7 @@ The prime objective of the faculty at the Gyanarthi Media College, Kashipur is t
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
-                  <p className="text-center mb-6 text-white journeypara">Download the 2024 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
+                  <p className="text-center mb-6 text-white journeypara">Download the 2025 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='#' download target="_blank" className='flex items-center gap-3'>Download Now<Image src={download} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>

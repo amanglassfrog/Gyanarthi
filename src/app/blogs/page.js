@@ -49,7 +49,7 @@ const Bloglist = () => {
                                     </div>
                                     <div className="flex items-center gap-x-4 text-xs">
                                         <time  className="text-gray-500">
-                                           24 June 2024
+                                           24 June 2025
                                         </time>
                                         <a
                                             href="#"
@@ -84,7 +84,7 @@ Gyanarthi Media                                             </p>
                                     </div>
                                     <div className="flex items-center gap-x-4 text-xs">
                                         <time  className="text-gray-500">
-                                           24 June 2024
+                                           24 June 2025
                                         </time>
                                         <a
                                             href="#"

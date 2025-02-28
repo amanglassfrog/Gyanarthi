@@ -118,7 +118,7 @@ There is competition in the media world. It takes original thought and creative 
 
 
         `,
-    date: "June 24 2024",
+    date: "June 24 2025",
     datetime: "2024-06-24",
     imageUrl: blog1img,
 

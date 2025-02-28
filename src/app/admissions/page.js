@@ -481,7 +481,7 @@ const Page = () => {
                       Apply
                     </h3>
                     <p className="text-center mb-6 text-white journeypara">
-                      Complete the Application Form for enrollment in the 2024
+                      Complete the Application Form for enrollment in the 2025
                       academic session at Gyanarthi Media College!
                     </p>
                     <button className="bg-transparent  hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">
@@ -527,7 +527,7 @@ const Page = () => {
                       Brochure
                     </h3>
                     <p className="text-center mb-6 text-white journeypara">
-                      Download the 2024 Brochure of the Gyanarthi Media College
+                      Download the 2025 Brochure of the Gyanarthi Media College
                       and explore the Courses and College Life.
                     </p>
                     <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">
