@@ -103,71 +103,43 @@ const Header = () => {
                       href="/coursepage/bsc-fashion-designing"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      BSc Fashion Designing
+                      BSc Fashion Designing (3 years)
                     </a>
                   </li>
-                  <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
-                      href="/coursepage/msc-fashion-designing"
-                      className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
-                    >
-                      MSc Fashion Designing
-                    </a>
-                  </li>
+
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
                     <a
                       href="/coursepage/ba-animation-and-design"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      BA Animation & Design
+                      BA Animation & Design (3 years)
                     </a>
                   </li>
-                  <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
-                      href="/coursepage/ma-animation-and-design"
-                      className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
-                    >
-                      MA Animation & Design
-                    </a>
-                  </li>
+
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
                     <a
                       href="/coursepage/bachelor-of-fine-arts-bfa"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      Bachelor of Fine Arts BFA
+                      BFA (4 years)
                     </a>
                   </li>
-                  <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
-                      href="/coursepage/ma-journalism-and-mass-communication"
-                      className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
-                    >
-                      MA Journalism and Mass Communication
-                    </a>
-                  </li>
+
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
                     <a
                       href="/coursepage/bcom"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      B.com
+                      B.Com (3 years)
                     </a>
                   </li>
-                  <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
-                      href="/coursepage/bcom-taxation"
-                      className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
-                    >
-                      B.com (Taxation)
-                    </a>
-                  </li>
+
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
                     <a
                       href="/coursepage/bcom-financial-accounting"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      B.com (Financial Accounting)
+                      B.Com Financial Accounting (3 years)
                     </a>
                   </li>
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
@@ -175,23 +147,40 @@ const Header = () => {
                       href="/coursepage/bcom-banking-and-finance"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      B.com (Banking & Financial)
+                      B.Com Banking & Financial (3 years)
                     </a>
                   </li>
-                  <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
-                      href="/coursepage/bcom-international-business"
-                      className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
-                    >
-                      B.com International Business
-                    </a>
-                  </li>
+
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
                     <a
                       href="/coursepage/ba-journalism-and-mass-communication"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      BA Journalism and Mass Communication
+                      BJMC (3 years)
+                    </a>
+                  </li>
+                  <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
+                    <a
+                      href="/coursepage/msc-fashion-designing"
+                      className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
+                    >
+                      MSc Fashion Designing (2 years)
+                    </a>
+                  </li>
+                  <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
+                    <a
+                      href="/coursepage/ma-animation-and-design"
+                      className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
+                    >
+                      MA Animation & Design (2 years)
+                    </a>
+                  </li>
+                  <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
+                    <a
+                      href="/coursepage/ma-journalism-and-mass-communication"
+                      className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
+                    >
+                      MJMC (2 years){" "}
                     </a>
                   </li>
                 </ul>

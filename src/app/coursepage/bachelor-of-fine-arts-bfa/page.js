@@ -25,8 +25,8 @@ const page = () => {
       answer: "Pursuing a BA in fine arts offers the opportunity to develop creative learning & analytical thinking abilities. BFA also helps in providing a strong foundation in art history."
     },
     {
-      question: "Why should I go for BFA Degree from Gyanarthi Media College, Kashipur?",
-      answer: "Gyanarthi Media College, Kashipur, is one of the best fine arts colleges in India. The Bachelor of Fine Arts degree is one of the advanced courses it offers. We don't just provide academic learning, but our expert faculty provide students with valuable guidance to help them excel."
+      question: "Why should I go for BFA Degree from Gyanarthi  College, Kashipur?",
+      answer: "Gyanarthi  College, Kashipur, is one of the best fine arts colleges in India. The Bachelor of Fine Arts degree is one of the advanced courses it offers. We don't just provide academic learning, but our expert faculty provide students with valuable guidance to help them excel."
     },
     {
       question: "What are the career options students have after pursuing their Bachelor of Fine Arts degree?",
@@ -84,7 +84,7 @@ const [openIndex, setOpenIndex] = useState(null);
                     <div className="w-full md:w-1/2 p-4">
                       <p className='selectedcourse'>Gyanarthi believes in offering exciting courses. We aim at keeping our students engaged with their studies. To ensure that, we plan our curriculum interesting enough. Fine arts is a rising field in today’s times. The<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of Fine Arts course</a> is important in opening many creative fields. Bachelor of Fine Arts course is important in opening many creative fields.
  <br></br>
-Our innovative program backs<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of Fine Arts Degree</a> Courses. The University of Kumaun, Nainital, affiliates it. Apart from that, the University Grants Commission recognizes it as well. We offer a supportive environment and a structured course. The structure of the BFA course at Gyanarthi Media College is planned and executed by experts in the field. Experts in the field plan and execute the structure of the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>BFA degree</a> course at Gyanarthi Media College.
+Our innovative program backs<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of Fine Arts Degree</a> Courses. The University of Kumaun, Nainital, affiliates it. Apart from that, the University Grants Commission recognizes it as well. We offer a supportive environment and a structured course. The structure of the BFA course at Gyanarthi  College is planned and executed by experts in the field. Experts in the field plan and execute the structure of the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>BFA degree</a> course at Gyanarthi  College.
 </p>
                       <div className="pt-5">
                         <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
@@ -119,9 +119,9 @@ Students in painting focus on brushwork. The ones who opt for sculpting excel at
                 <TabPanel className="tabpanel futurevision">
                   <div className="flex flex-wrap">
                     <div className="w-full md:w-1/2 p-4">
-                      <p className='selectedcourse'>Gyanarthi Media College, Kashipur, is very peculiar about educational backgrounds. We help students build careers in the domains of media, communication, commerce, arts, and fashion. Students of nearly all backgrounds can opt for the<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of Arts courses after 12th</a>.
+                      <p className='selectedcourse'>Gyanarthi  College, Kashipur, is very peculiar about educational backgrounds. We help students build careers in the domains of media, communication, commerce, arts, and fashion. Students of nearly all backgrounds can opt for the<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '> Bachelor of Arts courses after 12th</a>.
 <br></br>
-There are certain eligibility criteria for admissions in the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>BFA courses</a> at Gyanarthi Media College. So, the most important criteria is 40% marks in 12th grade. Basically, candidates must score 40% in the 12th grade in order to be considered for a <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>Bachelor in Fine Arts Courses</a>. It should have been recognized by an accredited board. 
+There are certain eligibility criteria for admissions in the <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>BFA courses</a> at Gyanarthi  College. So, the most important criteria is 40% marks in 12th grade. Basically, candidates must score 40% in the 12th grade in order to be considered for a <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>Bachelor in Fine Arts Courses</a>. It should have been recognized by an accredited board. 
 <br></br>
 The <a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa '>Bachelor of Fine Arts  Course</a> selection criteria at Gyanarthi ensures students become professionals. As a top college in Kashipur, we aim to reach students who are passionate about their professions.
 </p>
@@ -201,7 +201,7 @@ The<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa 
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Apply</h3>
-                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2025!</p>
+                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi  College for the year 2025!</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex items-center gap-3' href='/contact'>Apply Now <Image src={apply} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>
@@ -215,7 +215,7 @@ The<a href='https://www.gyanarthimedia.com/coursepage/bachelor-of-fine-arts-bfa 
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
-                  <p className="text-center mb-6 text-white journeypara">Download the 2025 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
+                  <p className="text-center mb-6 text-white journeypara">Download the 2025 Brochure of the Gyanarthi  College and explore the Courses and College Life.</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='#' download target="_blank" className='flex items-center gap-3'>Download Now<Image src={download} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>

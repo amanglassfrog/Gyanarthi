@@ -44,7 +44,7 @@ const Page = () => {
                     <div className="w-full md:w-full container  p-0 md:p-2 sm:p-4">
                         <h2 className="lifetime mb-4">Funding and Financial Aid </h2>
                         <p className="lifetimepara">
-                            At Gyanarthi Media College, it is important the students get an equal opportunity. However, Finances can be hindrance in that cause. In order to mitigate the relevant financial pressures and constraints, the college offers hefty scholarships to th students. These scholarships can be availed on the basis of education criteria. Furthermore, students can also seek relaxations based on Financial Status. The College always  promotes education and growth. In order to do so, we conduct scholarship tests in schools all across the city. Based on the marks obtained in the tests, the students can avail scholarship aid. The test is based on general aptitude and students of all backgrounds can attempt them.
+                            At Gyanarthi  College, it is important the students get an equal opportunity. However, Finances can be hindrance in that cause. In order to mitigate the relevant financial pressures and constraints, the college offers hefty scholarships to th students. These scholarships can be availed on the basis of education criteria. Furthermore, students can also seek relaxations based on Financial Status. The College always  promotes education and growth. In order to do so, we conduct scholarship tests in schools all across the city. Based on the marks obtained in the tests, the students can avail scholarship aid. The test is based on general aptitude and students of all backgrounds can attempt them.
 
                         </p>
                         <ul className="list-none pt-16">
@@ -56,7 +56,7 @@ const Page = () => {
 
 
                                 {/* <span className='circle'></span> */}
-                                <p className='ml-4'>Gyanarthi Media College offers scholarships to top-performing students in the 12th board examinations, identifying and rewarding academic excellence.</p>
+                                <p className='ml-4'>Gyanarthi  College offers scholarships to top-performing students in the 12th board examinations, identifying and rewarding academic excellence.</p>
                             </li>
                             <li className="pb-12 relative">
                                 <span className="absolute top-0 left-0 h-full linewidth bg-gray-400"></span>
@@ -80,7 +80,7 @@ const Page = () => {
                                 <span className="absolute top-0 left-0 flex items-center justify-center w-4 h-4 transform -translate-x-1/2 rounded-full bg-white border-2 border-yellow-500">
                                     <span className="w-2 h-2 rounded-full bg-yellow-400"></span>
                                 </span>
-                                <p className='ml-4'>                            Single female children can benefit from scholarships at Gyanarthi Media College, empowering them to pursue their educational goals independently.  </p>
+                                <p className='ml-4'>                            Single female children can benefit from scholarships at Gyanarthi  College, empowering them to pursue their educational goals independently.  </p>
 
                             </li>
                             <li className="pb-12 relative">
@@ -134,7 +134,7 @@ const Page = () => {
 
                         </p><p className="lifetimepara pt-8"> We offer students scholarships based on their performance on the Scholarship Test. Top scorers are awarded 100% scholarships and based on the results, the scholarships are offered to the other students in a manner where the students can get an aid of 80%, 60%, 40%, and 20% of their course fees.
 
-                            Gyanarthi Media College aims to provide education in a manner that the students are not hindered by financial constraints in their pursuit of their dream careers. Our scholarships and financial aid criteria are the same as the eligibility conditions for the courses. Students can ease their path to success with the Gyanarthi Media College!
+                            Gyanarthi  College aims to provide education in a manner that the students are not hindered by financial constraints in their pursuit of their dream careers. Our scholarships and financial aid criteria are the same as the eligibility conditions for the courses. Students can ease their path to success with the Gyanarthi  College!
 
                         </p>
                     </div></div>
@@ -149,7 +149,7 @@ const Page = () => {
                             <div className="w-full md:w-1/3 bg-blue-900 hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
                                 <div className="p-8">
                                     <h3 className=" text-center mb-4 text-white journeyheading">Apply</h3>
-                                    <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi Media College for the year 2025!</p>
+                                    <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi  College for the year 2025!</p>
                                     <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">Apply Now</button>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@ const Page = () => {
                             <div className="w-full md:w-1/3 bg-blue-900 hover:bg-yellow-500 transition duration-300 ease-in-out  mb-4 md:mb-0">
                                 <div className="p-8">
                                     <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
-                                    <p className="text-center mb-6 text-white journeypara">Download the 2025 Brochure of the Gyanarthi Media College and explore the Courses and College Life.</p>
+                                    <p className="text-center mb-6 text-white journeypara">Download the 2025 Brochure of the Gyanarthi  College and explore the Courses and College Life.</p>
                                     <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">Download Now</button>
                                 </div>
                             </div>

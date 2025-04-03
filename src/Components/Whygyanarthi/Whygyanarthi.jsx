@@ -40,7 +40,7 @@ const Whygyanarthi = () => {
               </div>
               <h3 className="urban mb-2">Urban Infrastructure</h3>
               <p className="urbanpara">
-                Equipped with the best facilities, the campus of Gyanarthi Media
+                Equipped with the best facilities, the campus of Gyanarthi
                 College is widespread in the beautiful city of Kashipur.
               </p>
             </div>

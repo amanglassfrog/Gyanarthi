@@ -1286,23 +1286,18 @@ const Main = () => {
   // Define your courses and corresponding programs here
   const courseProgramMap = {
     Commerce: [
-      "BCom",
-      "BCom Taxation",
-      "BCom Banking and Finance",
-      "BCom Financial Accounting",
-      "BCom International Business",
+      "BCom (3 years)",
+      "BCom Banking and Finance (3 years)",
+      "BCom Financial Accounting (3 years)",
     ],
     Design: [
-      "BA Journalism and Mass Communication",
-      "BSc Fashion Designing",
-      "MA Animation and Design",
-      "MSc Fashion Designing",
+      " BFA (4 years)",
+      "BA Animation and Design (3 years)",
+      "BSc Fashion Designing (3 years)",
+      "MA Animation and Design (2 years)",
+      "MSc Fashion Designing (2 years)",
     ],
-    "Communication, and Arts:": [
-      "BA Journalism and Mass Communication",
-      "Bachelor of Fine Arts BFA",
-      "MA Journalism and Mass Communication",
-    ],
+    MassMedia: ["BJMC (3 years)", "MJMC (2 years)"],
     // Add more courses and programs as needed
   };
 
@@ -1443,12 +1438,12 @@ const Main = () => {
               </h1>
               <p className="paragraph mb-4 text-white">
                 Kickstart your career in the direction of your dreams by
-                choosing the right education at Gyanarthi Media College.
-                Affiliated with Kumaun University, we are one of the best
-                colleges in town with diversified faculty and industry-specific
-                courses in media, fashion, and commerce. Weave your college life
-                around intricate experiences and profession-specific curriculum
-                to empower your ambition.
+                choosing the right education at Gyanarthi College. Affiliated
+                with Kumaun University, we are one of the best colleges in town
+                with diversified faculty and industry-specific courses in media,
+                fashion, and commerce. Weave your college life around intricate
+                experiences and profession-specific curriculum to empower your
+                ambition.
               </p>
             </div>
             <div className="md:w-2/5 md:pl-4">

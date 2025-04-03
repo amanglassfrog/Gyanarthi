@@ -58,7 +58,7 @@ In a BFA degree, you can study any form of fine art like painting, sculpture, ph
       href: "#",
     },
     author: {
-      name: "Gyanarthi Media ",
+      name: "Gyanarthi  ",
       role: "College",
       href: "#",
       authorimageUrl: logo,
@@ -127,7 +127,7 @@ There is competition in the media world. It takes original thought and creative 
       href: "#",
     },
     author: {
-      name: "Gyanarthi Media ",
+      name: "Gyanarthi  ",
       role: "College",
       href: "#",
       authorimageUrl: logo,

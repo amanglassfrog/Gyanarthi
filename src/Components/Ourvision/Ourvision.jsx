@@ -21,10 +21,10 @@ const Ourvision = () => {
               <div className="mb-8">
                 <p className="text-lg ourfutureparagraph">
                   Established in 2005 with an aim to empower students with best
-                  academic excellence, Gyanarthi Media College is affiliated
-                  with the Kumaun University and is one of the only colleges in
-                  Kashipur that provides courses in Media, Animation, Design,
-                  Fashion, Journalism, Banking, Taxation, and more.
+                  academic excellence, Gyanarthi College is affiliated with the
+                  Kumaun University and is one of the only colleges in Kashipur
+                  that provides courses in Media, Animation, Design, Fashion,
+                  Journalism, Banking, Taxation, and more.
                 </p>
               </div>
             </div>
@@ -41,12 +41,12 @@ const Ourvision = () => {
                   <div className="flex flex-col tablistpanel">
                     <TabPanel className="tabpanel futurevision">
                       <p>
-                        Gyanarthi Media College in Kashipur has a close
-                        affiliation with Kumaon University. This helps to create
-                        a community of professionals with academic insight. Our
-                        college is the only one in town to offer an intensive
-                        curriculum that includes taxation, banking and finance,
-                        financial accounting, and international business
+                        Gyanarthi College in Kashipur has a close affiliation
+                        with Kumaon University. This helps to create a community
+                        of professionals with academic insight. Our college is
+                        the only one in town to offer an intensive curriculum
+                        that includes taxation, banking and finance, financial
+                        accounting, and international business
                         <br></br>
                         <br></br>
                         At Media, Journalism, Design, Animation & Mass
@@ -90,9 +90,9 @@ const Ourvision = () => {
                     </TabPanel>
                     <TabPanel className="tabpanel futurevision">
                       <p>
-                        Gyanarthi Media College aims to inspire youngsters to
-                        turn into the leaders of tomorrow. We seek to create a
-                        strong sense of unity in the media and arts community by
+                        Gyanarthi College aims to inspire youngsters to turn
+                        into the leaders of tomorrow. We seek to create a strong
+                        sense of unity in the media and arts community by
                         bridging gaps and creating incredible artistic
                         experiences in film, fashion, television, print, radio,
                         and digital media.<br></br>
@@ -143,15 +143,15 @@ const Ourvision = () => {
               <div>
                 <TabPanel className="tabpanel">
                   <p className="kalakari">
-                    The art club, at Gyanarthi Media College, known as the
-                    Kalakari Club offers students more than an art class – it
-                    serves as a hub for nurturing creative minds. Students are
-                    encouraged to explore their talents by indulging in various
-                    forms of expression beyond their typical coursework. Whether
-                    it is painting, sculpting or even performing on stage the
-                    club provides a range of opportunities. Beyond creating
-                    artwork the Kalakari Club fosters connections among students
-                    who share a passion for art. It acts as a community where
+                    The art club, at Gyanarthi College, known as the Kalakari
+                    Club offers students more than an art class – it serves as a
+                    hub for nurturing creative minds. Students are encouraged to
+                    explore their talents by indulging in various forms of
+                    expression beyond their typical coursework. Whether it is
+                    painting, sculpting or even performing on stage the club
+                    provides a range of opportunities. Beyond creating artwork
+                    the Kalakari Club fosters connections among students who
+                    share a passion for art. It acts as a community where
                     individuals come together to collaborate and exchange ideas
                     in an environment brimming with creativity. Furthermore, the
                     club hosts art exhibitions that allow students to exhibit
@@ -166,7 +166,7 @@ const Ourvision = () => {
                 <TabPanel className="tabpanel">
                   <p className="kalakari">
                     College can be all about books and lectures, but at
-                    Gyanarthi Media College, we know staying healthy is just as
+                    Gyanarthi College, we know staying healthy is just as
                     important! That is why we have the amazing Kreeda Club. This
                     club is all about getting students moving and having fun.
                     They organize a whole bunch of different sports and games,
@@ -210,8 +210,8 @@ const Ourvision = () => {
                 </TabPanel>
                 <TabPanel className="tabpanel">
                   <p className="kalakari">
-                    At Gyanarthi Media College, we believe in the adage, “Words
-                    are mightier than Swords”! That is why we have the Literati
+                    At Gyanarthi College, we believe in the adage, “Words are
+                    mightier than Swords”! That is why we have the Literati
                     Club, a place where students can celebrate language and
                     unleash their creativity. Here, students do not just read
                     books, they write their own stories, have lively discussions
@@ -249,9 +249,9 @@ const Ourvision = () => {
                 </TabPanel>
                 <TabPanel className="tabpanel">
                   <p className="kalakari">
-                    At Gyanarthi Media College, there is more to student life
-                    than just classes. The Shrijan Club is all about creating a
-                    fun and engaging community on campus. They organize awesome
+                    At Gyanarthi College, there is more to student life than
+                    just classes. The Shrijan Club is all about creating a fun
+                    and engaging community on campus. They organize awesome
                     events and activities that go beyond textbooks. Think talks
                     with inspiring speakers who share their real-world
                     experiences, or workshops where the students can learn new

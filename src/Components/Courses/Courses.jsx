@@ -21,19 +21,19 @@ const Courses = () => {
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);
 
   const courseProgramMap = {
-    Commerce: ["BCom", "BCom Banking and Finance", "BCom Financial Accounting"],
+    Commerce: [
+      "BCom (3 years)",
+      "BCom Banking and Finance (3 years)",
+      "BCom Financial Accounting (3 years)",
+    ],
     Design: [
-      "BA Journalism and Mass Communication",
-      "BSc Fashion Designing",
-      "MA Animation and Design",
-      "BA Animation and Design",
-      "MSc Fashion Designing",
+      " BFA (4 years)",
+      "BA Animation and Design (3 years)",
+      "BSc Fashion Designing (3 years)",
+      "MA Animation and Design (2 years)",
+      "MSc Fashion Designing (2 years)",
     ],
-    "Communication, and Arts": [
-      "BA Journalism and Mass Communication",
-      "Bachelor of Fine Arts BFA",
-      "MA Journalism and Mass Communication",
-    ],
+    MassMedia: ["BJMC (3 years)", "MJMC (2 years)"],
   };
   const handleCourseChange = (e) => {
     setSelectedCourse(e.target.value);

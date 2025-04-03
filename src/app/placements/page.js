@@ -276,14 +276,14 @@ const page = () => {
                 How does Gyanarthi turn Students into Professionals?
               </h3>
               <p className="text-lg text-center mb-8">
-                Gyanarthi Media College promotes holistic development and growth
+                Gyanarthi  College promotes holistic development and growth
                 of the students in potentials that go beyond the academics. In
                 order to raise individuals who turn into adept professionals, we
                 open the scope of exposure that can elevate the college
                 experiences for our students. It is important that the
                 workspace's that the students choose, they are fully prepared
                 for it. The departments and domains in which education is
-                offered at the Gyanarthi Media College are fully backed by
+                offered at the Gyanarthi  College are fully backed by
                 practical understanding and experience. This helps the students
                 bag placement in the companies they aim for. Each field is
                 categorically structured to provide the students with the best
@@ -337,7 +337,7 @@ const page = () => {
                     </h3>
                     <p className="text-center mb-6 text-white journeypara">
                       Fill out the Application Form for the upcoming session at
-                      Gyanarthi Media College for the year 2025!
+                      Gyanarthi  College for the year 2025!
                     </p>
                     <button className="bg-transparent  hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">
                       <a className="flex  items-center gap-3" href="/contact">
@@ -382,7 +382,7 @@ const page = () => {
                       Brochure
                     </h3>
                     <p className="text-center mb-6 text-white journeypara">
-                      Download the 2025 Brochure of the Gyanarthi Media College
+                      Download the 2025 Brochure of the Gyanarthi  College
                       and explore the Courses and College Life.
                     </p>
                     <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">

@@ -60,11 +60,11 @@ const page = () => {
       {/* <head>
        
          <title>
-          Contact Us at Gyanarthi Media College for Admissions & More
+          Contact Us at Gyanarthi  College for Admissions & More
         </title>
         <meta
           name="description"
-          content="With Gyanarthi Media College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!"
+          content="With Gyanarthi  College, you get the best education in Fashion, Media, Commerce, Fine Arts, Animation and Design. Contact Us for Queries and More Today!"
           key="desc"
         />
       </head> */}
@@ -81,7 +81,7 @@ const page = () => {
                 <h1 className="text-left font-bold chancelorheading pb-5">
                   Contact Us
               </h1>
-              <h2 className="font-bold">Gyanarthi Media College</h2>
+              <h2 className="font-bold">Gyanarthi  College</h2>
                 <form className="w-full" onSubmit={handleSubmit}>
                   <div className="flex  mb-4">
                     <div className="w-1/2 mr-2">

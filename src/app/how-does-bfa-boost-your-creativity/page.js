@@ -38,11 +38,11 @@ const BlogDetail = () => {
               <div className="text-sm leading-6 flex items-center gap-4">
                 <Image
                   src={logo}
-                  alt="Gyanarthi Media College"
+                  alt="Gyanarthi  College"
                   className="h-10 w-10 rounded-full bg-gray-50"
                 />
                 <p className="font-semibold text-gray-900">
-                  Gyanarthi Media
+                  Gyanarthi 
                 </p>
                 <p className="text-gray-600">College</p>
               </div>

@@ -21,44 +21,21 @@ const Edge = () => {
         has been introduced into the courses with the intent of integrating
         excellence with education. Essential degrees impart knowledge, but
         specific degrees impart skills. We aim to turn our students into
-        professionals. The courses offered at the Gyanarthi Media College are
-        not only traditionally educative but also modernly paced to ensure that
-        the students get the best of both worlds{" "}
+        professionals. The courses offered at the Gyanarthi College are not only
+        traditionally educative but also modernly paced to ensure that the
+        students get the best of both worlds{" "}
       </p>
       <Tabs className="vtabs">
         <TabList className="etablist">
-          <Tab className=" etab ">International Business</Tab>
           <Tab className="etab ">Banking and Finance</Tab>
           <Tab className="etab ">Financial Accounting </Tab>
-          <Tab className="etab ">Taxation</Tab>
+
           <Tab className="etab ">Fine Arts</Tab>
           <Tab className="etab ">Animation and Design</Tab>
           <Tab className="etab ">Fashion Design</Tab>
-          <Tab className="etab ">Mass Communication</Tab>
+          <Tab className="etab ">Mass Media</Tab>
         </TabList>
         <div>
-          <TabPanel className="tabpanel">
-            <p className="kalakari">
-              Gyanarthi offers a Bachelor of Commerce with an International
-              Business concentration that provides students with all of the
-              skills and knowledge they need to thrive in global markets. The
-              curriculum of this course covers essential areas like
-              international finance, management and trade so students have a
-              firm foundation on which they can navigate today's complex global
-              economy. Students experience to analyze market trends, write
-              strategic business plans and gain the practical skills needed for
-              cross-border and international business environments. Gyanarthi
-              emphasizes cross-cultural communication and cultural fluency
-              training so that their students are better able to collaborate and
-              interact effectively with stakeholders from various cultural
-              backgrounds. Gyanarthi prepares graduates with global perspectives
-              and intercultural understanding, to forge meaningful relationships
-              across international boundaries. Through practical learning with
-              real world applications, students develop confidence enabling them
-              to become ethical business leaders well equipped for various
-              international roles after graduating.
-            </p>
-          </TabPanel>
           <TabPanel className="tabpanel">
             <p className="kalakari">
               Gyanarthi's B Com in Banking and Finance program equips students
@@ -102,33 +79,12 @@ const Edge = () => {
               finance roles.
             </p>
           </TabPanel>
+
           <TabPanel className="tabpanel">
             <p className="kalakari">
-              Gyanarthi's Taxation specialization within its B Com course gives
-              students a deep dive into the complex world of tax laws and
-              regulations. Students gain a comprehensive knowledge of tax
-              systems encompassing income taxation, corporate taxes and indirect
-              taxes through coursework and hands-on experiences. Students
-              explore the complex intricacies of planning, preparation and
-              compliance within today's ever-evolving landscape of taxation with
-              this course. Gyanarthi's Taxation program prepares students for
-              various careers within tax advisory firms or consulting practices,
-              including advisory roles or compliance roles within tax advisory
-              practices. Gyanarthi graduates leave equipped with the skills and
-              knowledge required to assess tax ramifications, provide strategic
-              tax advice to their clients and meet relevant regulatory
-              requirements. Our program emphasizes real-life scenarios and
-              practical applications so our graduates are well equipped for tax
-              related careers in public accounting firms or corporate tax
-              departments while simultaneously being well prepared both
-              academically and experientially for success
-            </p>
-          </TabPanel>
-          <TabPanel className="tabpanel">
-            <p className="kalakari">
-              Gyanarthi Media College's Bachelor of Fine Art program will lead
-              you on an amazing creative adventure. This course is designed to
-              ignite artistic discovery while offering you an outlet to express
+              Gyanarthi College's Bachelor of Fine Art program will lead you on
+              an amazing creative adventure. This course is designed to ignite
+              artistic discovery while offering you an outlet to express
               yourself artistically across various mediums - be that traditional
               forms like painting and sculpture, graphic design techniques or
               more modern approaches like 3D modeling. Students have plenty of
@@ -156,13 +112,13 @@ const Edge = () => {
               advanced training with opportunities to specialize. Students can
               sharpen their abilities through primary projects and in-depth
               coursework while receiving guidance from experienced professionals
-              to expand their visual storytelling abilities. Gyanarthi Media
-              College graduates emerge as creative experts ready to make an
-              impression mark in animation and design, be it advertising,
-              digital media, filmmaking, TV gaming, or gaming itself. At our
-              campus, we give creatives of any age the chance to realize their
-              full potential, modern facilities with experienced teachers, as
-              well as an encouraging community, help them do just that.
+              to expand their visual storytelling abilities. Gyanarthi College
+              graduates emerge as creative experts ready to make an impression
+              mark in animation and design, be it advertising, digital media,
+              filmmaking, TV gaming, or gaming itself. At our campus, we give
+              creatives of any age the chance to realize their full potential,
+              modern facilities with experienced teachers, as well as an
+              encouraging community, help them do just that.
             </p>
           </TabPanel>
           <TabPanel className="tabpanel">
@@ -196,9 +152,9 @@ const Edge = () => {
               skills with coursework in investigative journalism and multimedia
               storytelling. They also receive guidance from industry
               professionals and faculty. Graduates are prepared to excel in
-              journalism, broadcasting and digital media. Gyanarthi Media
-              College focuses on ethical reporting, innovative approaches and
-              critical thinking to prepare students for the modern media.
+              journalism, broadcasting and digital media. Gyanarthi College
+              focuses on ethical reporting, innovative approaches and critical
+              thinking to prepare students for the modern media.
             </p>
           </TabPanel>
         </div>

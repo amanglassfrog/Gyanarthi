@@ -1,6 +1,6 @@
 import React from "react";
 export const metadata = {
-  title: "Read Blog More about Gyanarthi Media College Kashipur",
+  title: "Read Blog More about Gyanarthi  College Kashipur",
   description:
     "Check out the Gyanarthi Blog for more information on the Courses, Curriculum, Infrastructure, Faculty, Life at the College, Media Studies, and many more.",
   alternates: {

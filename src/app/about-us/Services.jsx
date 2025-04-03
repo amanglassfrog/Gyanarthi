@@ -12,32 +12,31 @@ const Services = () => {
       <div className="max-w-6xl mx-auto container">
         <div className=" p-2 md:p-4 sm:py-8 ">
           <p className="text-lg chancelorparagraph">
-            Gyanarthi Media College, located in the picturesque city of
-            Kashipur, is an institution that is affiliated with Kumaun
-            University, Nainital. With an aim of making creative professions
-            accessible for students with an envisage of building a community of
-            scholars driven by passion. The college is established in the
-            Industrial City of Uttarakhand with an envision to empower the
-            dreams of students while providing them with the best opportunities.
-            We focus on amplifying the craft of our students in their respective
-            domains as we continue to improvise on turning education journeys
-            into an experience at the Gyanarthi Media College. Our diverse
-            faculty works on a specifically curated curriculum to deliver
-            results that outshine the present scenarios in the industry in
-            locations near by.
+            Gyanarthi College, located in the picturesque city of Kashipur, is
+            an institution that is affiliated with Kumaun University, Nainital.
+            With an aim of making creative professions accessible for students
+            with an envisage of building a community of scholars driven by
+            passion. The college is established in the Industrial City of
+            Uttarakhand with an envision to empower the dreams of students while
+            providing them with the best opportunities. We focus on amplifying
+            the craft of our students in their respective domains as we continue
+            to improvise on turning education journeys into an experience at the
+            Gyanarthi College. Our diverse faculty works on a specifically
+            curated curriculum to deliver results that outshine the present
+            scenarios in the industry in locations near by.
             <br></br>
             <br></br>
-            Established in 2015, Gyanarthi Media College has always been on the
-            path to expanding knowledge in the domains of mass communication,
-            fashion design, animation, and commerce with an edge in
-            niche-specific learning. The college has been strategically set in
-            the city of Kashipur to intensify the prime opportunities that the
-            city brings forth as the Industrial Center of the State of
-            Uttarakhand. Our Courses are affiliated with the Kumaun University
-            in Nainital and have received recognition from the University Grants
-            Commission. The Board of Directors and Faculty is hinged on building
-            a valuable environment for the students where their creativity can
-            grow, as at Gyanarthi, imagination meets ingenuity. <br></br>
+            Established in 2015, Gyanarthi College has always been on the path
+            to expanding knowledge in the domains of mass communication, fashion
+            design, animation, and commerce with an edge in niche-specific
+            learning. The college has been strategically set in the city of
+            Kashipur to intensify the prime opportunities that the city brings
+            forth as the Industrial Center of the State of Uttarakhand. Our
+            Courses are affiliated with the Kumaun University in Nainital and
+            have received recognition from the University Grants Commission. The
+            Board of Directors and Faculty is hinged on building a valuable
+            environment for the students where their creativity can grow, as at
+            Gyanarthi, imagination meets ingenuity. <br></br>
             <br></br>
             So far, Gyanarthi has successfully placed its students across the
             nation by providing them with a skill-concentric learning
@@ -48,12 +47,12 @@ const Services = () => {
             events that are specific to their course curriculum. This helps the
             students build a structured experience in learning supported by
             practical implications which widens the range of their skills. More
-            than 150 companies have visited the Gyanarthi Media College so far
-            only to get impressed by the incredible body of work and cognizance
-            that our students display and further offer them a placement. Firms
-            such as Reliance, NEWS15, IIM Kashipur, ABPL News, The Social
-            Management, and many others have added our students to their
-            valuable teams. <br></br>
+            than 150 companies have visited the Gyanarthi College so far only to
+            get impressed by the incredible body of work and cognizance that our
+            students display and further offer them a placement. Firms such as
+            Reliance, NEWS15, IIM Kashipur, ABPL News, The Social Management,
+            and many others have added our students to their valuable teams.{" "}
+            <br></br>
             <br></br>
           </p>
         </div>
@@ -65,7 +64,7 @@ const Services = () => {
         {/* Second Row */}
         <div className="mb-8 text-center">
           <p className="whygyanpara">
-            Gyanarthi Media College has proved to be one of the best colleges in
+            Gyanarthi College has proved to be one of the best colleges in
             Kashipur for Animation, Design, Mass Communication, and Commerce.
             Our expert faculty is supported by an industry-specific curriculum
             and standard equipment, which helps the students gain insight into
@@ -82,9 +81,9 @@ const Services = () => {
             </div>
             <h3 className="whygyanoptions mb-2">Expert Faculty</h3>
             <p className="whygyanoptionspara">
-              The faculty at Gyanarthi Media College brings eclectic knowledge
-              and comprehends the needs of each student very carefully to
-              provide them with the best education.{" "}
+              The faculty at Gyanarthi College brings eclectic knowledge and
+              comprehends the needs of each student very carefully to provide
+              them with the best education.{" "}
             </p>
           </div>
 
@@ -105,10 +104,9 @@ const Services = () => {
             </div>
             <h3 className="whygyanoptions mb-2">Industrial Specifications</h3>
             <p className="whygyanoptionspara">
-              Gyanarthi Media College is the first in the city of Kashipur to
-              offer specializations in fields such as Taxation, Banking and
-              Finance, International Business, and Financial Accounting in B
-              Com.{" "}
+              Gyanarthi College is the first in the city of Kashipur to offer
+              specializations in fields such as Taxation, Banking and Finance,
+              International Business, and Financial Accounting in B Com.{" "}
             </p>
           </div>
           <div>

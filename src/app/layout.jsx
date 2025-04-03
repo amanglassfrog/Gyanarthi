@@ -6,9 +6,9 @@ const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const GA_TRACKING_ID = "G-FVZEWPFVML";
 
 export const metadata = {
-  title: "Gyanarthi Media College: Best College in Kashipur, India",
+  title: "Gyanarthi  College: Best College in Kashipur, India",
   description:
-    "Pursue your College Education at Gyanarthi Media College, Kumaun University, in Fashion, Media, Commerce, Fine Arts, and Animation Course in Kashipur.",
+    "Pursue your College Education at Gyanarthi  College, Kumaun University, in Fashion, Media, Commerce, Fine Arts, and Animation Course in Kashipur.",
   alternates: {
     canonical: "https://www.gyanarthimedia.com",
   },

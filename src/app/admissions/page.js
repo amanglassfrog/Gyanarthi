@@ -53,7 +53,7 @@ const Page = () => {
             <div className="w-full md:w-full container  p-0 md:p-2 sm:p-4">
               <h3 className="lifetime mb-4">Eligibility Criteria </h3>
               <p className="lifetimepara">
-               At Gyanarthi, the main eligibility criteria for a course is the intensity of interest in it. We accept students of different educational backgrounds and potentials. The basic eligibility condition for Graduate Courses is to have passed Class 12 from a recognized board of education with at least 40% marks. However, the students should have passed their 12th standard from a recognized board of education. There are no further conditions of eligibility that the students must satisfy in order to find their place at the Gyanarthi Media College. For the Post Graduate Courses, the students must have graduated from a recognized University with at least 40% marks. There are no specific course requirements for educational qualifications as we believe that the students must be able to pursue what they desire, without any hindrances.
+               At Gyanarthi, the main eligibility criteria for a course is the intensity of interest in it. We accept students of different educational backgrounds and potentials. The basic eligibility condition for Graduate Courses is to have passed Class 12 from a recognized board of education with at least 40% marks. However, the students should have passed their 12th standard from a recognized board of education. There are no further conditions of eligibility that the students must satisfy in order to find their place at the Gyanarthi  College. For the Post Graduate Courses, the students must have graduated from a recognized University with at least 40% marks. There are no specific course requirements for educational qualifications as we believe that the students must be able to pursue what they desire, without any hindrances.
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Page = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
                 <div className="flex items-center gap-3">
-                  <h3 className="UGcourse ">Bachelor of Commerce</h3>
+                  <h3 className="UGcourse ">B.Com (3 years)</h3>
                   <a href="/coursepage/bcom">
                     <button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                       <svg
@@ -84,29 +84,9 @@ const Page = () => {
                     </button>
                   </a>
                 </div>
+                
                 <div className="flex items-center gap-3">
-                  <h3 className="UGcourse ">B.com - Taxation</h3>
-                  <a href="/coursepage/bcom-taxation">
-                    <button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-6 w-6"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        />
-                      </svg>
-                    </button>
-                  </a>
-                </div>
-                <div className="flex items-center gap-3">
-                  <h3 className="UGcourse ">B.com - Banking and Finance </h3>
+                  <h3 className="UGcourse ">B.Com Banking and Finance<br></br> (3 years)</h3>
                   <a href="/coursepage/bcom-banking-and-finance">
                     <button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                       <svg
@@ -125,11 +105,10 @@ const Page = () => {
                       </svg>
                     </button>
                   </a>
-                </div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
-                <div className="flex items-center gap-3">
-                  <h3 className="UGcourse "> B.com - Financial Accounting</h3>
+              
+              <div className="flex items-center gap-3">
+                  <h3 className="UGcourse "> B.Com Financial Accounting <br></br>(3 years)</h3>
                   <a href="/coursepage/bcom-financial-accounting">
                     <button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                       <svg
@@ -149,29 +128,12 @@ const Page = () => {
                     </button>
                   </a>
                 </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
+                
+              
                 <div className="flex items-center gap-3">
-                  <h3 className="UGcourse ">B.com- International Business </h3>
-                  <a href="/coursepage/bcom-international-business">
-                    <button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-6 w-6"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        />
-                      </svg>
-                    </button>
-                  </a>
-                </div>
-                <div className="flex items-center gap-3">
-                  <h3 className="UGcourse "> BSc Fashion Designingn</h3>
+                  <h3 className="UGcourse "> B.Sc Fashion Designingn<br></br> (3 years)</h3>
                   <a href="/coursepage/bsc-fashion-designing">
                     <button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                       <svg
@@ -190,12 +152,9 @@ const Page = () => {
                       </svg>
                     </button>
                   </a>
-                </div>
               </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
-                <div className="flex items-center gap-3">
-                  <h3 className="UGcourse ">BA Animation and Design</h3>
+              <div className="flex items-center gap-3">
+                  <h3 className="UGcourse ">BA Animation and Design<br></br> (3 years)</h3>
                   <a href="/coursepage/ba-animation-and-design">
                     <button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                       <svg
@@ -218,7 +177,7 @@ const Page = () => {
                 <div className="flex items-center gap-3">
                   <h3 className="UGcourse ">
                     {" "}
-                    BA Journalism and Mass Communication
+                    BJMC<br></br> (3 years)
                   </h3>
                   <a href="/coursepage/ba-journalism-and-mass-communication">
                     <button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
@@ -239,8 +198,12 @@ const Page = () => {
                     </button>
                   </a>
                 </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
+                
                 <div className="flex items-center gap-3">
-                  <h3 className="UGcourse ">Bachelor of Fine Arts</h3>
+                  <h3 className="UGcourse ">BFA<br></br> (4 years)</h3>
                   <a href="/coursepage/bachelor-of-fine-arts-bfa">
                     <button className="bg-blue-500 text-white px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                       <svg
@@ -270,7 +233,7 @@ const Page = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
                 <div className="flex items-center gap-3">
-                  <h3 className="UGcourse ">MA Animation and Design</h3>
+                  <h3 className="UGcourse ">MA Animation and Design <br></br>(2 years)</h3>
                   <a href="/coursepage/ma-animation-and-design">
                     <button className=" px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                       <svg
@@ -293,7 +256,7 @@ const Page = () => {
                 <div className="flex items-center gap-3">
                   <h3 className="UGcourse ">
                     {" "}
-                    MA Journalism and Mass Communication
+                    MJMC <br></br>(2 years)
                   </h3>
                   <a href="/coursepage/ma-journalism-and-mass-communication">
                     <button className=" px-4 py-2 rounded-full focus:outline-none admisiionbutton">
@@ -315,7 +278,7 @@ const Page = () => {
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
-                  <h3 className="UGcourse">MSc Fashion Designing </h3>
+                  <h3 className="UGcourse">M.Sc Fashion Designing <br></br>(2 years)</h3>
                   <a href="/coursepage/msc-fashion-designing">
                     <button className=" px-4 py-2 rounded-full focus:outline-none admisiionbutton">
                       <svg
@@ -342,7 +305,7 @@ const Page = () => {
             <div className="w-full md:w-full  p-0 md:p-2 sm:p-4">
               <h3 className="lifetime mb-4">Admission Process </h3>
               <p className="lifetimepara">
-                Gyanarthi Media College, located in Kashipur , is established in
+                Gyanarthi  College, located in Kashipur , is established in
                 the Industrial City of Uttarakhand with a purpose of building a
                 community of professionals who can adapt the course of industry
                 practices and integrate them into their education. We aim at
@@ -356,7 +319,7 @@ const Page = () => {
                 strive each day to grow further as we integrate expertise with
                 education.<br></br>
                 <br></br>
-                The admission process at the Gyanarthi Media College commences
+                The admission process at the Gyanarthi  College commences
                 in the month of March. The students are able to apply for the
                 eclectic courses at the Gyanarthi till the end of July. Each of
                 Courses have limited occupancy and we are always seeking to
@@ -375,7 +338,7 @@ const Page = () => {
               {/* Second column (Paragraph) */}
               <div className="w-9/10">
                 <p className="lifetimepara">
-                  The Gyanarthi Media College portal has a built-in application
+                  The Gyanarthi  College portal has a built-in application
                   form. The form is available on the Home Page of this Website.
                   The students are required to check their preferred course and
                   accordingly fill out their details in the application form. It
@@ -415,7 +378,7 @@ const Page = () => {
               {/* Second column (Paragraph) */}
               <div className="w-9/10">
                 <p className="lifetimepara">
-                  Gyanarthi Media College promotes education in the most
+                  Gyanarthi  College promotes education in the most
                   holistic way. We offer numerous scholarships to the students
                   to ensure that finances are never barriers in the path of
                   knowledge for students who are bright and passionate for their
@@ -456,7 +419,7 @@ const Page = () => {
               {/* Second column (Paragraph) */}
               <div className="w-9/10">
                 <p className="lifetimepara">
-                  Gyanarthi Media College admission process is extremely easy.
+                  Gyanarthi  College admission process is extremely easy.
                   There are no competitive examinations that students must
                   compulsorily attend to in order to gain eligibility for
                   admissions. Students can simply fill out the application with
@@ -482,7 +445,7 @@ const Page = () => {
                     </h3>
                     <p className="text-center mb-6 text-white journeypara">
                       Complete the Application Form for enrollment in the 2025
-                      academic session at Gyanarthi Media College!
+                      academic session at Gyanarthi  College!
                     </p>
                     <button className="bg-transparent  hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">
                       <a className="flex  items-center gap-3" href="/contact">
@@ -527,7 +490,7 @@ const Page = () => {
                       Brochure
                     </h3>
                     <p className="text-center mb-6 text-white journeypara">
-                      Download the 2025 Brochure of the Gyanarthi Media College
+                      Download the 2025 Brochure of the Gyanarthi  College
                       and explore the Courses and College Life.
                     </p>
                     <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">

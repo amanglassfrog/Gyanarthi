@@ -65,11 +65,11 @@ Course                                        </a>
                                         </p> */}
                                     </div>
                                     <div className="relative mt-8 flex items-center gap-x-4">
-                                        <Image src={logo} alt="Gyanarthi" className="h-12 rounded-full bg-gray-50" />
+                                       <div> <Image src={logo} alt="Gyanarthi" className="h-12 w-36 rounded-full bg-gray-50" /></div>
                                         <div className="text-sm leading-6">
                                             <p className="font-semibold text-gray-900">
                                                 <span className="absolute inset-0" />
-Gyanarthi Media                                             </p>
+Gyanarthi                                              </p>
                                             <p className="text-gray-600">College</p>
                                         </div>
                                     </div>
@@ -99,12 +99,13 @@ HOW DOES BFA BOOST YOUR CREATIVITY?                                      </h3>
                                         {/* <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">                            {parse(post.description)}
                                         </p> */}
                                     </div>
-                                    <div className="relative mt-8 flex items-center gap-x-4">
-                                        <Image src={logo} alt="Gyanarthi" className="h-12  rounded-full bg-gray-50" />
+                                <div className="relative mt-8 flex items-center gap-x-4">
+                                    <div>
+                                        <Image src={logo} alt="Gyanarthi" className="h-12 w-36  rounded-full bg-gray-50" /></div>
                                         <div className="text-sm leading-6">
                                             <p className="font-semibold text-gray-900">
                                                 <span className="absolute inset-0" />
-Gyanarthi Media                                             </p>
+Gyanarthi                                              </p>
                                             <p className="text-gray-600">College</p>
                                         </div>
                                     </div>

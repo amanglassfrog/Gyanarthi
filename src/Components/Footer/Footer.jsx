@@ -134,33 +134,28 @@ const Footer = () => {
               <ul className="flex flex-col gap-6">
                 <li>
                   <a href="/coursepage/bsc-fashion-designing">
-                    BSc Fashion Designing
+                    BSc Fashion Designing (3 years)
                   </a>
                 </li>
                 <li>
                   <a href="/coursepage/msc-fashion-designing">
-                    MSc Fashion Designing
+                    MSc Fashion Designing (2 years)
                   </a>
                 </li>
                 <li>
                   <a href="/coursepage/ba-animation-and-design">
-                    BA Animation & Design
+                    BA Animation & Design (3 years)
                   </a>
                 </li>
                 <li>
                   <a href="/coursepage/ma-animation-and-design">
-                    MA Animation & Design
+                    MA Animation & Design (2 years)
                   </a>
                 </li>
 
                 <li>
                   <a href="/coursepage/bachelor-of-fine-arts-bfa">
-                    Bachelor of Fine Arts BFA
-                  </a>
-                </li>
-                <li>
-                  <a href="/coursepage/ma-journalism-and-mass-communication">
-                    MA Journalism and Mass Communication
+                    BFA (4 years)
                   </a>
                 </li>
 
@@ -175,30 +170,28 @@ const Footer = () => {
               <h4 className="text-lg mb-4 footerheading opacity-0">Programs</h4>
               <ul className="flex flex-col gap-6">
                 <li>
-                  <a href="/coursepage/bcom">B.com</a>
+                  <a href="/coursepage/bcom">B.Com (3 years)</a>
                 </li>
 
                 <li>
-                  <a href="/coursepage/bcom-taxation">B.com (Taxation) </a>
-                </li>
-                <li>
                   <a href="/coursepage/bcom-financial-accounting">
-                    B.com (Financial Accounting){" "}
+                    B.Com Financial Accounting (3 years){" "}
                   </a>
                 </li>
                 <li>
                   <a href="/coursepage/bcom-banking-and-finance">
-                    B.com (Banking & Financial){" "}
+                    B.Com Banking & Financial (3 years){" "}
                   </a>
                 </li>
-                <li>
-                  <a href="/coursepage/bcom-international-business">
-                    B.com International Business
-                  </a>
-                </li>
+
                 <li>
                   <a href="/coursepage/ba-journalism-and-mass-communication">
-                    BA Journalism and Mass Communication
+                    BJMC (3 years)
+                  </a>
+                </li>
+                <li>
+                  <a href="/coursepage/ma-journalism-and-mass-communication">
+                    MJMC (2 years)
                   </a>
                 </li>
 
