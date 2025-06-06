@@ -1291,13 +1291,16 @@ const Main = () => {
       "BCom Financial Accounting (3 years)",
     ],
     Design: [
-      " BFA (4 years)",
+      "BFA (4 years)",
       "BA Animation and Design (3 years)",
       "BSc Fashion Designing (3 years)",
-      "MA Animation and Design (2 years)",
-      "MSc Fashion Designing (2 years)",
+      // "MA Animation and Design (2 years)",
+      // "MSc Fashion Designing (2 years)",
     ],
-    MassMedia: ["BJMC (3 years)", "MJMC (2 years)"],
+    MassMedia: [
+      "BJMC (3 years)",
+      //  "MJMC (2 years)"
+    ],
     // Add more courses and programs as needed
   };
 
