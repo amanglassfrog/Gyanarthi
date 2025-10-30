@@ -15,22 +15,22 @@ import admisiions from '../../../../public/admissions.png';
 
 
 const page = () => {
- 
+
 
   return (
     <>
       <main>
-        <Header/>
+        <Header />
         <div className='flex justify-center'>
           <div className="flex flex-wrap py-8 container">
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl font-bold chancelorheading">Masters in Animation & Multimedia Courses</h1>
               <p className="mt-2 chancelorparagraph pt-3">
-                Session Starts – August 2025<br /><br />
+                Session Starts – August 2026<br /><br />
                 Duration – 3 Years (For UG Program),<br />
                 2 Years (For PG Program)<br /><br />
                 Residential Degree Program<br /><br />
-                Applications Deadline: July 2025
+                Applications Deadline: July 2026
               </p>
               <div className='flex pt-8'>
                 <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
@@ -108,30 +108,30 @@ const page = () => {
             <div className='py-8 px-6 md:px-12 sm:px-24'>
               <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
               <p className="edgepara text-justify">
-The prime objective of the faculty at the Gyanarthi  College, Kashipur is to enhance the professional profiles of the students. We seek to create professionals who are equipped with thorough knowledge in the domains of 3d animation courses in Animation and Design. The courses at the Gyanarthi  College are affiliated with Kumaun University and the curriculum is curated with a vision to make it one of the prime options for best postgraduate courses in Animation and Design. Students can look at the Animation and Design undergraduate program to understand the specifics of all the professional programs offered to students at the university.
+                The prime objective of the faculty at the Gyanarthi  College, Kashipur is to enhance the professional profiles of the students. We seek to create professionals who are equipped with thorough knowledge in the domains of 3d animation courses in Animation and Design. The courses at the Gyanarthi  College are affiliated with Kumaun University and the curriculum is curated with a vision to make it one of the prime options for best postgraduate courses in Animation and Design. Students can look at the Animation and Design undergraduate program to understand the specifics of all the professional programs offered to students at the university.
               </p>
-                 <Tabs className="cctabs pt-16">
-                              <TabList className="etablist pb-5">
-                                <Tab className="etab">Fundamentals of Animation and Design </Tab>
-                                <Tab className="etab">Animation and Modelling  </Tab>
-                                <Tab className="etab">Cinematography and Photography Domains </Tab>
-                                <Tab className="etab">Media Planning and Management</Tab>
-                              </TabList>
-                              <div>
-                                <TabPanel className="tabpanel">
-                                  <p className='kalakari'>For an BA in Animation and Design, since the eligibility conditions are highly relaxed, the students are taught everything from the basics. Gradually at Gyanarthi  College, we build the foundation for the Animation and Design course by introducing the students to the fundamentals of art and design. Further, we take them through the specifications of a Story and Storyboard. This prepares the students for the course.</p>
-                                </TabPanel>
-                                <TabPanel className="tabpanel">
-                                  <p className='kalakari'>At Gyanarthi, we focus on equipping students with Animation and Modelling in Dimensions that expand beyond limitations. Our students are proficient in 2D and 3D Animation and well adept in 3D Modelling and Texturing. These concepts are furthered into Character Rigging and Animation which help our students build the right skillset as required for jobs in Animation and Design </p>
-                                </TabPanel>
-                                <TabPanel className="tabpanel">
-                                  <p className='kalakari'>Students at Gyanarthi are made to go through the basics of lighting and rendering in order to understand the specifications of Cinematography and Photography. The students of Animation and Design need visual proficiency to thoroughly comprehend Photography and Cinematography, and the students are ensured with concepts of Motion Graphics. Further, Editing and Composting also form a relevant core for the understanding of this domain.</p>
-                                </TabPanel>
-                                <TabPanel className="tabpanel">
-                                  <p className='kalakari'>For the students of Animation and Design, it is necessary that they get an idea of the arena of Media Planning and Management. As Bachelor’s students, it is necessary to understand how they must operate within the management domains such that they can get into the management profiles in the media planning studies. This shall help them get equipped with the required acumen for Management profiles.</p>
-                                </TabPanel>
-                              </div>
-                            </Tabs>
+              <Tabs className="cctabs pt-16">
+                <TabList className="etablist pb-5">
+                  <Tab className="etab">Fundamentals of Animation and Design </Tab>
+                  <Tab className="etab">Animation and Modelling  </Tab>
+                  <Tab className="etab">Cinematography and Photography Domains </Tab>
+                  <Tab className="etab">Media Planning and Management</Tab>
+                </TabList>
+                <div>
+                  <TabPanel className="tabpanel">
+                    <p className='kalakari'>For an BA in Animation and Design, since the eligibility conditions are highly relaxed, the students are taught everything from the basics. Gradually at Gyanarthi  College, we build the foundation for the Animation and Design course by introducing the students to the fundamentals of art and design. Further, we take them through the specifications of a Story and Storyboard. This prepares the students for the course.</p>
+                  </TabPanel>
+                  <TabPanel className="tabpanel">
+                    <p className='kalakari'>At Gyanarthi, we focus on equipping students with Animation and Modelling in Dimensions that expand beyond limitations. Our students are proficient in 2D and 3D Animation and well adept in 3D Modelling and Texturing. These concepts are furthered into Character Rigging and Animation which help our students build the right skillset as required for jobs in Animation and Design </p>
+                  </TabPanel>
+                  <TabPanel className="tabpanel">
+                    <p className='kalakari'>Students at Gyanarthi are made to go through the basics of lighting and rendering in order to understand the specifications of Cinematography and Photography. The students of Animation and Design need visual proficiency to thoroughly comprehend Photography and Cinematography, and the students are ensured with concepts of Motion Graphics. Further, Editing and Composting also form a relevant core for the understanding of this domain.</p>
+                  </TabPanel>
+                  <TabPanel className="tabpanel">
+                    <p className='kalakari'>For the students of Animation and Design, it is necessary that they get an idea of the arena of Media Planning and Management. As Bachelor’s students, it is necessary to understand how they must operate within the management domains such that they can get into the management profiles in the media planning studies. This shall help them get equipped with the required acumen for Management profiles.</p>
+                  </TabPanel>
+                </div>
+              </Tabs>
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@ The prime objective of the faculty at the Gyanarthi  College, Kashipur is to enh
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Apply</h3>
-                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi  College for the year 2025!</p>
+                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi  College for the year 2026!</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex items-center gap-3' href='/contact'>Apply Now <Image src={apply} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>
@@ -164,7 +164,7 @@ The prime objective of the faculty at the Gyanarthi  College, Kashipur is to enh
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
-                  <p className="text-center mb-6 text-white journeypara">Download the 2025 Brochure of the Gyanarthi  College and explore the Courses and College Life.</p>
+                  <p className="text-center mb-6 text-white journeypara">Download the 2026 Brochure of the Gyanarthi  College and explore the Courses and College Life.</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='#' download target="_blank" className='flex items-center gap-3'>Download Now<Image src={download} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>

@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import logo from "../../../public/newlogo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -15,12 +16,12 @@ const Header = () => {
     <main>
       <nav className="bg-white border-gray-200 ">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4 container">
-          <a
+          <Link
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image src={logo} className="logo" alt="Flowbite Logo" />
-          </a>
+          </Link>
           <button
             onClick={toggleDropdown}
             type="button"
@@ -52,34 +53,34 @@ const Header = () => {
           >
             <ul className="flex flex-col mt-4 headcolor font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse items-center">
               <li>
-                <a
+                <Link
                   href="/about-us"
                   className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0   "
                   aria-current="page"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
+                <Link
                   href="/admissions"
                   className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
                 >
                   Admissions
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
+                <Link
                   href="/placements"
                   className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
                 >
                   Placement
-                </a>
+                </Link>
               </li>
               <li className="group">
-                <a
+                <Link
                   href="#"
                   className="flex items-center py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
                 >
@@ -96,126 +97,126 @@ const Header = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
                 <ul className="absolute bg-white shadow-md py-4 px-4 sm:px-8 lg:px-32 rounded-md opacity-0 invisible transition-all duration-300 transform scale-95 group-hover:opacity-100 group-hover:visible group-hover:scale-100 flex flex-wrap justify-center w-full max-w-screen-xl mx-auto left-0 top-20">
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/bsc-fashion-designing"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      BSc Fashion Designing (3 years)
-                    </a>
+                      BSc Fashion Designing (4 years)
+                    </Link>
                   </li>
 
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/ba-animation-and-design"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      BA Animation & Design (3 years)
-                    </a>
+                      BA Animation & Design (4 years)
+                    </Link>
                   </li>
 
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/bachelor-of-fine-arts-bfa"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
                       BFA (4 years)
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/bcom"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      B.Com (3 years)
-                    </a>
+                      B.Com (4 years)
+                    </Link>
                   </li>
 
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/bcom-financial-accounting"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      B.Com Financial Accounting (3 years)
-                    </a>
+                      B.Com Financial Accounting (4 years)
+                    </Link>
                   </li>
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/bcom-banking-and-finance"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      B.Com Banking & Financial (3 years)
-                    </a>
+                      B.Com Banking & Financial (4 years)
+                    </Link>
                   </li>
 
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/ba-journalism-and-mass-communication"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
-                      BJMC (3 years)
-                    </a>
+                      BJMC (4 years)
+                    </Link>
                   </li>
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/msc-fashion-designing"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
                       MSc Fashion Designing (2 years)
-                    </a>
+                    </Link>
                   </li>
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/ma-animation-and-design"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
                       MA Animation & Design (2 years)
-                    </a>
+                    </Link>
                   </li>
                   <li className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 py-2">
-                    <a
+                    <Link
                       href="/coursepage/ma-journalism-and-mass-communication"
                       className="text-sm text-gray-700 hover:bg-gray-100 block p-2 rounded"
                     >
                       MJMC (2 years){" "}
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a
+                <Link
                   href="/gallery"
                   className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
                 >
                   Campus Life
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/blogs"
                   className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
                 >
                   Blogs
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="https://kuntl.net/kumaunLinks/Result/2021?page=1"
                   className="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
                 >
                   Results
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/contact"
                   className="block py-2 px-3 applybutton text-white bg-yellow-600 border-b border-gray-100 hover:bg-yellow-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
                 >
                   Apply Now
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

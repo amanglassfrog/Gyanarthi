@@ -15,22 +15,22 @@ import admisiions from '../../../../public/admissions.png';
 
 
 const page = () => {
- 
+
 
   return (
     <>
       <main>
-        <Header/>
+        <Header />
         <div className='flex justify-center'>
           <div className="flex flex-wrap py-8 container">
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl font-bold chancelorheading">BCom Financial Accounting</h1>
               <p className="mt-2 chancelorparagraph pt-3">
-                Session Starts – August 2025<br /><br />
-                Duration – 3 Years (For UG Program),<br />
+                Session Starts – August 2026<br /><br />
+                Duration – 4 Years (For UG Program),<br />
                 2 Years (For PG Program)<br /><br />
                 Residential Degree Program<br /><br />
-                Applications Deadline: July 2025
+                Applications Deadline: July 2026
               </p>
               <div className='flex pt-8'>
                 <button className="text-white px-4 py-2 vp focus:outline-none"><a href='/contact'>Apply Now</a></button>
@@ -108,7 +108,7 @@ const page = () => {
             <div className='py-8 px-6 md:px-12 sm:px-24'>
               <h2 className="text-2xl font-bold mb-4">Gyanarthi Gives You an Edge</h2>
               <p className="edgepara text-justify">
-The prime objective of the faculty at the Gyanarthi  College, Kashipur is to enhance the professional profiles of the students. We seek to create professionals who are equipped with thorough knowledge in the domains of Taxation, International Business, Banking and Finance, and Financial Accounting. The courses at the Gyanarthi  College are affiliated with the Kumaun University and the curriculum is curated with a vision to make it one of the prime options for best course after 12 Commerce. The students can check the BCom Course Details subsequently to get comprehension of the specifications of each specialization domain. </p>
+                The prime objective of the faculty at the Gyanarthi  College, Kashipur is to enhance the professional profiles of the students. We seek to create professionals who are equipped with thorough knowledge in the domains of Taxation, International Business, Banking and Finance, and Financial Accounting. The courses at the Gyanarthi  College are affiliated with the Kumaun University and the curriculum is curated with a vision to make it one of the prime options for best course after 12 Commerce. The students can check the BCom Course Details subsequently to get comprehension of the specifications of each specialization domain. </p>
               <Tabs className="cctabs pt-16">
                 <TabList className="etablist pb-5">
                   <Tab className="etab">Banking and Finance  </Tab>
@@ -149,7 +149,7 @@ The prime objective of the faculty at the Gyanarthi  College, Kashipur is to enh
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Apply</h3>
-                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi  College for the year 2025!</p>
+                  <p className="text-center mb-6 text-white journeypara">Fill out the Application Form for the upcoming session at Gyanarthi  College for the year 2026!</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a className='flex items-center gap-3' href='/contact'>Apply Now <Image src={apply} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>
@@ -163,7 +163,7 @@ The prime objective of the faculty at the Gyanarthi  College, Kashipur is to enh
               <div className="w-full md:w-1/3 applycard hover:bg-yellow-500 transition duration-300 ease-in-out mb-4 md:mb-0">
                 <div className="p-8">
                   <h3 className="text-center mb-4 text-white journeyheading">Brochure</h3>
-                  <p className="text-center mb-6 text-white journeypara">Download the 2025 Brochure of the Gyanarthi  College and explore the Courses and College Life.</p>
+                  <p className="text-center mb-6 text-white journeypara">Download the 2026 Brochure of the Gyanarthi  College and explore the Courses and College Life.</p>
                   <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block"><a href='#' download target="_blank" className='flex items-center gap-3'>Download Now<Image src={download} alt="Image Description" className="add" /></a></button>
                 </div>
               </div>

@@ -12,6 +12,7 @@ import icon6 from "../../../public/insta.png";
 import phone from "../../../public/phone.png";
 import email from "../../../public/email.png";
 import lctn from "../../../public/lctn.png";
+import Link from "next/link";
 
 // Footer.js
 
@@ -28,57 +29,57 @@ const Footer = () => {
             <div className="flex flex-wrap gap-20 pt-5">
               {/* Social media icons */}
               <div className="mb-4">
-                <a
+                <Link
                   href="//api.whatsapp.com/send?phone=+918755552552&text=Hello"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Image className="icon1" src={icon1} alt="amazon" />
-                </a>
+                </Link>
               </div>
               <div className="mb-4">
-                <a
+                <Link
                   href="https://www.youtube.com/@Gyanarthimediacollege"
                   target="_blank"
                 >
                   <Image className="icon1" src={icon2} alt="amazon" />
-                </a>
+                </Link>
               </div>
               <div className="mb-4">
-                <a
+                <Link
                   href="https://in.linkedin.com/company/gyanarthi-media-college-%E2%80%93-approved-by-govt-of-uttarakhand"
                   target="_blank"
                 >
                   <Image className="icon1" src={icon3} alt="amazon" />
-                </a>
+                </Link>
               </div>
               {/* Add more social media icons */}
             </div>
             <div className="flex flex-wrap gap-20 pt-5 items-start sm:items-center">
               {/* Social media icons */}
               <div className="mb-4">
-                <a
+                <Link
                   href="https://www.facebook.com/gyanarthimedia1"
                   target="_blank"
                 >
                   <Image className="icon1" src={icon4} alt="amazon" />
-                </a>
+                </Link>
               </div>
               <div className="mb-4">
-                <a
+                <Link
                   href="https://twitter.com/gyanarthimedia?lang=en"
                   target="_blank"
                 >
                   <Image className="icon1" src={icon5} alt="amazon" />
-                </a>
+                </Link>
               </div>
               <div className="mb-4">
-                <a
+                <Link
                   href="https://www.instagram.com/gyanarthimediacollege_kashipur/"
                   target="_blank"
                 >
                   <Image className="icon1" src={icon6} alt="amazon" />
-                </a>
+                </Link>
               </div>
               {/* Add more social media icons */}
             </div>
@@ -88,10 +89,10 @@ const Footer = () => {
             <div className=" flex flex-wrap pt-8 mt-8 pvpolicy">
               <ul className="flex w-full justify-center gap-6">
                 <li>
-                  <a href="/privacy-policy">Privacy Policy</a>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <a href="/terms-condition"> Terms & Conditions</a>
+                  <Link href="/terms-condition"> Terms & Conditions</Link>
                 </li>
               </ul>
             </div>
@@ -103,24 +104,24 @@ const Footer = () => {
               <h4 className="text-lg mb-4 footerheading">Important Links</h4>
               <ul className="flex flex-col gap-6">
                 <li>
-                  <a href="/about-us">About Us</a>
+                  <Link href="/about-us">About Us</Link>
                 </li>
                 <li>
-                  <a href="/admissions">Admissions </a>
+                  <Link href="/admissions">Admissions</Link>
                 </li>
                 <li>
-                  <a href="/placements">Placement </a>
+                  <Link href="/placements">Placement</Link>
                 </li>
                 <li>
-                  <a href="/gallery">Campus Life </a>
+                  <Link href="/gallery">Campus Life</Link>
                 </li>
                 <li>
-                  <a href="/contact">Contact Us </a>
+                  <Link href="/contact">Contact Us</Link>
                 </li>
                 <li>
-                  <a href="https://kuntl.net/kumaunLinks/Result/2021?page=1">
+                  <Link href="https://kuntl.net/kumaunLinks/Result/2021?page=1">
                     Results{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 {/* Add more menu items */}
@@ -133,30 +134,30 @@ const Footer = () => {
               <h4 className="text-lg mb-4 footerheading">Programs</h4>
               <ul className="flex flex-col gap-6">
                 <li>
-                  <a href="/coursepage/bsc-fashion-designing">
-                    BSc Fashion Designing (3 years)
-                  </a>
+                  <Link href="/coursepage/bsc-fashion-designing">
+                    BSc Fashion Designing (4 years)
+                  </Link>
                 </li>
                 <li>
-                  <a href="/coursepage/msc-fashion-designing">
+                  <Link href="/coursepage/msc-fashion-designing">
                     MSc Fashion Designing (2 years)
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/coursepage/ba-animation-and-design">
-                    BA Animation & Design (3 years)
-                  </a>
+                  <Link href="/coursepage/ba-animation-and-design">
+                    BA Animation & Design (4 years)
+                  </Link>
                 </li>
                 <li>
-                  <a href="/coursepage/ma-animation-and-design">
+                  <Link href="/coursepage/ma-animation-and-design">
                     MA Animation & Design (2 years)
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="/coursepage/bachelor-of-fine-arts-bfa">
+                  <Link href="/coursepage/bachelor-of-fine-arts-bfa">
                     BFA (4 years)
-                  </a>
+                  </Link>
                 </li>
 
                 {/* Add more menu items */}
@@ -170,29 +171,29 @@ const Footer = () => {
               <h4 className="text-lg mb-4 footerheading opacity-0">Programs</h4>
               <ul className="flex flex-col gap-6">
                 <li>
-                  <a href="/coursepage/bcom">B.Com (3 years)</a>
+                  <Link href="/coursepage/bcom">B.Com (4 years)</Link>
                 </li>
 
                 <li>
-                  <a href="/coursepage/bcom-financial-accounting">
-                    B.Com Financial Accounting (3 years){" "}
-                  </a>
+                  <Link href="/coursepage/bcom-financial-accounting">
+                    B.Com Financial Accounting (4 years){" "}
+                  </Link>
                 </li>
                 <li>
-                  <a href="/coursepage/bcom-banking-and-finance">
-                    B.Com Banking & Financial (3 years){" "}
-                  </a>
+                  <Link href="/coursepage/bcom-banking-and-finance">
+                    B.Com Banking & Financial (4 years){" "}
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="/coursepage/ba-journalism-and-mass-communication">
-                    BJMC (3 years)
-                  </a>
+                  <Link href="/coursepage/ba-journalism-and-mass-communication">
+                    BJMC (4 years)
+                  </Link>
                 </li>
                 <li>
-                  <a href="/coursepage/ma-journalism-and-mass-communication">
+                  <Link href="/coursepage/ma-journalism-and-mass-communication">
                     MJMC (2 years)
-                  </a>
+                  </Link>
                 </li>
 
                 {/* Add more menu items */}
