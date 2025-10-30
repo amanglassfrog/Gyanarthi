@@ -5,16 +5,16 @@ import blog21img from "../../../public/blog21.png"
 import logo from "../../../public/GyanarthiLogo.png";
 
 const posts = [
- {
+  {
     id: 2,
     title: "HOW DOES BFA BOOST YOUR CREATIVITY? ",
-    titles: "Can Bachelor of Fine Arts  Boost Your Creativity?",	
+    titles: "Can Bachelor of Fine Arts  Boost Your Creativity?",
     metadescription:
       "Unleash your creativity with a Bachelor of Fine Arts (BFA) degree. Explore art and sculpture. Develop problem-solving skills and turn ideas into reality.",
-    
+
 
     href: "#",
-    link:"https://www.gyanarthimedia.com/how-does-bfa-boost-your-creativity-",
+    link: "https://www.gyanarthimedia.com/how-does-bfa-boost-your-creativity-",
     description: `
         <Image src="/blog21.png" alt='Image Description' width={100} height={100}/>
 
@@ -68,12 +68,12 @@ In a BFA degree, you can study any form of fine art like painting, sculpture, ph
   {
     id: 1,
     title: "8 Upsides of Mass Communication and Journalism ",
-    titles:"upsides of mass communication and journalism",
+    titles: "upsides of mass communication and journalism",
     metadescription:
       "Journalism and mass communication play interconnected roles in disseminating information to the broader audience. They enhance creativity and critical thinking. ",
 
     href: "#",
-        link:"https://www.gyanarthimedia.com/8-upsides-of-mass-communication-and-journalism-",
+    link: "https://www.gyanarthimedia.com/8-upsides-of-mass-communication-and-journalism-",
 
     description: `
         <Image src="/gyan1.png" alt='Image Description' width={100} height={100}/>
@@ -118,7 +118,7 @@ There is competition in the media world. It takes original thought and creative 
 
 
         `,
-    date: "June 24 2025",
+    date: "June 24 2026",
     datetime: "2024-06-24",
     imageUrl: blog1img,
 
@@ -134,7 +134,7 @@ There is competition in the media world. It takes original thought and creative 
     },
   },
 
-  
+
 ];
 
 export default posts;

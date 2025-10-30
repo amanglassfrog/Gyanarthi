@@ -87,8 +87,8 @@ const Page = () => {
             Bachelors Of Fine Arts
           </h2>
           <p className="mt-2 chancelorparagraph">
-            Session Starts – August 2025Duration – 4 YearsResidential Degree
-            ProgramApplications Deadline: 24th March, 2025
+            Session Starts – August 2026Duration – 4 YearsResidential Degree
+            ProgramApplications Deadline: 24th March, 2026
           </p>
         </div>
         <div className="w-full md:w-1/2 p-4">

@@ -337,7 +337,7 @@ const page = () => {
                     </h3>
                     <p className="text-center mb-6 text-white journeypara">
                       Fill out the Application Form for the upcoming session at
-                      Gyanarthi  College for the year 2025!
+                      Gyanarthi  College for the year 2026!
                     </p>
                     <button className="bg-transparent  hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">
                       <a className="flex  items-center gap-3" href="/contact">
@@ -382,7 +382,7 @@ const page = () => {
                       Brochure
                     </h3>
                     <p className="text-center mb-6 text-white journeypara">
-                      Download the 2025 Brochure of the Gyanarthi  College
+                      Download the 2026 Brochure of the Gyanarthi  College
                       and explore the Courses and College Life.
                     </p>
                     <button className="bg-transparent hover:bg-white text-white hover:text-blue-900 font-semibold py-2 px-4 border border-white hover:border-transparent rounded-full mx-auto block">
